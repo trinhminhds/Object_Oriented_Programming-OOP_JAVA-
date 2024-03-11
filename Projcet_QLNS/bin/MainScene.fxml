@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="500.0" prefWidth="800.0">
+         <children>
+            <AnchorPane fx:id="dangnhap_form" prefHeight="500.0" prefWidth="800.0" styleClass="left-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css">
+               <children>
+                  <Label layoutX="488.0" layoutY="273.0" prefHeight="48.0" prefWidth="237.0" text="Quản Lý Nhân Viên" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER" layoutX="573.0" layoutY="246.0" size="5em" text="" wrappingWidth="66.0" />
+                  <TextField fx:id="userName" layoutX="124.0" layoutY="111.0" onAction="#loginAdmin" prefHeight="35.0" prefWidth="250.0" promptText="Tài Khoản" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <PasswordField fx:id="password" layoutX="124.0" layoutY="163.0" onAction="#loginAdmin" prefHeight="35.0" prefWidth="250.0" promptText="Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <CheckBox fx:id="dn_chonHienMatKhau" layoutX="270.0" layoutY="213.0" mnemonicParsing="false" onAction="#dn_chonHienMatKhau" prefHeight="20.0" prefWidth="114.0" text="Hiện mật khẩu" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </CheckBox>
+                  <Button fx:id="loginBtn" layoutX="139.0" layoutY="275.0" mnemonicParsing="false" onAction="#loginAdmin" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Đăng Nhập">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="close" layoutX="758.0" layoutY="7.0" mnemonicParsing="false" onAction="#close" styleClass="close" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" size="2em" />
+                     </graphic>
+                  </Button>
+                  <Hyperlink fx:id="dn_dangky" layoutX="78.0" layoutY="357.0" onAction="#doiForm" prefHeight="33.0" prefWidth="157.0" style="-fx-text-fill: #fff; -fx-border-color: none; -fx-border-width: 0px;" styleClass="hyper-link" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Tạo tài khoản mới ?">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Hyperlink fx:id="dn_quenMatKhau" layoutX="282.0" layoutY="361.0" onAction="#doiForm" style="-fx-text-fill: #fff;" styleClass="hyper-link" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Quên mật khẩu">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <TextField fx:id="dn_hienMatKhau" layoutX="124.0" layoutY="163.0" prefHeight="35.0" prefWidth="250.0" promptText="Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false" />
+                  <FontAwesomeIcon glyphName="USER" layoutX="138.0" layoutY="134.0" size="1.5em" text="" wrappingWidth="12.571428298950195" />
+                  <FontAwesomeIcon glyphName="UNLOCK_ALT" layoutX="138.0" layoutY="187.0" size="1.5em" wrappingWidth="12.571428298950195" />
+                  <Label layoutX="514.0" layoutY="126.0" text="ĐĂNG NHẬP" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="dangky_form" prefHeight="500.0" prefWidth="800.0" styleClass="left-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false">
+               <children>
+                  <Label layoutX="534.0" layoutY="91.0" text="ĐĂNG KÝ " textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="35.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="500.0" layoutY="249.0" prefHeight="48.0" prefWidth="237.0" text="Quản Lý Nhân Viên" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="dk_taikhoan" layoutX="72.0" layoutY="38.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Tài Khoản" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <PasswordField fx:id="dk_matkhau" layoutX="73.0" layoutY="90.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <PasswordField fx:id="dk_xacnhanmk" layoutX="71.0" layoutY="143.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Xác Nhận Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="dk_email" layoutX="72.0" layoutY="195.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Email" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="dk_sodienthoai" layoutX="73.0" layoutY="247.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Số Điện Thoại" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <ComboBox fx:id="dk_cauHoi" layoutX="71.0" layoutY="300.0" onAction="#dk_cauHoiList" prefHeight="35.0" prefWidth="280.0" promptText="Câu hỏi " styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="dk_traLoiCauHoi" layoutX="71.0" layoutY="354.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Trả Lời Câu Hỏi" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <Button fx:id="dk_dangKyBtn" layoutX="103.0" layoutY="423.0" mnemonicParsing="false" onAction="#logup" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Đăng Ký">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <CheckBox fx:id="dk_chonHienMatKhau" layoutX="366.0" layoutY="151.0" mnemonicParsing="false" onAction="#dk_chonHienMatKhau" prefHeight="20.0" prefWidth="114.0" text="Hiện mật khẩu" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </CheckBox>
+                  <Hyperlink fx:id="dk_dangnhap" layoutX="376.0" layoutY="427.0" onAction="#doiForm" prefHeight="33.0" prefWidth="104.0" style="-fx-text-fill: #fff; -fx-border-color: none; -fx-border-width: 0px;" styleClass="hyper-link" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Đăng Nhập ?">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Hyperlink>
+                  <Button fx:id="dk_close" layoutX="758.0" layoutY="7.0" mnemonicParsing="false" onAction="#close" styleClass="close" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" size="2em" />
+                     </graphic>
+                  </Button>
+                  <TextField fx:id="dk_hienMatKhau" layoutX="73.0" layoutY="90.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false" />
+                  <TextField fx:id="dk_hienXacNhanMK" layoutX="71.0" layoutY="143.0" onAction="#logup" prefHeight="35.0" prefWidth="280.0" promptText="Xác Nhận Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false" />
+                  <FontAwesomeIcon glyphName="USER" layoutX="86.0" layoutY="61.0" size="1.5em" text="" wrappingWidth="12.571428298950195" />
+                  <FontAwesomeIcon glyphName="UNLOCK_ALT" layoutX="86.0" layoutY="114.0" size="1.5em" wrappingWidth="12.571428298950195" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="USER_PLUS" layoutX="580.0" layoutY="216.0" size="5em" wrappingWidth="74.5714282989502" />
+                  <FontAwesomeIcon glyphName="UNLOCK" layoutX="84.0" layoutY="167.0" size="1.5em" text="" />
+                  <FontAwesomeIcon glyphName="ENVELOPE" layoutX="83.0" layoutY="219.0" size="1.5em" />
+                  <FontAwesomeIcon glyphName="PHONE" layoutX="87.0" layoutY="270.0" size="1.5em" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="quenMatKhau_form" prefHeight="500.0" prefWidth="800.0" styleClass="left-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false">
+               <children>
+                  <Label layoutX="438.0" layoutY="77.0" text="QUÊN MẬT KHẨU" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="445.0" layoutY="228.0" prefHeight="48.0" prefWidth="237.0" text="Quản Lý Nhân Viên" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="qmk_taiKhoan" layoutX="80.0" layoutY="63.0" onAction="#quenMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Tài Khoản" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="qmk_email" layoutX="80.0" layoutY="108.0" onAction="#quenMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Email" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="qmk_soDienThoai" layoutX="80.0" layoutY="159.0" onAction="#quenMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Số Điện Thoại" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <ComboBox fx:id="qmk_cauHoi" layoutX="80.0" layoutY="207.0" onAction="#qmk_cauHoiList" prefHeight="35.0" prefWidth="280.0" promptText="Câu hỏi" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="qmk_traLoiCauHoi" layoutX="80.0" layoutY="254.0" onAction="#quenMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Trả Lời Câu Hỏi" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <Button fx:id="qmk_layLaiMatKhauBtn" layoutX="33.0" layoutY="342.0" mnemonicParsing="false" onAction="#quenMatKhau" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Lấy Lại Mật Khẩu">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="qmk_troVeBtn" layoutX="167.0" layoutY="413.0" mnemonicParsing="false" onAction="#doiForm" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Trở Về">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="qmk_close" layoutX="758.0" layoutY="7.0" mnemonicParsing="false" onAction="#close" styleClass="close" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" size="2em" />
+                     </graphic>
+                  </Button>
+                  <FontAwesomeIcon glyphName="USER" layoutX="95.0" layoutY="86.0" size="1.5em" text="" wrappingWidth="12.571428298950195" />
+                  <FontAwesomeIcon fill="WHITE" glyphName="LOCK" layoutX="544.0" layoutY="199.0" size="5em" />
+                  <FontAwesomeIcon glyphName="ENVELOPE" layoutX="92.0" layoutY="131.0" size="1.5em" />
+                  <FontAwesomeIcon glyphName="PHONE" layoutX="94.0" layoutY="184.0" size="1.5em" />
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="doiMatKhau_form" prefHeight="500.0" prefWidth="800.0" styleClass="left-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false">
+               <children>
+                  <Label layoutX="453.0" layoutY="76.0" text="ĐỔI MẬT KHẨU" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="446.0" layoutY="226.0" prefHeight="48.0" prefWidth="237.0" text="Quản Lý Nhân Viên" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="dmk_matKhau" layoutX="80.0" layoutY="76.0" prefHeight="35.0" prefWidth="280.0" promptText="Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <PasswordField fx:id="dmk_xacNhanMK" layoutX="80.0" layoutY="126.0" prefHeight="35.0" prefWidth="280.0" promptText="Xác Nhận Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <CheckBox fx:id="dmk_chonHienMatKhau" layoutX="253.0" layoutY="169.0" mnemonicParsing="false" onAction="#dmk_chonHienMatKhau" text="Hiện Mật Khẩu" textFill="WHITE" />
+                  <ComboBox fx:id="dmk_cauHoi" layoutX="80.0" layoutY="201.0" onAction="#dmk_cauHoiList" prefHeight="35.0" prefWidth="280.0" promptText="Câu hỏi" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <TextField fx:id="dmk_traLoiCauHoi" layoutX="80.0" layoutY="254.0" onAction="#doiMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Trả Lời Câu Hỏi" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" />
+                  <Button fx:id="dmk_doiMatKhauBtn" layoutX="33.0" layoutY="342.0" mnemonicParsing="false" onAction="#doiMatKhau" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Đổi Mật Khẩu">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="dmk_dangNhapBtn" layoutX="167.0" layoutY="413.0" mnemonicParsing="false" onAction="#doiForm" prefHeight="40.0" prefWidth="220.0" styleClass="login-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" text="Đăng Nhập">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="dmk_close" layoutX="758.0" layoutY="7.0" mnemonicParsing="false" onAction="#close" styleClass="close" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css">
+                     <graphic>
+                        <FontAwesomeIcon fill="WHITE" glyphName="CLOSE" size="2em" />
+                     </graphic>
+                  </Button>
+                  <FontAwesomeIcon fill="WHITE" glyphName="LOCK" layoutX="544.0" layoutY="199.0" size="5em" />
+                  <TextField fx:id="dmk_hienXacNhanMK" layoutX="80.0" layoutY="126.0" onAction="#doiMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Xác Nhận Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false" />
+                  <TextField fx:id="dmk_hienMatKhau" layoutX="80.0" layoutY="76.0" onAction="#doiMatKhau" prefHeight="35.0" prefWidth="280.0" promptText="Mật Khẩu" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/loginDesign.css" visible="false" />
+                  <FontAwesomeIcon glyphName="LOCK" layoutX="92.0" layoutY="99.0" size="1.5em" />
+                  <FontAwesomeIcon glyphName="UNLOCK" layoutX="89.0" layoutY="149.0" size="1.5em" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
