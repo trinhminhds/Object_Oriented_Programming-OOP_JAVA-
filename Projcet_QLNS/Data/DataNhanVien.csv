@@ -1,0 +1,2001 @@
+manhanvien,ho,ten,ngaysinh,gioitinh,diachi,sodienthoai,luong,chucvu
+1,Tiêu,Trang,10/30/1994,Nữ,Gia Lai,098362440,15000,Nhân viên
+2,Tào,Minh Tuấn,08/20/1999,Khác,Quảng Ninh,095850402,9000,Người làm bán thời gian
+3,Châu,Nguyễn Thùy,03/06/1988,Nam,Quảng Ninh,099949803,9000,Người làm bán thời gian
+4,Tạ,Nguyễn Thùy,07/30/1992,Nam,Tiền Giang,098702213,50000,Chuyên gia nước ngoài
+5,Chế,Lê Kim,03/10/1999,Nam,Đà Nẵng,097064024,10000,Công nhân
+6,Mã,Dương Quốc,03/12/1988,Nữ,Cần Thơ,097070251,10000,Công nhân
+7,Lưu,Lê Thùy,09/30/1985,Nữ,Bình Định,091136479,40000,Kỹ sư
+8,Đường,Văn Anh,05/28/1989,Nam,Đắk Nông,095850402,50000,Chuyên gia nước ngoài
+9,Thạch,Minh Tuấn,12/07/1997,Nam,Lạng Sơn,096416286,8000,Thực tập sinh
+10,Hồ,Quang,11/19/2002,Nam,Quảng Trị,097077246,50000,Chuyên gia nước ngoài
+11,Ông,Nam,04/28/1998,Khác,Bến Tre,096886420,50000,Chuyên gia nước ngoài
+12,Cao,Lê Hồng,11/17/1987,Nữ,Bà Rịa - Vũng Tàu,094170603,9000,Người làm bán thời gian
+13,Trịnh,Nguyễn Thùy,12/06/1995,Nam,Ninh Bình,099290801,9000,Nhân sự thử việc
+14,Hoàng,Hùng,06/11/1997,Nữ,Hà Nội,096416286,15000,Nhân viên
+15,Sơn,Dương Hùng,12/08/2004,Khác,Bắc Kạn,099407031,50000,Chuyên gia nước ngoài
+16,Tào,Nguyễn Lan,01/24/2004,Nữ,Kon Tum,099197630,9000,Người làm bán thời gian
+17,Phạm,Trần Đức,09/29/2001,Khác,Phú Yên,099236445,10000,Lao động phổ thông
+18,Ngô,Nguyễn Thị,02/16/1999,Nam,Ninh Thuận,091169909,9000,Nhân sự thử việc
+19,Đàm,Kim,09/16/2000,Khác,Cà Mau.,098320554,60000,Cán bộ quản lý
+20,Tống,Nguyễn Trang,11/09/2001,Nữ,Bạc Liêu,094690456,40000,Kỹ sư
+21,Diệp,Văn Đức,10/11/2004,Nam,Kiên Giang,099283121,15000,Nhân viên
+22,Chung,Nguyễn Kim,02/01/2002,Nam,Đồng Nai,098128139,9000,Người làm bán thời gian
+23,Cao,Quang Minh,02/08/1987,Khác,Khánh Hòa,094991980,15000,Nhân viên
+24,Phạm,Nguyễn Đức,09/04/2002,Nữ,Quảng Trị,096967857,9000,Người làm bán thời gian
+25,Nhan,Minh,07/31/1996,Khác,Đà Nẵng,092526795,40000,Kỹ sư
+26,Lê,Tuấn,06/16/1998,Nam,Bến Tre,098968627,60000,Cán bộ quản lý
+27,Diệp,Hoàng An,06/04/1997,Nam,Quảng Nam,091572235,15000,Nhân viên
+28,Âu,Đức,10/18/1992,Khác,Bắc Giang,096033689,10000,Công nhân
+29,Văn,Nguyễn Kim,06/11/1994,Khác,Bạc Liêu,096905544,9000,Nhân sự thử việc
+30,Lưu,Nguyễn Phương,11/14/1991,Khác,Hưng Yên,091188879,9000,Nhân sự thử việc
+31,Đoàn,Kim,05/27/2002,Khác,Hà Giang,097088160,8000,Thực tập sinh
+32,Trịnh,Lê Phương,06/23/1997,Nữ,Đắk Nông,093597940,15000,Nhân viên
+33,Lý,Hoàng,05/15/2000,Nữ,Hải Dương,095593003,50000,Chuyên gia nước ngoài
+34,Chu,Thị,11/01/2004,Khác,Cần Thơ,093271788,10000,Công nhân
+35,Liêu,Nguyễn Kim,10/16/1998,Nam,Phú Yên,091753147,9000,Nhân sự thử việc
+36,Phương,Lê Nam,02/02/1991,Nữ,Sóc Trăng,094447639,8000,Thực tập sinh
+37,Ngụy,Phương,10/06/1994,Nữ,Phú Thọ,097160129,10000,Lao động phổ thông
+38,Trịnh,Thanh Hương,10/07/2000,Nữ,Quảng Ninh,090788019,10000,Lao động phổ thông
+39,Lữ,Phương,03/05/1987,Nam,Hải Dương,092593185,9000,Nhân sự thử việc
+40,Chu,Trần Đức,06/08/1988,Nam,Đồng Nai,095088157,9000,Người làm bán thời gian
+41,Bành,Trần Trang,11/19/2003,Nam,Sơn La,099422676,9000,Người làm bán thời gian
+42,Thái,Thanh,06/12/1997,Khác,An Giang,099552767,40000,Kỹ sư
+43,Cù,Trần Trang,02/12/1987,Nam,Ninh Thuận,092228435,50000,Chuyên gia nước ngoài
+44,Liêu,Hoàng An,01/23/1995,Khác,Khánh Hòa,099614230,9000,Nhân sự thử việc
+45,Lã,Quang,11/08/2002,Khác,Đà Nẵng,090011930,50000,Chuyên gia nước ngoài
+46,Nhâm,Nguyễn Kim,12/04/1996,Khác,Thái Bình,096960646,8000,Thực tập sinh
+47,Đoàn,Lê Phương,05/24/2001,Khác,Hà Giang,097984419,8000,Thực tập sinh
+48,Đàm,Lê Phương,02/26/1995,Nữ,Phú Yên,097882979,50000,Chuyên gia nước ngoài
+49,Triệu,Quang,06/07/1994,Khác,Bạc Liêu,096285407,10000,Lao động phổ thông
+50,Nghiêm,Hồng,03/10/1998,Khác,Tây Ninh,098056003,10000,Công nhân
+51,Tôn,Phương,12/29/2003,Nữ,Quảng Bình,099267447,15000,Nhân viên
+52,Phùng,Trần Đức,05/30/1994,Khác,Bình Phước,094911208,10000,Lao động phổ thông
+53,Cù,Quang,03/27/1994,Khác,Đắk Nông,094502758,40000,Kỹ sư
+54,Trầm,Kim,01/21/2001,Nữ,Phú Yên,095863149,15000,Nhân viên
+55,Phạm,Nguyễn Ánh,08/05/1997,Nam,Bà Rịa - Vũng Tàu,097702477,10000,Lao động phổ thông
+56,Thất,Thanh,02/18/1985,Nữ,Bà Rịa - Vũng Tàu,096596527,50000,Chuyên gia nước ngoài
+57,Hồn,Minh,04/28/2003,Khác,Bạc Liêu,092105911,50000,Chuyên gia nước ngoài
+58,Phương,Tuấn Anh,02/11/1992,Khác,Quảng Trị,091847627,60000,Cán bộ quản lý
+59,Âu,Kim,07/15/2000,Nam,Sóc Trăng,098521150,15000,Nhân viên
+60,Hồ,Dương,04/27/1993,Khác,Đắk Nông,093070764,60000,Cán bộ quản lý
+61,Tiêu,Nguyễn Ánh,04/08/2001,Nữ,Đắk Nông,096108256,50000,Chuyên gia nước ngoài
+62,Tôn,Lan,01/17/1991,Khác,Sóc Trăng,091101968,9000,Người làm bán thời gian
+63,Vũ,Trần Đức,04/20/1990,Khác,An Giang,097141871,10000,Lao động phổ thông
+64,Tất,Hoàng An,02/18/1992,Nữ,Quảng Trị,092600816,9000,Người làm bán thời gian
+65,Đường,Lê Mai,11/28/1990,Nam,Sóc Trăng,097507338,40000,Kỹ sư
+66,Trần,Nguyễn Nam,10/13/1995,Nam,Tiền Giang,097748913,15000,Nhân viên
+67,Từ,Dương Hùng,02/13/1998,Nữ,Hòa Bình,091218251,9000,Nhân sự thử việc
+68,Tôn,Dương Quốc,05/31/1987,Nữ,Nghệ An,094529527,60000,Cán bộ quản lý
+69,Dương,Lê Phương,12/25/1985,Nữ,Kiên Giang,096030027,8000,Thực tập sinh
+70,Đậu,Thanh Hương,10/15/1985,Khác,Nghệ An,094510177,10000,Lao động phổ thông
+71,Tôn,Nguyễn Ánh,06/15/2001,Nam,Đà Nẵng,096105608,40000,Kỹ sư
+72,Phùng,Trần Trang,06/03/1992,Nam,Cần Thơ,097836899,10000,Công nhân
+73,Ninh,Nguyễn Phương,12/10/1987,Nữ,Đồng Nai,094409942,10000,Công nhân
+74,Dư,Thị,02/10/1995,Khác,Đà Nẵng,097325151,9000,Nhân sự thử việc
+75,Sơn,Trần Anh,03/27/1985,Nữ,Phú Thọ,094377387,50000,Chuyên gia nước ngoài
+76,Lã,Thanh Hương,08/18/1995,Nam,Quảng Nam,099673618,9000,Người làm bán thời gian
+77,Biện,Thanh Thảo,02/09/1991,Khác,Bến Tre,097808349,15000,Nhân viên
+78,Hứa,Hoàng,03/03/2000,Nữ,Kiên Giang,092666492,40000,Kỹ sư
+79,La,Dương Quốc,01/31/1985,Nam,Bắc Ninh,092303229,60000,Cán bộ quản lý
+80,Tôn,Thanh Hương,09/27/1996,Nữ,Ninh Bình,096093332,8000,Thực tập sinh
+81,Từ,Tuấn Anh,10/31/1995,Khác,Hải Phòng,095965488,9000,Nhân sự thử việc
+82,Hồn,Mai,07/07/2001,Nữ,Trà Vinh,099430489,9000,Người làm bán thời gian
+83,Thạch,Văn,11/16/1987,Nam,Gia Lai,096505401,60000,Cán bộ quản lý
+84,Lê,Tuấn,08/15/2001,Nữ,Bạc Liêu,099348200,15000,Nhân viên
+85,Bành,Lê Hồng,10/26/2001,Nam,Bình Dương,093931966,9000,Nhân sự thử việc
+86,Văn,Lê Kim,01/07/1992,Nam,Kon Tum,099673618,60000,Cán bộ quản lý
+87,Tất,Trần Lan,06/20/1998,Khác,Thái Bình,090035674,10000,Lao động phổ thông
+88,Tống,Trần Hùng,09/04/1995,Nữ,Hà Nam,099714319,10000,Công nhân
+89,Chung,Nguyễn Trang,06/25/1992,Nam,Nam Định,098314819,9000,Nhân sự thử việc
+90,Phan,Lê Hồng,05/03/2004,Nữ,Tiền Giang,097419127,9000,Nhân sự thử việc
+91,Tống,Ánh,12/12/1986,Khác,An Giang,091202285,40000,Kỹ sư
+92,Cù,Lê Hồng,11/25/1999,Khác,Hậu Giang,096007081,50000,Chuyên gia nước ngoài
+93,Tiêu,Lê Nam,09/23/1990,Khác,Thái Nguyên,098056003,10000,Lao động phổ thông
+94,Dương,Minh Tuấn,06/28/1990,Khác,Ninh Thuận,097281496,50000,Chuyên gia nước ngoài
+95,Bùi,Văn Đức,04/03/1995,Khác,Đắk Nông,094499395,50000,Chuyên gia nước ngoài
+96,Lê,Quang,11/27/1985,Nam,Ninh Bình,091309525,60000,Cán bộ quản lý
+97,Lục,Thị,04/24/2004,Khác,Cao Bằng,091571508,8000,Thực tập sinh
+98,Cù,Đức,10/04/1999,Nữ,Hà Tĩnh,098627445,60000,Cán bộ quản lý
+99,Lai,Nam,11/27/1997,Khác,Lai Châu,098441415,10000,Công nhân
+100,Trịnh,Văn Anh,09/23/2000,Nữ,Quảng Bình,091264160,9000,Người làm bán thời gian
+101,Lương,Hồng,06/09/1987,Khác,Phú Yên,092078557,50000,Chuyên gia nước ngoài
+102,Bùi,Dương,12/13/2001,Khác,Bình Dương,092370707,60000,Cán bộ quản lý
+103,Lữ,Nguyễn Thị,08/15/1997,Khác,Lạng Sơn,096272942,10000,Công nhân
+104,Tăng,Thanh,09/27/1999,Nam,Hải Dương,096494703,9000,Nhân sự thử việc
+105,Lý,Minh Khánh,08/13/1988,Khác,Thừa Thiên Huế,095383420,10000,Lao động phổ thông
+106,Bành,Tuấn,07/30/1994,Nam,Lai Châu,091268974,9000,Nhân sự thử việc
+107,Tào,Văn Anh,11/15/1991,Nam,Thanh Hóa,099181947,50000,Chuyên gia nước ngoài
+108,Lý,Trần Anh,01/05/1997,Nữ,Hà Nội,097174513,9000,Nhân sự thử việc
+109,Trầm,Trần Đức,07/04/2001,Nữ,Nghệ An,093832485,60000,Cán bộ quản lý
+110,Trần,Trần Ánh,10/10/1999,Nam,Hà Nam,099761647,50000,Chuyên gia nước ngoài
+111,Ôn,Trần Đức,01/04/2000,Nam,Long An,092753230,8000,Thực tập sinh
+112,Nghiêm,Dương Quốc,10/03/1997,Khác,Tuyên Quang,090554696,60000,Cán bộ quản lý
+113,Cù,Nguyễn Nam,06/12/1998,Nữ,Hải Phòng,091313159,15000,Nhân viên
+114,Quan,Nguyễn Hùng,08/18/2000,Nam,Tây Ninh,096127110,15000,Nhân viên
+115,Trình,Nguyễn Trang,07/11/1999,Nữ,Thừa Thiên Huế,097938283,40000,Kỹ sư
+116,Từ,Lê Nam,12/11/1998,Khác,Hà Tĩnh,091172507,15000,Nhân viên
+117,Quan,Trần Đức,05/01/2002,Nữ,Hải Dương,098225256,10000,Công nhân
+118,Thiều,Dương Quốc,11/17/1992,Nam,Thái Bình,095091853,50000,Chuyên gia nước ngoài
+119,Từ,Nguyễn Phương,10/25/1991,Khác,Lâm Đồng,091042858,10000,Công nhân
+120,Trịnh,Minh,03/04/1987,Nam,Phú Thọ,091631402,9000,Người làm bán thời gian
+121,Sơn,Trần Thị,09/06/1992,Nam,Khánh Hòa,091664426,50000,Chuyên gia nước ngoài
+122,Chu,Nguyễn Ánh,04/08/2002,Khác,Hà Nam,094510177,8000,Thực tập sinh
+123,Diệp,Lê Hồng,08/05/2002,Khác,Thừa Thiên Huế,093306369,15000,Nhân viên
+124,Mạch,Kim,11/28/1987,Nữ,Long An,093592391,50000,Chuyên gia nước ngoài
+125,Đoàn,Nguyễn Đức,08/29/2003,Khác,Tiền Giang,090215509,15000,Nhân viên
+126,Văn,Văn Đức,06/18/2004,Nam,Bà Rịa - Vũng Tàu,097797663,15000,Nhân viên
+127,Phù,Quang Minh,12/27/1997,Nữ,Vĩnh Phúc,098035697,40000,Kỹ sư
+128,Viên,Lê Hồng,07/24/2001,Khác,Kon Tum,094700934,50000,Chuyên gia nước ngoài
+129,Đường,Văn Đức,01/24/1996,Nam,Bình Định,095056004,60000,Cán bộ quản lý
+130,La,Trần Hùng,06/13/1998,Khác,Nam Định,095806665,60000,Cán bộ quản lý
+131,Vòng,Minh,07/07/1992,Nữ,Tuyên Quang,095716186,9000,Nhân sự thử việc
+132,Khưu,Hoàng An,05/17/1987,Khác,Cà Mau.,097312523,10000,Lao động phổ thông
+133,Phù,Dương Quốc,04/21/1997,Khác,Ninh Thuận,098338538,10000,Lao động phổ thông
+134,Cù,Minh,04/03/1989,Nam,Nghệ An,091259294,60000,Cán bộ quản lý
+135,Chung,Dương Hùng,03/16/1986,Nữ,Đắk Lắk,091218251,9000,Nhân sự thử việc
+136,Đàm,Anh,11/06/1988,Nữ,Gia Lai,097175168,8000,Thực tập sinh
+137,Ông,Minh Tuấn,09/03/2001,Nữ,Đồng Nai,093029461,9000,Người làm bán thời gian
+138,Chế,Nguyễn Mai,03/20/1988,Nam,Kon Tum,091822781,50000,Chuyên gia nước ngoài
+139,Tống,Hùng,02/18/1989,Nữ,Bình Phước,095126704,10000,Lao động phổ thông
+140,Cao,Trần Trang,03/17/1999,Nam,Quảng Nam,094020080,9000,Người làm bán thời gian
+141,Quan,Mai,06/18/1991,Khác,Kon Tum,091631402,50000,Chuyên gia nước ngoài
+142,Tô,Đức,09/25/1990,Nữ,Hưng Yên,094141076,10000,Lao động phổ thông
+143,Võ,Phương,07/14/1995,Nữ,Đắk Nông,097582276,15000,Nhân viên
+144,Thất,Nam,02/08/1993,Khác,Cao Bằng,094818064,60000,Cán bộ quản lý
+145,Lâm,Lan,09/11/1998,Nam,Bạc Liêu,094939331,15000,Nhân viên
+146,Hoàng,Lê Phương,12/26/2004,Nữ,Hải Dương,093019354,9000,Nhân sự thử việc
+147,La,Lê Thùy,09/30/2001,Nam,Kon Tum,095635090,10000,Lao động phổ thông
+148,Quan,Nguyễn Kim,04/17/1989,Nữ,Lạng Sơn,094006051,10000,Lao động phổ thông
+149,Quan,Nguyễn Lan,10/01/2004,Nam,Trà Vinh,095929108,15000,Nhân viên
+150,Kim,Hoàng,05/01/1987,Khác,Bình Phước,093193755,40000,Kỹ sư
+151,Võ,Phương,10/09/1995,Khác,Lạng Sơn,090128621,60000,Cán bộ quản lý
+152,Tôn,Minh Tuấn,01/12/1998,Nữ,Cao Bằng,092577089,40000,Kỹ sư
+153,Nghiêm,Văn,09/27/1994,Nam,Bắc Kạn,096339075,60000,Cán bộ quản lý
+154,Thạch,Hoàng An,07/06/2003,Nữ,Hà Nam,098970368,60000,Cán bộ quản lý
+155,Ngụy,Lan,06/12/1987,Nữ,Đắk Nông,099365202,9000,Người làm bán thời gian
+156,Phan,Thanh,02/08/1986,Khác,Bắc Ninh,094446309,9000,Nhân sự thử việc
+157,Tô,Minh,09/12/2001,Khác,Quảng Ngãi,092533583,40000,Kỹ sư
+158,Trịnh,Minh,09/21/1986,Nữ,Bến Tre,090096937,10000,Công nhân
+159,Trần,Hoàng Nam,12/12/1992,Nam,Cao Bằng,092447196,10000,Công nhân
+160,Lê,Nguyễn Ánh,11/19/2001,Nam,Yên Bái,091450655,10000,Công nhân
+161,Tôn,Hùng,10/01/1998,Nữ,Bình Định,098225256,8000,Thực tập sinh
+162,Thạch,Hoàng Nam,02/03/1997,Nữ,Ninh Thuận,099301680,15000,Nhân viên
+163,Chung,Lê Kim,10/08/1991,Nữ,Lào Cai,097984419,9000,Người làm bán thời gian
+164,La,Kim,12/20/1998,Khác,Cao Bằng,090128621,60000,Cán bộ quản lý
+165,Thi,Quang Huy,06/16/2002,Khác,Đắk Lắk,099857862,15000,Nhân viên
+166,Trình,Minh Khánh,08/04/1991,Khác,Thái Bình,099021238,60000,Cán bộ quản lý
+167,Đàm,Thanh,06/07/2002,Khác,Cà Mau.,091175187,60000,Cán bộ quản lý
+168,Đường,Nguyễn Lan,04/19/1988,Nữ,Sóc Trăng,090154598,10000,Công nhân
+169,Đường,Quang Huy,07/13/1998,Nữ,Quảng Ngãi,090622308,15000,Nhân viên
+170,Lý,Thanh Hương,08/06/1991,Khác,Bình Phước,090154598,8000,Thực tập sinh
+171,Hàng,Trần Thị,01/13/1997,Nam,Bình Dương,098526643,50000,Chuyên gia nước ngoài
+172,Kim,Nguyễn Mai,02/13/2003,Nam,Thái Nguyên,097477182,15000,Nhân viên
+173,Lại,Mai,07/26/2001,Nam,Bắc Kạn,095481149,10000,Công nhân
+174,Nguyễn,Văn Đức,02/23/1985,Nam,Bình Định,096438152,10000,Lao động phổ thông
+175,Hàng,Nguyễn Nam,09/26/2002,Khác,Đắk Lắk,097325151,8000,Thực tập sinh
+176,Ngô,Thanh Hương,04/03/1991,Khác,Quảng Nam,090248707,10000,Lao động phổ thông
+177,Thạch,Minh Tuấn,12/05/1988,Nữ,Hà Giang,091188879,10000,Công nhân
+178,Viên,Thanh,02/02/2002,Nữ,Tuyên Quang,092198045,60000,Cán bộ quản lý
+179,Ngụy,Lê Mai,04/25/1993,Nữ,Hà Nội,095179173,15000,Nhân viên
+180,Giang,Nguyễn Thị,06/18/2001,Nữ,Ninh Bình,094647516,9000,Người làm bán thời gian
+181,Khưu,Nguyễn Kim,08/22/1985,Nữ,Hồ Chí Minh (TP. HCM),099283121,10000,Lao động phổ thông
+182,Thất,Nguyễn Hồng,08/28/2000,Nữ,Đắk Nông,097530844,9000,Nhân sự thử việc
+183,Thiều,Trần Thị,09/25/1988,Nam,Nam Định,092545497,40000,Kỹ sư
+184,Cao,Tuấn,12/31/1990,Khác,Thanh Hóa,099713101,50000,Chuyên gia nước ngoài
+185,Chu,Nguyễn Kim,10/11/2002,Nam,Nghệ An,097383364,15000,Nhân viên
+186,Khổng,Nguyễn Thùy,12/12/2003,Nam,Bình Thuận,099552767,10000,Công nhân
+187,Hoàng,Nguyễn Kim,04/22/2003,Khác,Bình Phước,090155530,10000,Lao động phổ thông
+188,Võ,Văn Đức,01/01/1997,Nam,Gia Lai,096568325,15000,Nhân viên
+189,Cao,Hoàng Nam,01/15/1988,Khác,Hải Phòng,090554696,9000,Người làm bán thời gian
+190,Lục,Trần Hùng,07/18/2000,Nam,Sơn La,096981097,60000,Cán bộ quản lý
+191,Lương,Nguyễn Anh,06/14/1987,Nam,Thái Nguyên,096239877,9000,Nhân sự thử việc
+192,Bạch,Quang Minh,09/25/1990,Khác,Hà Giang,096829141,8000,Thực tập sinh
+193,Biện,Lê Nam,06/06/1997,Nữ,Quảng Nam,093572919,10000,Lao động phổ thông
+194,Lai,Văn Anh,06/13/1998,Nam,Bình Phước,093407621,8000,Thực tập sinh
+195,Hồ,Trần Hùng,02/19/1990,Khác,Sóc Trăng,099208297,9000,Nhân sự thử việc
+196,Chu,Quang Minh,06/11/1990,Khác,Hải Dương,092814288,60000,Cán bộ quản lý
+197,Kim,Thị,02/13/1998,Nữ,Bắc Giang,095254995,40000,Kỹ sư
+198,Trịnh,Ánh,12/16/1997,Nam,Cao Bằng,090887627,9000,Nhân sự thử việc
+199,Tiêu,Nguyễn Hùng,11/20/1986,Nữ,Cà Mau.,097250000,9000,Nhân sự thử việc
+200,Châu,Hoàng,04/04/1991,Nam,Hà Tĩnh,099174798,15000,Nhân viên
+201,Kim,Nguyễn Thùy,02/07/2000,Khác,Thanh Hóa,092237766,8000,Thực tập sinh
+202,Vòng,Lê Mai,07/13/1989,Nữ,Gia Lai,096907794,9000,Người làm bán thời gian
+203,Vương,Minh Khánh,06/12/1987,Nam,Sóc Trăng,099519380,9000,Người làm bán thời gian
+204,Nguyễn,Trần Hùng,04/16/2002,Nữ,Quảng Trị,095199991,10000,Công nhân
+205,Tôn,Thanh Hương,02/16/1996,Nữ,Bình Thuận,090816852,40000,Kỹ sư
+206,Vũ,Nguyễn Thị,07/07/1987,Khác,Bình Định,099232125,9000,Người làm bán thời gian
+207,Vi,Trần Đức,04/13/1986,Nữ,Sơn La,093572919,8000,Thực tập sinh
+208,Lưu,Hùng,12/21/1989,Nữ,Yên Bái,090900627,60000,Cán bộ quản lý
+209,Kim,Tuấn Anh,11/19/1995,Nữ,Hà Nam,096048556,15000,Nhân viên
+210,Hồ,Lê Hồng,09/18/2002,Nam,Bình Dương,098246109,15000,Nhân viên
+211,Đàm,Hoàng Nam,01/22/1994,Nam,Hải Phòng,098702213,15000,Nhân viên
+212,Phan,Trần Đức,05/04/2000,Nữ,Hải Phòng,099330163,50000,Chuyên gia nước ngoài
+213,Trương,Quang Minh,10/04/1999,Nữ,Bà Rịa - Vũng Tàu,094180354,10000,Lao động phổ thông
+214,Bùi,,02/28/1987,Nữ,Nghệ An,094141076,60000,Cán bộ quản lý
+215,Đàm,Kim,05/15/1993,Nữ,Hà Nội,090819947,60000,Cán bộ quản lý
+216,Quan,,04/29/2002,Nam,Quảng Nam,091664426,60000,Cán bộ quản lý
+217,Tôn,Nguyễn Nam,03/11/1993,Nam,Bắc Ninh,092364763,60000,Cán bộ quản lý
+218,Phương,,11/11/1992,Khác,Hải Phòng,097369046,10000,Công nhân
+219,Diệp,Nam,03/28/1993,Nữ,Quảng Ninh,094635892,60000,Cán bộ quản lý
+220,Tất,Nguyễn Kim,04/22/2004,Nam,Đà Nẵng,091664426,9000,Nhân sự thử việc
+221,Võ,Hoàng An,08/03/1987,Khác,Bình Dương,099208297,40000,Kỹ sư
+222,Hàng,Trần Anh,12/22/2004,Nam,Gia Lai,091506281,15000,Nhân viên
+223,Nữ,Dương,02/04/1992,Nam,Quảng Ninh,092099914,50000,Chuyên gia nước ngoài
+224,Ôn,Lê Thùy,01/27/2000,Nam,Khánh Hòa,099660319,10000,Lao động phổ thông
+225,Triệu,Thanh Thảo,09/07/1992,Khác,Nghệ An,099121679,50000,Chuyên gia nước ngoài
+226,Lai,Trần Anh,08/17/1993,Khác,Quảng Nam,095124259,40000,Kỹ sư
+227,Quan,Tuấn,08/15/1998,Nữ,Nghệ An,097919960,8000,Thực tập sinh
+228,Hà,Dương Hùng,02/02/1990,Nữ,Phú Thọ,090941314,15000,Nhân viên
+229,Quan,Anh,04/09/1996,Khác,Hồ Chí Minh (TP. HCM),092624736,9000,Người làm bán thời gian
+230,Vi,Nguyễn Anh,05/27/1994,Nữ,Ninh Thuận,093286859,8000,Thực tập sinh
+231,Phùng,Văn Anh,09/21/1989,Khác,Kiên Giang,091822781,10000,Công nhân
+232,Nguyễn,Nguyễn Hồng,12/14/1993,Nam,Hà Giang,097285257,40000,Kỹ sư
+233,Nữ,Tuấn,01/01/1996,Khác,Long An,095753366,10000,Công nhân
+234,Ninh,Dương Quốc,11/01/1986,Nữ,Quảng Bình,098491994,10000,Lao động phổ thông
+235,Vũ,Nguyễn Hồng,10/02/1994,Nữ,Hòa Bình,096886656,50000,Chuyên gia nước ngoài
+236,Nhan,Hoàng Nam,10/13/2001,Khác,Bình Phước,099688735,15000,Nhân viên
+237,Đồn,Văn Đức,08/20/1996,Khác,Hưng Yên,092531140,50000,Chuyên gia nước ngoài
+238,Tô,Minh Khánh,04/01/1991,Nam,Bến Tre,090016404,10000,Công nhân
+239,Diệp,Tuấn,11/18/2003,Nữ,Quảng Ngãi,093912661,50000,Chuyên gia nước ngoài
+240,Tất,Lê Phương,12/09/1989,Khác,Hà Tĩnh,095315618,60000,Cán bộ quản lý
+241,Thân,Đức,08/07/2004,Nam,Hà Nội,092848464,10000,Lao động phổ thông
+242,Ông,Nguyễn Thùy,11/19/1988,Khác,Khánh Hòa,098526643,15000,Nhân viên
+243,Phùng,Trần Hùng,06/12/2000,Nữ,Hải Phòng,096007081,9000,Nhân sự thử việc
+244,Nhâm,Hồng,10/04/1994,Khác,Bắc Giang,097077390,50000,Chuyên gia nước ngoài
+245,Thiều,Nguyễn Hùng,08/14/1988,Khác,Long An,092398665,15000,Nhân viên
+246,Mai,Nguyễn Thùy,05/27/1989,Khác,Tây Ninh,091850330,40000,Kỹ sư
+247,Hứa,Ánh,05/21/1989,Nữ,Ninh Bình,095203088,9000,Người làm bán thời gian
+248,Phương,Hoàng An,05/07/1993,Nam,Tây Ninh,095439843,40000,Kỹ sư
+249,Phùng,Văn Anh,12/25/1988,Khác,Bình Định,093592391,10000,Công nhân
+250,Mã,Quang Huy,02/15/1993,Khác,Cao Bằng,090251506,50000,Chuyên gia nước ngoài
+251,Trà,Hùng,02/06/1986,Khác,Bến Tre,091159646,50000,Chuyên gia nước ngoài
+252,Viên,Thị,07/22/1993,Nam,Hà Tĩnh,095261903,9000,Nhân sự thử việc
+253,Tạ,Đức,06/29/2003,Nữ,Trà Vinh,096668933,9000,Người làm bán thời gian
+254,La,Quang Minh,04/19/1998,Khác,Quảng Ngãi,093881429,10000,Lao động phổ thông
+255,Quách,Nam,10/04/1989,Nam,Bắc Ninh,096375703,9000,Nhân sự thử việc
+256,Ông,Hùng,04/23/1993,Nữ,Hà Giang,098246109,8000,Thực tập sinh
+257,La,Trần Ánh,05/17/1987,Nữ,Bình Thuận,094490637,50000,Chuyên gia nước ngoài
+258,Giang,Lan,10/22/2003,Nữ,Sơn La,092551907,10000,Công nhân
+259,Ông,Trần Anh,09/14/1996,Nam,Nghệ An,090849606,60000,Cán bộ quản lý
+260,Thạch,Đức,02/13/1996,Nam,Hải Phòng,094215681,10000,Lao động phổ thông
+261,La,Thanh Hương,08/04/1992,Khác,Hà Nam,093286859,8000,Thực tập sinh
+262,Hàng,Nam,04/05/1990,Khác,Trà Vinh,096886420,8000,Thực tập sinh
+263,Ôn,Lê Thùy,05/19/1985,Nữ,Kon Tum,090868975,10000,Công nhân
+264,Đỗ,Anh,02/27/1990,Nữ,Hải Dương,090079136,50000,Chuyên gia nước ngoài
+265,Từ,Nguyễn Lan,07/13/1991,Nam,Hòa Bình,098180653,10000,Công nhân
+266,Trầm,Minh Tuấn,02/20/1994,Nữ,Bắc Giang,094447639,9000,Nhân sự thử việc
+267,Bạch,Kim,10/16/1985,Khác,Hải Dương,094218181,40000,Kỹ sư
+268,Diệp,Thùy,05/17/1988,Nam,Đắk Nông,095379358,9000,Nhân sự thử việc
+269,Nhâm,Hùng,07/04/2003,Khác,Thái Bình,092099914,8000,Thực tập sinh
+270,Trình,Nguyễn Phương,03/28/1996,Nam,Hải Phòng,096737693,50000,Chuyên gia nước ngoài
+271,Mai,Lê Nam,03/14/1993,Khác,An Giang,093305262,10000,Công nhân
+272,Quách,Văn,10/18/2003,Nữ,Lạng Sơn,094415074,15000,Nhân viên
+273,Trà,Nguyễn Anh,08/10/2001,Nữ,Hà Tĩnh,094638452,8000,Thực tập sinh
+274,Lưu,Trần Thị,10/01/2000,Khác,An Giang,094972042,9000,Nhân sự thử việc
+275,Dư,Thị,04/26/2003,Nữ,Bình Phước,099528664,50000,Chuyên gia nước ngoài
+276,Lai,Thanh,10/18/2002,Khác,Hà Nam,091043564,60000,Cán bộ quản lý
+277,Hồ,Lê Thùy,01/22/2000,Nữ,Lạng Sơn,094215681,40000,Kỹ sư
+278,Trà,Nam,08/15/1989,Nam,Hậu Giang,096000613,10000,Lao động phổ thông
+279,Tống,Lê Phương,01/29/1991,Nữ,Bắc Ninh,099238040,10000,Công nhân
+280,Trịnh,Trần Lan,12/14/1997,Khác,Lai Châu,099096963,10000,Công nhân
+281,Thạch,Văn Anh,07/31/1994,Khác,Bình Thuận,099756249,10000,Lao động phổ thông
+282,Thân,Trần Lan,10/06/1999,Khác,Quảng Nam,093909374,9000,Nhân sự thử việc
+283,Liêu,Lê Hồng,01/11/1987,Khác,Bình Thuận,098174501,8000,Thực tập sinh
+284,Hồ,Văn Đức,05/24/1986,Khác,Lâm Đồng,090887627,15000,Nhân viên
+285,Sơn,Minh Tuấn,08/16/1989,Khác,Bến Tre,094244905,60000,Cán bộ quản lý
+286,Nghiêm,Lê Thùy,11/18/1999,Nữ,Khánh Hòa,094942462,15000,Nhân viên
+287,Lai,Thùy,08/08/1992,Nam,Nam Định,096928659,15000,Nhân viên
+288,Biện,Trần Hùng,02/19/1991,Khác,Phú Yên,094539741,15000,Nhân viên
+289,Giang,Quang Huy,07/20/1991,Khác,Hồ Chí Minh (TP. HCM),094854798,8000,Thực tập sinh
+290,Quách,Hùng,09/03/2002,Nữ,Yên Bái,097362418,60000,Cán bộ quản lý
+291,Cù,Thanh,07/21/1998,Nam,Khánh Hòa,095145968,15000,Nhân viên
+292,Trần,Hoàng,12/04/2004,Nam,Gia Lai,090215509,9000,Người làm bán thời gian
+293,Dương,Nguyễn Trang,04/20/1988,Nam,Tiền Giang,094320353,15000,Nhân viên
+294,Dư,Văn Anh,07/29/1986,Nữ,Cà Mau.,090277561,8000,Thực tập sinh
+295,Đậu,Dương Quốc,11/19/1990,Nam,Nam Định,099459988,9000,Nhân sự thử việc
+296,Âu,Nguyễn Hùng,06/28/1998,Khác,Đồng Nai,091430476,10000,Công nhân
+297,Mạc,Trần Lan,07/01/1992,Khác,Hà Tĩnh,098602748,10000,Lao động phổ thông
+298,Doãn,Nguyễn Hồng,11/02/1989,Nam,Cà Mau.,094447639,60000,Cán bộ quản lý
+299,Thân,Quang Minh,04/15/1991,Khác,Phú Yên,096503574,50000,Chuyên gia nước ngoài
+300,Quách,Lê Phương,03/18/2001,Nữ,Trà Vinh,094396050,10000,Lao động phổ thông
+301,Lương,Nguyễn Lan,12/20/2004,Khác,Khánh Hòa,091534951,9000,Nhân sự thử việc
+302,Mạc,Đức,07/10/1992,Nam,Tuyên Quang,098702213,60000,Cán bộ quản lý
+303,Dương,Đức,11/12/1994,Nữ,Nam Định,095635090,60000,Cán bộ quản lý
+304,Tiêu,Tuấn,11/19/1998,Khác,An Giang,091337595,10000,Lao động phổ thông
+305,Thân,Nguyễn Hùng,04/02/2002,Nam,Bình Phước,095781720,9000,Người làm bán thời gian
+306,Thất,Trần Lan,09/10/1988,Nam,Hải Phòng,098335368,9000,Người làm bán thời gian
+307,Phương,Trần Trang,12/01/1991,Khác,Đà Nẵng,099992606,9000,Nhân sự thử việc
+308,Hoàng,Nguyễn Kim,09/24/2001,Nam,Phú Thọ,096369307,15000,Nhân viên
+309,Nhan,Văn Đức,12/12/1989,Nữ,Nghệ An,093498765,40000,Kỹ sư
+310,Lý,Mai,11/11/2002,Nữ,Hà Nam,094006051,8000,Thực tập sinh
+311,Bành,Hùng,03/26/2004,Nữ,Ninh Bình,091172507,10000,Lao động phổ thông
+312,Khưu,Văn,04/09/1989,Nam,Hải Phòng,097903322,50000,Chuyên gia nước ngoài
+313,Châu,Nguyễn Ánh,01/07/1997,Nam,Lâm Đồng,094576344,9000,Người làm bán thời gian
+314,Tôn,Nguyễn Kim,05/20/1994,Nữ,Đà Nẵng,097402886,9000,Nhân sự thử việc
+315,Tăng,Quang,10/31/1986,Khác,Bạc Liêu,090261172,15000,Nhân viên
+316,Tiêu,Nguyễn Thị,03/01/1993,Khác,Ninh Bình,092784261,10000,Lao động phổ thông
+317,Đỗ,,02/10/1987,Nam,Phú Thọ,094415074,15000,Nhân viên
+318,Tống,Hoàng An,11/21/1999,Khác,Long An,091351856,15000,Nhân viên
+319,Khưu,Phương,06/14/1987,Khác,Phú Yên,096505401,10000,Lao động phổ thông
+320,Tiêu,Trần Thị,05/16/1987,Nam,Đồng Tháp,096148841,9000,Người làm bán thời gian
+321,Kim,Hồng,12/18/2003,Nam,Bến Tre,091402380,9000,Nhân sự thử việc
+322,Hồ,Minh,10/13/2001,Nam,Hà Nam,091526998,50000,Chuyên gia nước ngoài
+323,Hứa,Thanh Hương,07/05/1999,Nữ,Thái Bình,090370636,10000,Công nhân
+324,Trương,Nguyễn Lan,12/26/1990,Khác,Hà Nam,099142564,9000,Người làm bán thời gian
+325,Cao,Văn,09/26/1987,Nam,Bắc Ninh,099532759,60000,Cán bộ quản lý
+326,Hoàng,Thanh Hương,05/21/1994,Nữ,Hà Nội,098322310,60000,Cán bộ quản lý
+327,Đoàn,Quang Minh,08/01/2003,Nam,Sóc Trăng,095179173,9000,Nhân sự thử việc
+328,Hoàng,Nguyễn Trang,06/11/1996,Nữ,Quảng Nam,098314819,50000,Chuyên gia nước ngoài
+329,Chung,Anh,12/15/1987,Nam,Hải Dương,095181639,50000,Chuyên gia nước ngoài
+330,Kiều,Hồng,12/31/2001,Nữ,Bắc Giang,096907794,15000,Nhân viên
+331,Hà,Trần Lan,04/15/2004,Nữ,Lào Cai,098320554,60000,Cán bộ quản lý
+332,Mạc,Lê Kim,05/15/1997,Nam,Sóc Trăng,094267483,15000,Nhân viên
+333,Trà,Anh,02/03/2003,Khác,Trà Vinh,092600816,15000,Nhân viên
+334,Lại,Phương,06/08/1987,Nam,Bình Thuận,091847627,60000,Cán bộ quản lý
+335,Huỳnh,Trần Anh,03/12/1999,Khác,Cao Bằng,096037496,40000,Kỹ sư
+336,Hoàng,Quang Huy,06/10/1999,Nam,Long An,090358297,15000,Nhân viên
+337,Đặng,Nguyễn Ánh,12/02/2003,Nam,Lai Châu,091831847,8000,Thực tập sinh
+338,Ninh,Hồng,11/10/1991,Nam,Kiên Giang,096239877,15000,Nhân viên
+339,Phương,Mai,02/11/1991,Khác,Cao Bằng,090667489,9000,Người làm bán thời gian
+340,Kiều,Minh,05/02/1987,Nữ,Lâm Đồng,098663305,9000,Người làm bán thời gian
+341,Sơn,Trần Thị,01/15/1998,Nữ,Sóc Trăng,097663964,10000,Công nhân
+342,Trình,Lê Kim,06/02/2001,Khác,Hưng Yên,093355797,10000,Lao động phổ thông
+343,Triệu,Lê Phương,01/22/1999,Khác,Quảng Trị,099378595,10000,Công nhân
+344,Tống,Anh,06/21/2002,Nam,Thái Nguyên,097919960,8000,Thực tập sinh
+345,Hàng,Trần Thị,05/07/1985,Nam,Lạng Sơn,091327912,10000,Công nhân
+346,Kiều,Quang Minh,03/29/1999,Nam,Vĩnh Phúc,094845758,10000,Công nhân
+347,Trình,Lan,04/27/1998,Nữ,Hải Phòng,090079136,60000,Cán bộ quản lý
+348,Tôn,Đức,09/01/1987,Nam,Vĩnh Phúc,090893632,40000,Kỹ sư
+349,Vòng,Minh Tuấn,09/26/2003,Nam,Kon Tum,096880860,9000,Người làm bán thời gian
+350,Tôn,Dương Hùng,10/14/1996,Khác,Bình Phước,095126704,10000,Lao động phổ thông
+351,Tống,Thị,06/26/1990,Nữ,Trà Vinh,095886654,15000,Nhân viên
+352,Tôn,Trần Đức,01/08/2004,Nữ,Bạc Liêu,094881829,8000,Thực tập sinh
+353,Từ,Lê Mai,12/09/2004,Khác,Bình Thuận,090377760,40000,Kỹ sư
+354,Sơn,Thị,02/26/1991,Nữ,Cao Bằng,099623591,10000,Lao động phổ thông
+355,Ôn,Quang Huy,01/23/1991,Khác,Thanh Hóa,098362440,10000,Lao động phổ thông
+356,Triệu,Trần Hùng,12/07/2003,Nam,Kon Tum,092105911,9000,Nhân sự thử việc
+357,Bạch,Hồng,12/15/1992,Nữ,Hà Nam,091660494,10000,Công nhân
+358,Chu,Nguyễn Kim,11/02/1993,Nữ,Yên Bái,096048556,10000,Công nhân
+359,Lại,Dương Quốc,08/07/1993,Nam,Hòa Bình,095648809,15000,Nhân viên
+360,Viên,Nguyễn Trang,08/26/1992,Khác,Phú Thọ,094610287,10000,Công nhân
+361,Vũ,Ánh,02/12/1998,Nam,Cần Thơ,091175187,60000,Cán bộ quản lý
+362,Trình,Trần Đức,11/09/1994,Nữ,Hưng Yên,096886420,40000,Kỹ sư
+363,Mạc,Nguyễn Đức,12/23/2002,Nam,Hưng Yên,092286616,10000,Lao động phổ thông
+364,Mai,Dương,08/18/1990,Nữ,Cà Mau.,097867918,10000,Công nhân
+365,Khưu,Trần Trang,10/21/1987,Khác,An Giang,093815739,60000,Cán bộ quản lý
+366,Vũ,Kim,08/08/1991,Khác,Thừa Thiên Huế,092531140,60000,Cán bộ quản lý
+367,Chu,Minh Khánh,05/14/1999,Nữ,Tiền Giang,098334555,8000,Thực tập sinh
+368,Thiều,Thanh Thảo,09/10/2003,Nam,Ninh Bình,096061792,9000,Nhân sự thử việc
+369,Lê,Hồng,03/22/1993,Khác,Đà Nẵng,096304514,10000,Công nhân
+370,Vi,Thanh,11/30/1992,Khác,Khánh Hòa,090238343,40000,Kỹ sư
+371,Lưu,Nguyễn Hùng,01/30/2004,Khác,Sơn La,090512645,40000,Kỹ sư
+372,Lại,Nguyễn Thùy,01/31/1989,Nam,Đắk Lắk,099932269,10000,Lao động phổ thông
+373,Văn,Thị,04/09/1995,Nam,Quảng Ninh,094292024,8000,Thực tập sinh
+374,Hồn,Trần Anh,04/17/1994,Khác,Tuyên Quang,091919235,50000,Chuyên gia nước ngoài
+375,Lương,Nguyễn Thị,12/02/1987,Nam,Quảng Trị,095050716,10000,Lao động phổ thông
+376,Huỳnh,Nguyễn Hồng,02/23/1986,Nam,Lào Cai,094820550,8000,Thực tập sinh
+377,Đi,Nguyễn Anh,07/17/2003,Nữ,Bình Phước,097094743,10000,Công nhân
+378,Tạ,Trang,09/03/2001,Khác,Bắc Kạn,098335368,40000,Kỹ sư
+379,Đỗ,Quang Minh,02/04/1985,Nữ,Khánh Hòa,091172507,9000,Nhân sự thử việc
+380,Ngụy,Thị,11/04/1999,Nữ,Lai Châu,094179559,60000,Cán bộ quản lý
+381,Hà,Nguyễn Thùy,04/07/1995,Nữ,Hà Giang,091719230,9000,Nhân sự thử việc
+382,Trà,Nam,12/14/1991,Nam,Bến Tre,096415018,8000,Thực tập sinh
+383,Viên,Lê Kim,12/14/1997,Nữ,Cà Mau.,092370707,10000,Công nhân
+384,Cao,Thanh Thảo,11/16/2001,Nam,Đà Nẵng,096063381,40000,Kỹ sư
+385,Ông,Nguyễn Ánh,08/23/1999,Nữ,Trà Vinh,095391931,10000,Công nhân
+386,Lại,Trần Thị,11/17/1994,Khác,Ninh Bình,097608582,60000,Cán bộ quản lý
+387,Tạ,Thanh Thảo,04/20/1991,Nam,An Giang,099123374,10000,Lao động phổ thông
+388,Từ,Nguyễn Ánh,12/30/1999,Nam,Bắc Kạn,099998878,50000,Chuyên gia nước ngoài
+389,Tôn,Hoàng Nam,09/28/1985,Nữ,Quảng Bình,095495005,40000,Kỹ sư
+390,La,Kim,08/26/2004,Khác,Bến Tre,090264157,60000,Cán bộ quản lý
+391,Phùng,Trần Lan,04/12/1986,Nam,Hải Phòng,096981097,9000,Người làm bán thời gian
+392,Tạ,Trần Đức,12/27/2001,Nam,Trà Vinh,097601270,10000,Lao động phổ thông
+393,Lâm,Mai,09/17/2001,Nam,Yên Bái,093680042,8000,Thực tập sinh
+394,Kim,Nguyễn Hồng,08/06/1996,Nữ,Tiền Giang,092278884,50000,Chuyên gia nước ngoài
+395,Bùi,Trần Trang,05/18/1991,Nữ,Quảng Nam,099713101,9000,Người làm bán thời gian
+396,Đoàn,Nguyễn Nam,10/18/1997,Khác,An Giang,094897441,60000,Cán bộ quản lý
+397,Đồn,Nguyễn Hồng,12/20/1997,Nữ,Ninh Thuận,097004236,60000,Cán bộ quản lý
+398,Bùi,Kim,05/01/1985,Khác,An Giang,091794455,60000,Cán bộ quản lý
+399,Ôn,Văn Anh,10/22/1992,Khác,Yên Bái,098225256,10000,Lao động phổ thông
+400,Từ,Mai,04/19/2000,Nam,Nam Định,090214253,50000,Chuyên gia nước ngoài
+401,Phù,Trần Đức,11/06/1989,Nữ,Đà Nẵng,097836899,9000,Nhân sự thử việc
+402,Biện,Nguyễn Trang,10/13/1996,Nam,Trà Vinh,096896189,10000,Lao động phổ thông
+403,Cù,Nguyễn Kim,03/20/1998,Nam,Hồ Chí Minh (TP. HCM),095122285,60000,Cán bộ quản lý
+404,Đặng,Nam,04/26/1992,Nam,Yên Bái,095855444,9000,Người làm bán thời gian
+405,Mã,Thanh,03/19/1996,Nữ,Lạng Sơn,097365852,8000,Thực tập sinh
+406,Lâm,Kim,01/20/1992,Nam,Cao Bằng,095973344,9000,Nhân sự thử việc
+407,Đường,Kim,03/11/1987,Nữ,Lào Cai,091253344,9000,Nhân sự thử việc
+408,Trương,Tuấn Anh,12/11/1988,Nam,Hòa Bình,094229963,9000,Nhân sự thử việc
+409,Khổng,Trần Anh,01/15/2001,Nam,Bến Tre,099247155,10000,Công nhân
+410,Phan,Lê Nam,09/10/1998,Nam,Hòa Bình,099121679,15000,Nhân viên
+411,Huỳnh,Nguyễn Nam,11/08/1987,Khác,Long An,098796395,10000,Công nhân
+412,Phùng,Nguyễn Trang,05/04/2004,Khác,Hà Giang,097197493,60000,Cán bộ quản lý
+413,Phù,Hoàng Nam,03/29/1987,Khác,Đắk Nông,097676701,60000,Cán bộ quản lý
+414,Chế,Lê Kim,03/23/1988,Nam,Phú Thọ,090930454,8000,Thực tập sinh
+415,Hồ,Lê Thùy,02/20/1991,Nam,Lâm Đồng,092551907,40000,Kỹ sư
+416,Mạc,Thanh Thảo,01/11/1995,Nữ,An Giang,097530186,60000,Cán bộ quản lý
+417,Quách,Lê Hồng,10/10/2001,Nữ,Hà Nam,091850330,60000,Cán bộ quản lý
+418,Giang,Tuấn,12/30/1989,Khác,Ninh Thuận,099713101,60000,Cán bộ quản lý
+419,Kiều,Anh,04/08/1985,Khác,Đồng Tháp,096536984,10000,Công nhân
+420,La,Dương,01/06/1996,Khác,Bắc Giang,092398665,8000,Thực tập sinh
+421,Đàm,Tuấn,07/01/1993,Nữ,Bắc Ninh,091674811,9000,Nhân sự thử việc
+422,Lai,Nguyễn Nam,01/30/2004,Khác,Cần Thơ,099555066,50000,Chuyên gia nước ngoài
+423,Lai,Nam,05/30/1996,Khác,Ninh Thuận,099181139,60000,Cán bộ quản lý
+424,Chung,Văn Anh,04/25/1988,Nữ,Bà Rịa - Vũng Tàu,098314819,9000,Nhân sự thử việc
+425,Thái,Dương Hùng,07/21/1999,Nữ,Bình Thuận,097340248,9000,Người làm bán thời gian
+426,Mạch,Anh,06/25/1987,Khác,Hưng Yên,096886656,15000,Nhân viên
+427,Quách,Trần Ánh,09/19/1996,Nam,Sóc Trăng,093121742,8000,Thực tập sinh
+428,Tăng,Lê Kim,08/18/2001,Nữ,Ninh Bình,097661547,10000,Công nhân
+429,Viên,Kim,09/18/1989,Nam,Đắk Lắk,099007880,60000,Cán bộ quản lý
+430,Sơn,Văn Anh,07/04/1988,Nữ,Đắk Nông,099181139,8000,Thực tập sinh
+431,Trương,Thanh,09/14/1994,Nữ,Đà Nẵng,096787483,10000,Lao động phổ thông
+432,Dư,Nguyễn Thùy,07/30/1991,Nam,Nghệ An,098970368,40000,Kỹ sư
+433,Trầm,Nam,10/01/2001,Nữ,Đà Nẵng,096301123,8000,Thực tập sinh
+434,Bùi,Lê Hồng,04/27/1997,Nữ,Gia Lai,095485543,9000,Người làm bán thời gian
+435,Kiều,Thanh Thảo,05/25/1986,Nam,Tây Ninh,093597940,10000,Công nhân
+436,Nhan,Hùng,02/19/1998,Nữ,Trà Vinh,096108256,60000,Cán bộ quản lý
+437,Trịnh,Hoàng,04/29/1998,Nam,Đồng Nai,096941991,8000,Thực tập sinh
+438,Cao,Trần Thị,10/03/1997,Nữ,Quảng Ngãi,091999186,9000,Người làm bán thời gian
+439,Giang,Trần Anh,11/16/1993,Nam,Thừa Thiên Huế,099857862,40000,Kỹ sư
+440,Tiêu,Lê Kim,01/10/1993,Nam,Bình Thuận,096840105,9000,Người làm bán thời gian
+441,Lục,Thị,05/04/1988,Khác,Đồng Tháp,097797663,10000,Lao động phổ thông
+442,Đoàn,Trang,03/14/1992,Nam,Cần Thơ,097836899,9000,Nhân sự thử việc
+443,Bùi,Anh,06/17/1994,Nam,Cần Thơ,099395358,40000,Kỹ sư
+444,Lâm,Trần Thị,02/04/2000,Khác,Yên Bái,096046893,60000,Cán bộ quản lý
+445,Nguyễn,Trần Anh,03/26/1986,Khác,Quảng Ngãi,097702477,15000,Nhân viên
+446,Âu,Lan,08/05/1992,Nữ,Đồng Tháp,094911208,15000,Nhân viên
+447,Lý,Dương,05/21/1989,Khác,Khánh Hòa,094409942,9000,Nhân sự thử việc
+448,Tôn,Nguyễn Kim,01/02/1991,Nữ,Kon Tum,096359179,60000,Cán bộ quản lý
+449,Tôn,Quang Huy,04/25/2001,Nam,Bắc Giang,090859914,8000,Thực tập sinh
+450,Nhâm,Nguyễn Đức,02/25/1995,Nam,Hà Giang,093286859,9000,Nhân sự thử việc
+451,Ôn,Minh Khánh,08/24/2002,Khác,Bắc Giang,098355267,9000,Nhân sự thử việc
+452,Vương,Thanh,05/25/1986,Khác,Hậu Giang,090056862,15000,Nhân viên
+453,Hồn,Nam,03/15/2004,Nữ,Nghệ An,098474033,50000,Chuyên gia nước ngoài
+454,Kim,Nguyễn Nam,04/18/1991,Nam,Tiền Giang,094477882,9000,Người làm bán thời gian
+455,Trình,Minh Tuấn,07/05/1990,Nam,Lào Cai,096886656,15000,Nhân viên
+456,Chu,Dương Quốc,03/29/1989,Nữ,Hưng Yên,096949254,9000,Nhân sự thử việc
+457,Từ,Hùng,01/26/1998,Nam,Hải Phòng,090326825,8000,Thực tập sinh
+458,Tăng,Nguyễn Phương,11/06/1991,Khác,Bắc Kạn,091717339,40000,Kỹ sư
+459,Quan,,11/03/1999,Khác,Hà Giang,094227354,40000,Kỹ sư
+460,Thái,Nguyễn Hùng,08/30/1996,Khác,Bạc Liêu,098595182,8000,Thực tập sinh
+461,Chung,Dương,09/08/1993,Nữ,Hà Nam,091418141,10000,Công nhân
+462,Giang,Lan,03/05/1999,Nam,Đắk Lắk,090954768,15000,Nhân viên
+463,Quan,Đức,08/19/1994,Khác,Đồng Tháp,090902023,40000,Kỹ sư
+464,Huỳnh,Trần Lan,08/09/2004,Nam,Quảng Trị,090215509,9000,Nhân sự thử việc
+465,Mạc,Nguyễn Đức,03/31/1999,Khác,Nam Định,091847627,9000,Người làm bán thời gian
+466,Lại,Nguyễn Trang,03/05/2003,Khác,Ninh Thuận,095254995,10000,Lao động phổ thông
+467,Chung,Nguyễn Trang,01/30/1993,Nữ,Đà Nẵng,097716941,60000,Cán bộ quản lý
+468,Chu,Thanh,12/03/1994,Nữ,Hậu Giang,090507359,10000,Công nhân
+469,Phương,Tuấn,06/27/2004,Nữ,Lạng Sơn,094229963,60000,Cán bộ quản lý
+470,Thân,Hoàng,07/13/1991,Nam,Khánh Hòa,090819947,8000,Thực tập sinh
+471,Tống,Hồng,04/08/2002,Nữ,Hưng Yên,095451741,10000,Lao động phổ thông
+472,Hà,Nguyễn Hồng,01/31/1987,Nam,Thừa Thiên Huế,095352822,50000,Chuyên gia nước ngoài
+473,Dư,Nguyễn Hồng,05/19/2000,Khác,Kon Tum,090047484,9000,Nhân sự thử việc
+474,Ngụy,Trang,04/15/1990,Nam,Lâm Đồng,093561123,8000,Thực tập sinh
+475,Lai,Thanh Thảo,08/29/1987,Nữ,Hà Nội,099932269,40000,Kỹ sư
+476,Thất,Lê Mai,12/16/1988,Nam,Tuyên Quang,096596527,10000,Công nhân
+477,Hà,Lê Hồng,05/08/1988,Nam,Quảng Trị,091169909,9000,Người làm bán thời gian
+478,Chung,Hoàng Nam,11/02/1999,Khác,Nam Định,098594362,60000,Cán bộ quản lý
+479,Lai,Quang,01/17/1991,Nữ,Bến Tre,090086097,50000,Chuyên gia nước ngoài
+480,Lã,Lê Hồng,04/11/2001,Nam,Quảng Ngãi,095635090,40000,Kỹ sư
+481,Sơn,Lê Thùy,02/16/2003,Nam,Vĩnh Phúc,097368036,8000,Thực tập sinh
+482,Mạch,Quang Minh,07/23/2000,Nam,Trà Vinh,094854798,10000,Công nhân
+483,Triệu,Mai,10/04/1988,Khác,Tuyên Quang,099322485,10000,Công nhân
+484,Ngô,Minh Khánh,06/17/2002,Nam,Yên Bái,098707541,40000,Kỹ sư
+485,Trình,Lê Hồng,02/14/2002,Nữ,Đà Nẵng,093271788,10000,Lao động phổ thông
+486,Đồn,Nguyễn Hùng,01/01/1992,Nữ,Cần Thơ,098712699,9000,Nhân sự thử việc
+487,Nhâm,Ánh,03/04/1998,Nữ,Bình Thuận,098491994,15000,Nhân viên
+488,Doãn,Anh,01/13/1987,Nam,Phú Yên,094742232,10000,Lao động phổ thông
+489,Vũ,Nguyễn Lan,02/27/1987,Nam,Đồng Tháp,099350731,10000,Công nhân
+490,Ngụy,Nguyễn Thị,09/17/1986,Nữ,Hà Giang,095964039,10000,Công nhân
+491,Mạc,Lê Phương,06/28/1995,Khác,Hà Tĩnh,090128621,50000,Chuyên gia nước ngoài
+492,Hà,Quang,11/02/1996,Nữ,Thái Bình,099519380,50000,Chuyên gia nước ngoài
+493,Trà,Trần Lan,11/13/1988,Nam,Bình Dương,099238040,9000,Nhân sự thử việc
+494,Trương,Minh Tuấn,03/26/1985,Nữ,Hồ Chí Minh (TP. HCM),097128074,50000,Chuyên gia nước ngoài
+495,Tiêu,Nguyễn Kim,02/18/1994,Nữ,Lào Cai,092636946,50000,Chuyên gia nước ngoài
+496,Tăng,Mai,04/16/2001,Nam,Bạc Liêu,093466157,9000,Nhân sự thử việc
+497,Văn,Nguyễn Lan,11/25/1993,Nữ,An Giang,095156315,60000,Cán bộ quản lý
+498,Liêu,Trần Trang,12/23/1998,Nam,Hà Nam,097530186,10000,Lao động phổ thông
+499,Tô,Trần Trang,03/26/1993,Nữ,Vĩnh Long,097306461,9000,Người làm bán thời gian
+500,Nhan,Thị,07/07/2003,Nam,Ninh Bình,091892993,9000,Nhân sự thử việc
+501,Lục,Mai,09/22/1987,Khác,Bình Dương,097808349,9000,Nhân sự thử việc
+502,Huỳnh,Hoàng Nam,01/25/1996,Khác,Quảng Ninh,092536338,8000,Thực tập sinh
+503,Mạch,Nguyễn Trang,08/17/2001,Nữ,Khánh Hòa,093856868,60000,Cán bộ quản lý
+504,Tạ,Thanh,08/17/1995,Nữ,Quảng Bình,091402380,40000,Kỹ sư
+505,Tăng,Lê Mai,03/06/2001,Khác,Đồng Tháp,095625378,9000,Nhân sự thử việc
+506,Thất,Quang Minh,02/26/2001,Nam,Tây Ninh,091791423,15000,Nhân viên
+507,Trịnh,Nguyễn Hùng,06/07/1987,Khác,Bắc Kạn,094490637,50000,Chuyên gia nước ngoài
+508,Trương,Lan,05/30/2004,Nữ,An Giang,091264160,8000,Thực tập sinh
+509,Lại,Thị,07/15/1990,Khác,Hậu Giang,092138251,8000,Thực tập sinh
+510,Khưu,Lê Nam,10/17/1989,Khác,Kiên Giang,096896189,9000,Nhân sự thử việc
+511,Nhâm,Nguyễn Nam,02/07/1986,Khác,Hậu Giang,091284564,10000,Lao động phổ thông
+512,Tiêu,Quang,09/15/1992,Nữ,Trà Vinh,097365852,40000,Kỹ sư
+513,Trầm,Minh Tuấn,07/19/1998,Khác,Thanh Hóa,098927560,50000,Chuyên gia nước ngoài
+514,Biện,Trần Ánh,02/27/1987,Khác,Bình Dương,099044220,8000,Thực tập sinh
+515,Võ,Lan,06/06/1997,Nam,Hải Phòng,096048556,10000,Công nhân
+516,Thất,Minh Tuấn,08/15/1986,Khác,Cà Mau.,092718136,50000,Chuyên gia nước ngoài
+517,Phạm,Quang Minh,06/25/1991,Nữ,An Giang,095120122,8000,Thực tập sinh
+518,Lâm,Văn Anh,12/06/2001,Nữ,Hà Tĩnh,099096963,9000,Nhân sự thử việc
+519,Đặng,Trần Anh,10/20/2000,Khác,Sóc Trăng,095713924,60000,Cán bộ quản lý
+520,Trầm,Hoàng Nam,01/28/1985,Nữ,Trà Vinh,097216871,40000,Kỹ sư
+521,Đồn,Kim,06/02/1989,Nam,Phú Yên,095482602,9000,Người làm bán thời gian
+522,Viên,Thùy,10/26/2000,Nam,Bến Tre,099247155,15000,Nhân viên
+523,Trịnh,Thùy,02/25/2003,Nữ,Đà Nẵng,094457000,15000,Nhân viên
+524,Nhan,Nguyễn Anh,10/09/1987,Nữ,Đắk Lắk,090316918,50000,Chuyên gia nước ngoài
+525,Bạch,Hoàng Nam,03/02/1985,Nữ,Lạng Sơn,090433329,60000,Cán bộ quản lý
+526,Liêu,Nguyễn Thị,10/02/1988,Khác,Hải Phòng,091660494,10000,Lao động phổ thông
+527,Tôn,Lê Kim,11/14/1991,Khác,Hà Giang,091292851,9000,Nhân sự thử việc
+528,Bành,Thanh,05/12/1992,Khác,Gia Lai,098854119,10000,Lao động phổ thông
+529,Đặng,Nguyễn Hồng,01/05/1996,Khác,An Giang,094404202,10000,Công nhân
+530,Thi,Anh,12/25/1989,Nam,Đắk Nông,099000374,15000,Nhân viên
+531,Thái,Văn Đức,07/13/1994,Khác,Quảng Nam,094409942,10000,Công nhân
+532,Đàm,Trần Ánh,05/24/1994,Nữ,Kiên Giang,092834755,50000,Chuyên gia nước ngoài
+533,Bạch,Trần Trang,12/31/1994,Khác,Kiên Giang,096374099,8000,Thực tập sinh
+534,Lai,Minh Khánh,05/05/1998,Nữ,Quảng Trị,095247458,50000,Chuyên gia nước ngoài
+535,Trà,Trần Thị,11/24/1994,Khác,Vĩnh Long,092286616,9000,Người làm bán thời gian
+536,Thạch,Anh,07/28/1995,Khác,Khánh Hòa,096787483,15000,Nhân viên
+537,Sơn,Trang,05/04/1993,Nữ,Cao Bằng,094897441,60000,Cán bộ quản lý
+538,Trần,Trần Đức,03/10/1988,Khác,Bình Thuận,098896006,60000,Cán bộ quản lý
+539,Giang,Lê Mai,01/28/2004,Nam,Hòa Bình,095806665,8000,Thực tập sinh
+540,Dư,Dương Hùng,12/12/2002,Nam,Lâm Đồng,093566157,15000,Nhân viên
+541,Vương,Mai,08/12/1994,Nam,Bến Tre,090471442,10000,Công nhân
+542,Quách,Nguyễn Phương,11/27/1988,Khác,Ninh Thuận,099957852,60000,Cán bộ quản lý
+543,Mai,Nguyễn Thị,10/07/2000,Nữ,Bắc Ninh,098968627,9000,Nhân sự thử việc
+544,Tào,Dương Quốc,01/10/1998,Nam,Thái Nguyên,090326825,9000,Nhân sự thử việc
+545,Thạch,Minh,08/04/1994,Nữ,Vĩnh Long,095519947,8000,Thực tập sinh
+546,Mã,Hùng,10/28/1996,Nam,Nam Định,090341970,60000,Cán bộ quản lý
+547,Huỳnh,Mai,06/11/1989,Nữ,Hậu Giang,099197781,15000,Nhân viên
+548,Trương,Thanh Hương,11/02/1999,Nam,Bình Dương,097362418,9000,Người làm bán thời gian
+549,Lữ,Nguyễn Hồng,01/26/1985,Nữ,Quảng Bình,096063862,10000,Lao động phổ thông
+550,Lưu,Lan,01/05/1990,Nữ,An Giang,091859948,9000,Nhân sự thử việc
+551,Thiều,Nguyễn Thùy,04/03/1988,Khác,Hà Nam,090826759,9000,Nhân sự thử việc
+552,Lã,Kim,08/17/1998,Nam,Đà Nẵng,090461639,8000,Thực tập sinh
+553,Thất,Dương,11/24/1986,Nam,Sơn La,093520419,10000,Lao động phổ thông
+554,Kim,Phương,05/30/2001,Nữ,Hà Nội,092390804,10000,Lao động phổ thông
+555,Lục,Thanh Hương,01/18/1990,Khác,Cần Thơ,094191189,40000,Kỹ sư
+556,Sơn,Trang,12/25/1988,Khác,Gia Lai,097162930,10000,Công nhân
+557,Trầm,Tuấn,05/25/2003,Khác,Bắc Ninh,092899720,60000,Cán bộ quản lý
+558,Lã,Lê Nam,11/17/2001,Khác,Tây Ninh,098441415,60000,Cán bộ quản lý
+559,Hồn,Hoàng An,08/17/1994,Nam,Cao Bằng,096979308,8000,Thực tập sinh
+560,Chế,Hồng,06/10/1989,Khác,Lạng Sơn,098392875,40000,Kỹ sư
+561,Biện,Ánh,12/01/1997,Nam,Cần Thơ,095088157,9000,Nhân sự thử việc
+562,Hồn,Nguyễn Đức,11/05/1988,Nữ,Quảng Bình,091859948,15000,Nhân viên
+563,Hoàng,Dương,03/05/1987,Khác,Bình Thuận,099435584,15000,Nhân viên
+564,Đoàn,Minh Tuấn,08/22/1997,Nam,Hồ Chí Minh (TP. HCM),094352750,10000,Công nhân
+565,Tôn,Hoàng,11/14/1991,Nam,Thanh Hóa,093121742,8000,Thực tập sinh
+566,Ông,Hoàng Nam,09/03/2003,Khác,Bắc Giang,096030027,9000,Người làm bán thời gian
+567,Cù,Kim,05/09/2000,Khác,Sóc Trăng,099473229,9000,Nhân sự thử việc
+568,Khổng,Văn Đức,12/01/1988,Nam,Đắk Nông,094447639,60000,Cán bộ quản lý
+569,Vương,Thùy,09/26/1999,Nam,Cần Thơ,094296270,9000,Người làm bán thời gian
+570,Đi,Quang Huy,08/08/1989,Nữ,Quảng Nam,095690628,8000,Thực tập sinh
+571,Bành,Hồng,12/18/1995,Nữ,Hải Phòng,092099914,50000,Chuyên gia nước ngoài
+572,Thất,Dương Hùng,02/23/1992,Nam,Phú Yên,099624594,15000,Nhân viên
+573,Sơn,Quang,09/02/2002,Nữ,Tuyên Quang,091883876,60000,Cán bộ quản lý
+574,Tô,Văn,01/26/2002,Nam,Hải Phòng,094700934,9000,Người làm bán thời gian
+575,Giang,Nguyễn Kim,11/28/1992,Nam,Hồ Chí Minh (TP. HCM),093653071,50000,Chuyên gia nước ngoài
+576,Tô,Tuấn Anh,02/02/1991,Khác,Cần Thơ,093653071,60000,Cán bộ quản lý
+577,Mạch,Trần Hùng,12/09/1994,Nữ,Lai Châu,092753230,40000,Kỹ sư
+578,Thi,Tuấn Anh,02/18/1994,Nam,Quảng Ngãi,095648809,10000,Lao động phổ thông
+579,Đường,Văn Đức,08/25/2003,Khác,Tiền Giang,091430476,40000,Kỹ sư
+580,Tăng,Nguyễn Kim,09/19/2000,Nữ,Cao Bằng,095851228,60000,Cán bộ quản lý
+581,Phương,Lê Mai,12/17/1995,Nam,Bắc Ninh,094069863,9000,Nhân sự thử việc
+582,Vòng,Hoàng Nam,05/24/2000,Nam,Bình Dương,098174501,40000,Kỹ sư
+583,Thất,Trần Anh,07/09/1991,Nữ,Hà Nội,098652089,40000,Kỹ sư
+584,Hoàng,Tuấn Anh,01/13/1999,Khác,Cần Thơ,097903322,9000,Người làm bán thời gian
+585,Thân,Hùng,09/03/2004,Khác,Sơn La,099766791,60000,Cán bộ quản lý
+586,Nguyễn,Kim,12/17/1993,Khác,Cần Thơ,099021238,9000,Người làm bán thời gian
+587,Vi,Minh Tuấn,10/22/1993,Khác,Bắc Ninh,096030027,60000,Cán bộ quản lý
+588,Đi,Kim,08/28/1985,Nam,Cao Bằng,090032310,40000,Kỹ sư
+589,Vi,Nguyễn Hồng,12/03/1989,Nữ,Đà Nẵng,098320554,10000,Lao động phổ thông
+590,Phù,Trang,07/26/2000,Nam,Bến Tre,092371523,10000,Công nhân
+591,Lâm,Nguyễn Lan,01/11/1990,Nữ,Tuyên Quang,099552767,8000,Thực tập sinh
+592,Đi,Nguyễn Lan,06/28/2004,Nữ,Hà Nội,090433329,60000,Cán bộ quản lý
+593,Lữ,Nguyễn Đức,09/22/1992,Nam,Bạc Liêu,095867500,50000,Chuyên gia nước ngoài
+594,Đồn,Tuấn,07/08/1998,Nam,Quảng Nam,091747067,40000,Kỹ sư
+595,Châu,Thanh,07/19/1995,Nam,Hải Dương,099309068,10000,Công nhân
+596,Diệp,Nguyễn Phương,05/09/1987,Nam,Ninh Bình,097984419,8000,Thực tập sinh
+597,Viên,Nguyễn Hùng,09/23/1995,Nữ,Quảng Ninh,095297345,8000,Thực tập sinh
+598,Triệu,Nguyễn Hùng,09/12/2002,Nam,Ninh Thuận,094695464,10000,Công nhân
+599,Vi,Nguyễn Kim,07/18/2000,Khác,Phú Thọ,098128139,10000,Lao động phổ thông
+600,Bùi,Nguyễn Nam,03/23/1996,Nam,Lạng Sơn,092347375,10000,Công nhân
+601,Giang,Minh Khánh,04/06/1993,Nam,Hà Tĩnh,099587613,9000,Nhân sự thử việc
+602,Lâm,Quang,10/01/1987,Khác,Hậu Giang,097663964,10000,Lao động phổ thông
+603,Lưu,Văn Anh,07/01/1995,Nữ,Lạng Sơn,090646002,8000,Thực tập sinh
+604,Quách,Anh,12/20/1994,Nữ,Bắc Kạn,097409564,9000,Nhân sự thử việc
+605,Lai,Minh Khánh,12/27/1991,Khác,Thanh Hóa,090045732,15000,Nhân viên
+606,Mai,Nguyễn Anh,12/26/1993,Nữ,Cao Bằng,098883063,10000,Công nhân
+607,Lý,Nguyễn Mai,07/10/2004,Khác,Hà Giang,096416286,9000,Người làm bán thời gian
+608,Lục,Lê Hồng,10/24/1991,Khác,Bạc Liêu,096374099,60000,Cán bộ quản lý
+609,Khưu,Dương Hùng,04/07/2004,Nam,Hậu Giang,093121742,50000,Chuyên gia nước ngoài
+610,Thi,Lê Hồng,09/19/1986,Nữ,Lào Cai,094970992,50000,Chuyên gia nước ngoài
+611,Lại,Lê Hồng,07/14/2002,Nam,Hồ Chí Minh (TP. HCM),097285257,9000,Người làm bán thời gian
+612,Bạch,Minh Tuấn,08/12/1990,Khác,Đồng Tháp,095596369,10000,Lao động phổ thông
+613,Lý,Lê Nam,02/02/1990,Nam,Lâm Đồng,092347375,40000,Kỹ sư
+614,Kim,Nguyễn Hùng,06/01/1991,Khác,Sóc Trăng,099322485,9000,Người làm bán thời gian
+615,Nhan,Ánh,01/07/1985,Nam,Tuyên Quang,091106864,8000,Thực tập sinh
+616,Tôn,Thanh Hương,06/06/1994,Nữ,Vĩnh Long,091292851,9000,Người làm bán thời gian
+617,Hồn,Thanh,01/29/2001,Khác,Đồng Tháp,092278884,9000,Người làm bán thời gian
+618,Lã,Văn Anh,09/23/1998,Nam,Bình Dương,092758706,40000,Kỹ sư
+619,Tô,Lan,02/07/2001,Nam,Hậu Giang,096582325,60000,Cán bộ quản lý
+620,Vương,Lê Thùy,06/28/2000,Khác,Sóc Trăng,094104066,9000,Người làm bán thời gian
+621,Thất,Nguyễn Thị,05/08/1987,Nữ,Thừa Thiên Huế,093627949,50000,Chuyên gia nước ngoài
+622,Từ,Trần Đức,04/04/1989,Khác,Cần Thơ,095776605,15000,Nhân viên
+623,Ôn,,08/16/1995,Nam,Tiền Giang,092347375,40000,Kỹ sư
+624,Thi,Nguyễn Đức,08/30/1985,Khác,Hưng Yên,092577089,9000,Nhân sự thử việc
+625,Tất,Thanh,03/18/2001,Nam,Bắc Ninh,096576815,15000,Nhân viên
+626,Phương,Lê Mai,09/30/2004,Nữ,Đồng Nai,095118055,15000,Nhân viên
+627,Đồn,Nguyễn Ánh,11/28/1996,Nữ,Lai Châu,094615121,9000,Người làm bán thời gian
+628,Lục,Mai,01/07/2000,Nam,Thừa Thiên Huế,094349893,9000,Người làm bán thời gian
+629,Vương,Nguyễn Hồng,01/25/1996,Khác,Sơn La,094690456,50000,Chuyên gia nước ngoài
+630,Phù,Nguyễn Hồng,07/19/1995,Nữ,Hải Phòng,094229963,10000,Lao động phổ thông
+631,Vũ,Lê Nam,11/03/1985,Nam,Thanh Hóa,095141890,50000,Chuyên gia nước ngoài
+632,Thân,Nguyễn Lan,07/16/1993,Khác,Bình Phước,096644157,9000,Nhân sự thử việc
+633,Chu,Trần Thị,05/29/1986,Nữ,Hải Dương,093956323,50000,Chuyên gia nước ngoài
+634,Viên,Nguyễn Hùng,08/21/1996,Khác,Bình Dương,092220133,40000,Kỹ sư
+635,Cù,Hùng,11/05/1996,Nữ,Cần Thơ,092879052,10000,Lao động phổ thông
+636,Vi,Minh Khánh,03/12/1988,Khác,Đắk Lắk,094881829,60000,Cán bộ quản lý
+637,Lương,Phương,11/14/1988,Khác,Hồ Chí Minh (TP. HCM),092857787,40000,Kỹ sư
+638,Trịnh,Thanh Thảo,05/12/1994,Khác,Sóc Trăng,091188879,8000,Thực tập sinh
+639,Đoàn,Nguyễn Hùng,11/22/2004,Khác,Lào Cai,097836899,8000,Thực tập sinh
+640,Trương,Thị,02/09/2003,Nam,Vĩnh Long,097160129,9000,Nhân sự thử việc
+641,Lại,Anh,06/15/1988,Nam,Thái Bình,097444373,10000,Lao động phổ thông
+642,Trầm,Nguyễn Phương,07/07/1985,Nữ,Bình Phước,094854798,10000,Công nhân
+643,Lâm,Mai,02/19/1988,Nam,Bà Rịa - Vũng Tàu,098813717,10000,Lao động phổ thông
+644,Hoàng,Nguyễn Ánh,11/10/1986,Khác,Bến Tre,092364763,10000,Công nhân
+645,Nhan,Trần Hùng,11/07/2002,Nữ,Gia Lai,095635090,10000,Công nhân
+646,Tôn,Đức,11/19/1997,Nữ,Nghệ An,096239877,9000,Nhân sự thử việc
+647,Tăng,Thị,02/03/2002,Khác,Hà Giang,097197493,8000,Thực tập sinh
+648,Trịnh,Lê Thùy,10/16/1992,Khác,Bà Rịa - Vũng Tàu,092665957,60000,Cán bộ quản lý
+649,Vương,Nguyễn Mai,10/26/1986,Nữ,Vĩnh Phúc,097693004,9000,Nhân sự thử việc
+650,Âu,Trần Anh,07/09/2000,Nữ,Tây Ninh,090965513,10000,Công nhân
+651,Nguyễn,Trần Trang,02/01/1994,Khác,Cao Bằng,091402380,50000,Chuyên gia nước ngoài
+652,Trà,Trần Anh,06/14/1990,Nữ,Bắc Giang,094622529,15000,Nhân viên
+653,Tôn,Lê Mai,09/28/2000,Nữ,Thừa Thiên Huế,092531140,9000,Nhân sự thử việc
+654,Lại,Dương Hùng,11/18/1997,Nữ,Đắk Lắk,095497511,50000,Chuyên gia nước ngoài
+655,Thi,Lê Nam,01/24/1991,Khác,Cần Thơ,094638452,9000,Nhân sự thử việc
+656,Giang,Thanh Hương,04/16/2002,Nam,Bình Định,097325151,15000,Nhân viên
+657,Bùi,Tuấn Anh,03/28/1990,Nam,Bến Tre,097160129,10000,Lao động phổ thông
+658,Phạm,Nguyễn Thị,03/24/1988,Khác,Tuyên Quang,091115231,40000,Kỹ sư
+659,Tạ,Minh Khánh,10/24/1994,Nam,Hải Dương,097646921,10000,Công nhân
+660,Phạm,Tuấn Anh,12/06/2001,Nữ,Tiền Giang,090507359,60000,Cán bộ quản lý
+661,Nghiêm,Hoàng,11/07/1997,Nam,Ninh Bình,091717339,8000,Thực tập sinh
+662,Quách,Thanh Thảo,04/03/1992,Khác,Hà Nam,092848464,10000,Lao động phổ thông
+663,Thái,Nam,12/16/1989,Nữ,Cần Thơ,099373434,40000,Kỹ sư
+664,Cao,Anh,07/20/1991,Nữ,Đồng Tháp,094594051,40000,Kỹ sư
+665,Ngô,Hoàng,11/15/1990,Nam,Bắc Kạn,092220133,15000,Nhân viên
+666,Ninh,Hùng,06/22/1994,Nam,Cà Mau.,094268802,9000,Nhân sự thử việc
+667,Lữ,Trần Đức,05/16/2004,Nữ,Phú Thọ,099619131,60000,Cán bộ quản lý
+668,Quan,Lê Nam,12/19/1999,Khác,Tây Ninh,098627445,10000,Lao động phổ thông
+669,Bành,Tuấn Anh,07/05/1994,Nam,Đắk Lắk,098273377,9000,Nhân sự thử việc
+670,Đậu,Anh,07/20/1994,Nam,Phú Yên,091159646,40000,Kỹ sư
+671,Chế,Nguyễn Trang,04/01/1998,Nam,Bạc Liêu,091919235,50000,Chuyên gia nước ngoài
+672,Tôn,Nguyễn Mai,06/05/1996,Nữ,Bạc Liêu,092533583,10000,Công nhân
+673,Mai,Quang Minh,09/20/1992,Nữ,Ninh Bình,099422676,40000,Kỹ sư
+674,Lục,Nguyễn Thùy,03/06/1996,Nữ,Thái Bình,096794486,10000,Lao động phổ thông
+675,Lương,Lê Phương,04/19/1995,Nữ,Hà Nam,091631354,40000,Kỹ sư
+676,Lương,Nguyễn Hùng,07/26/2001,Khác,Tuyên Quang,090532925,10000,Công nhân
+677,Mạch,Nguyễn Nam,11/22/2001,Nữ,Đắk Lắk,094530594,10000,Công nhân
+678,Viên,Nguyễn Trang,02/11/1999,Nam,Đắk Lắk,090047484,10000,Công nhân
+679,Chu,Nguyễn Thị,05/09/1999,Khác,Quảng Trị,090818158,15000,Nhân viên
+680,Đàm,Nguyễn Thùy,03/11/1997,Khác,Hải Phòng,099949803,40000,Kỹ sư
+681,Sơn,Văn,05/08/1985,Nữ,Gia Lai,099305636,9000,Nhân sự thử việc
+682,Lâm,Quang Huy,02/15/2002,Nam,Hà Nam,090645248,9000,Nhân sự thử việc
+683,Ngô,Dương Hùng,11/28/1993,Khác,Ninh Bình,097068109,10000,Công nhân
+684,Thân,Anh,03/21/1995,Nam,Thái Nguyên,092731881,10000,Công nhân
+685,Trịnh,Trần Ánh,12/09/1991,Nữ,Trà Vinh,096505401,9000,Nhân sự thử việc
+686,Đậu,Nguyễn Lan,12/21/1996,Nam,Hải Phòng,096905544,8000,Thực tập sinh
+687,Mạch,Trang,05/23/1988,Khác,Tiền Giang,095886654,9000,Người làm bán thời gian
+688,Lại,Lê Kim,02/23/1990,Nữ,Nam Định,097446072,15000,Nhân viên
+689,Trịnh,Quang Minh,01/14/1987,Khác,Bến Tre,096946756,10000,Lao động phổ thông
+690,Bùi,Lê Thùy,07/17/1985,Khác,Hậu Giang,099764818,40000,Kỹ sư
+691,Quan,Thanh,08/11/1996,Khác,Hậu Giang,093381035,10000,Lao động phổ thông
+692,Diệp,Nguyễn Thùy,11/02/1988,Khác,Ninh Bình,099330163,40000,Kỹ sư
+693,Cù,Thị,09/19/1994,Khác,Đồng Nai,097088160,10000,Công nhân
+694,Bạch,Hoàng Nam,11/12/1993,Nữ,Lai Châu,093520419,50000,Chuyên gia nước ngoài
+695,Kim,Văn Anh,10/07/1985,Khác,Tuyên Quang,095752660,40000,Kỹ sư
+696,Quách,Văn Anh,06/19/1989,Khác,Khánh Hòa,096030027,50000,Chuyên gia nước ngoài
+697,Văn,Trần Trang,10/09/1988,Khác,Bà Rịa - Vũng Tàu,099667269,60000,Cán bộ quản lý
+698,Trịnh,Nguyễn Hồng,01/25/1992,Nam,Hà Tĩnh,090849606,9000,Nhân sự thử việc
+699,Dương,Mai,09/14/2003,Khác,Hòa Bình,099435584,15000,Nhân viên
+700,Lê,Nguyễn Kim,01/02/1996,Nam,Thừa Thiên Huế,098268454,8000,Thực tập sinh
+701,Cù,Trần Trang,07/02/2000,Nữ,Ninh Bình,093466157,40000,Kỹ sư
+702,Phùng,Minh Khánh,04/01/1994,Khác,Tây Ninh,092526795,15000,Nhân viên
+703,Đàm,Thanh Hương,07/13/2000,Khác,An Giang,092286971,9000,Nhân sự thử việc
+704,Diệp,Nguyễn Trang,07/17/2000,Nam,Đồng Tháp,099535604,9000,Người làm bán thời gian
+705,Nữ,Nguyễn Hồng,01/18/1991,Nữ,Yên Bái,098208671,10000,Công nhân
+706,Nguyễn,Nguyễn Mai,10/10/1988,Nam,Yên Bái,095379358,9000,Nhân sự thử việc
+707,Liêu,Văn Anh,09/21/2000,Khác,Hậu Giang,097533848,9000,Nhân sự thử việc
+708,Thiều,Dương Hùng,01/18/1990,Nam,Phú Yên,095008379,8000,Thực tập sinh
+709,Tạ,Văn Đức,10/09/2002,Nữ,Lâm Đồng,098896006,10000,Lao động phổ thông
+710,Hà,Nguyễn Phương,11/23/1985,Nam,Cà Mau.,092848464,50000,Chuyên gia nước ngoài
+711,Lương,Thanh,12/11/2003,Nữ,Quảng Ninh,092020998,8000,Thực tập sinh
+712,Viên,Nguyễn Anh,09/08/1989,Khác,Sóc Trăng,095648809,50000,Chuyên gia nước ngoài
+713,Ôn,Nguyễn Thùy,12/30/1988,Khác,Hồ Chí Minh (TP. HCM),091253344,9000,Người làm bán thời gian
+714,Hà,Lê Phương,07/07/1990,Nam,Tiền Giang,098160809,10000,Công nhân
+715,Đường,Lê Mai,11/10/2004,Nam,Kon Tum,093881429,10000,Lao động phổ thông
+716,Hứa,Trần Ánh,03/24/1988,Khác,Bến Tre,093885927,50000,Chuyên gia nước ngoài
+717,Mã,Dương,11/13/1988,Nữ,Hà Nam,098509517,10000,Lao động phổ thông
+718,Lý,Đức,01/17/1985,Khác,Tiền Giang,096977515,40000,Kỹ sư
+719,Cao,Hoàng Nam,10/22/1994,Khác,Ninh Thuận,098210239,50000,Chuyên gia nước ngoài
+720,Hứa,Thùy,02/04/1993,Khác,Hải Dương,098594362,60000,Cán bộ quản lý
+721,Bùi,Thanh Thảo,03/02/1993,Khác,Bà Rịa - Vũng Tàu,095661517,9000,Người làm bán thời gian
+722,Vũ,Quang Minh,02/13/1986,Khác,Kon Tum,096304514,40000,Kỹ sư
+723,Hà,Lê Hồng,08/27/1994,Nữ,Hồ Chí Minh (TP. HCM),091664426,50000,Chuyên gia nước ngoài
+724,Phù,Nguyễn Hùng,04/07/1996,Nam,Thái Nguyên,096644157,9000,Người làm bán thời gian
+725,Chế,Nguyễn Ánh,12/08/1995,Nữ,Cần Thơ,099984514,40000,Kỹ sư
+726,Tôn,Nam,04/03/1985,Khác,Đồng Tháp,097076336,10000,Lao động phổ thông
+727,Tống,Hoàng,05/20/2002,Khác,Bình Định,097757299,9000,Nhân sự thử việc
+728,Khổng,Lan,08/18/1997,Nam,Lai Châu,098303101,8000,Thực tập sinh
+729,Bạch,Văn,03/09/1996,Nam,Phú Thọ,099348200,60000,Cán bộ quản lý
+730,Chung,Trần Anh,09/03/1999,Khác,Phú Yên,094911208,50000,Chuyên gia nước ngoài
+731,Đi,Hoàng An,11/23/1994,Nam,Bạc Liêu,095569760,60000,Cán bộ quản lý
+732,Tôn,Nguyễn Anh,11/02/1995,Nữ,Phú Yên,096086023,15000,Nhân viên
+733,Vương,Hoàng Nam,09/04/1992,Nam,Hà Nội,098521150,40000,Kỹ sư
+734,Thạch,Phương,11/17/1989,Khác,Thái Nguyên,090692557,9000,Người làm bán thời gian
+735,Tống,Hoàng An,04/09/1991,Nam,Lạng Sơn,096296247,15000,Nhân viên
+736,Ngô,Lê Nam,01/03/2000,Khác,Quảng Bình,092862287,60000,Cán bộ quản lý
+737,Đậu,Lê Thùy,02/06/1986,Nữ,Nam Định,091175187,10000,Công nhân
+738,Bành,Tuấn,06/03/1997,Khác,Vĩnh Phúc,097345314,60000,Cán bộ quản lý
+739,Thiều,Minh Khánh,01/08/1985,Nữ,Thái Bình,093245579,15000,Nhân viên
+740,Lý,Nguyễn Kim,10/10/1989,Nữ,Bắc Ninh,094972042,9000,Nhân sự thử việc
+741,La,Trần Thị,10/28/1999,Nữ,Đắk Nông,097685183,60000,Cán bộ quản lý
+742,Lưu,Thanh Hương,07/05/2001,Nữ,Quảng Ngãi,093840228,50000,Chuyên gia nước ngoài
+743,Đi,Trần Thị,12/07/2004,Khác,Hà Nội,096285407,8000,Thực tập sinh
+744,Nghiêm,Thị,03/27/1998,Nữ,Yên Bái,095379358,9000,Nhân sự thử việc
+745,Nguyễn,Lan,10/29/1985,Nam,Kiên Giang,096926061,60000,Cán bộ quản lý
+746,Tôn,Lê Mai,05/19/1991,Khác,Nghệ An,093111961,9000,Người làm bán thời gian
+747,Vòng,Dương,01/03/1990,Nam,Cần Thơ,092899720,40000,Kỹ sư
+748,Hà,Tuấn,01/19/1992,Nữ,Tuyên Quang,098273377,15000,Nhân viên
+749,Kim,Mai,02/14/1986,Nam,Quảng Ngãi,094942462,15000,Nhân viên
+750,Ngô,Minh,10/12/1987,Khác,Thanh Hóa,096886420,10000,Công nhân
+751,Văn,Hùng,03/15/1999,Khác,Nam Định,097250000,60000,Cán bộ quản lý
+752,Thi,Hùng,12/10/2003,Khác,Bình Định,099174798,9000,Người làm bán thời gian
+753,Triệu,Trần Lan,09/21/2002,Khác,Cần Thơ,090851202,50000,Chuyên gia nước ngoài
+754,Châu,Minh Tuấn,02/15/1987,Nam,Bến Tre,095690628,40000,Kỹ sư
+755,Dư,Lê Mai,10/31/2003,Khác,Cần Thơ,095383420,8000,Thực tập sinh
+756,Võ,Nguyễn Đức,03/23/1992,Nữ,Thái Nguyên,099283121,10000,Công nhân
+757,Doãn,Mai,04/07/1988,Khác,Thái Nguyên,091175187,10000,Công nhân
+758,Nữ,Trần Thị,11/27/2004,Nam,Gia Lai,094025614,10000,Công nhân
+759,Nữ,Trần Đức,02/04/2000,Khác,Thái Nguyên,094366864,40000,Kỹ sư
+760,Hồ,Lê Nam,02/19/1996,Khác,Gia Lai,090947403,10000,Lao động phổ thông
+761,Quan,Văn,11/16/1987,Khác,Bắc Kạn,096030027,9000,Nhân sự thử việc
+762,Vòng,Lê Mai,09/25/1991,Nữ,Bình Dương,094897441,8000,Thực tập sinh
+763,Tô,Nguyễn Đức,06/30/1995,Nam,Quảng Nam,094366864,40000,Kỹ sư
+764,Tào,Văn,04/01/1995,Khác,Hưng Yên,093563227,10000,Lao động phổ thông
+765,Ông,Thùy,03/09/2003,Nam,Bến Tre,095199991,9000,Người làm bán thời gian
+766,Nghiêm,Nguyễn Kim,09/08/1992,Nam,Vĩnh Long,091043564,10000,Công nhân
+767,Tăng,Trần Ánh,02/22/1986,Khác,Cao Bằng,094396050,15000,Nhân viên
+768,Phù,Lê Kim,01/28/1999,Khác,Hải Phòng,095661517,8000,Thực tập sinh
+769,Từ,Trang,09/29/1988,Khác,Hà Tĩnh,094020080,9000,Nhân sự thử việc
+770,Quách,Dương Quốc,05/26/1986,Nữ,Bình Phước,092577089,10000,Lao động phổ thông
+771,Hàng,Nguyễn Lan,03/09/1990,Nữ,Hải Dương,095118055,10000,Lao động phổ thông
+772,Thi,Dương Quốc,03/04/1990,Nam,Yên Bái,091586655,8000,Thực tập sinh
+773,Doãn,Dương Hùng,11/27/1996,Nữ,Quảng Trị,095315618,15000,Nhân viên
+774,Chung,Quang,02/09/2004,Nữ,Ninh Thuận,090248707,9000,Người làm bán thời gian
+775,Biện,Văn Anh,11/10/1993,Khác,Bạc Liêu,097102080,10000,Lao động phổ thông
+776,Thiều,Trần Đức,05/24/1990,Khác,Khánh Hòa,092020998,40000,Kỹ sư
+777,Mạc,Quang Minh,10/30/2000,Nữ,Khánh Hòa,099330163,8000,Thực tập sinh
+778,Hoàng,Trần Trang,08/16/2000,Nữ,Đồng Nai,099243301,50000,Chuyên gia nước ngoài
+779,Khưu,Mai,12/24/2003,Nữ,Cần Thơ,097409564,8000,Thực tập sinh
+780,Văn,Lan,12/25/1990,Nam,Bình Dương,090170297,50000,Chuyên gia nước ngoài
+781,Nhan,Thanh Thảo,06/08/1988,Nam,Phú Yên,096886656,40000,Kỹ sư
+782,Lâm,Quang Minh,02/01/1985,Nam,Quảng Nam,092410822,9000,Nhân sự thử việc
+783,Tào,Nguyễn Nam,06/21/2001,Nam,Hải Dương,096296247,10000,Công nhân
+784,Diệp,Trần Lan,05/09/1997,Nữ,Khánh Hòa,096846375,8000,Thực tập sinh
+785,Tạ,Nguyễn Kim,03/26/2002,Khác,Hậu Giang,093668339,8000,Thực tập sinh
+786,Thiều,Nguyễn Thị,01/14/2002,Khác,Cà Mau.,095938993,8000,Thực tập sinh
+787,Lã,Văn Đức,11/28/2002,Nữ,Hà Giang,099334468,9000,Nhân sự thử việc
+788,Đoàn,Quang Minh,09/06/1985,Nam,Cao Bằng,092278884,15000,Nhân viên
+789,Quách,Tuấn,05/05/1998,Nam,Bắc Kạn,098519607,10000,Công nhân
+790,Vòng,Quang Minh,02/21/1998,Nam,Bình Định,090679417,15000,Nhân viên
+791,Đồn,Minh Khánh,07/02/1998,Nam,Nghệ An,096108256,10000,Công nhân
+792,Tạ,Phương,02/06/1988,Nam,Đắk Lắk,097448201,15000,Nhân viên
+793,Thạch,Nam,07/15/1996,Khác,Ninh Thuận,095765318,50000,Chuyên gia nước ngoài
+794,Kiều,Trần Đức,05/06/2003,Nam,Lạng Sơn,092624736,60000,Cán bộ quản lý
+795,Quan,Kim,10/10/1989,Nam,Nam Định,096170316,40000,Kỹ sư
+796,Đặng,Trần Thị,09/19/1985,Khác,Hải Phòng,094141076,10000,Lao động phổ thông
+797,Nhan,Lê Thùy,01/10/1991,Nữ,Thái Bình,097409564,50000,Chuyên gia nước ngoài
+798,Lương,Thanh,10/10/1992,Khác,Yên Bái,097997449,15000,Nhân viên
+799,Nghiêm,Trần Ánh,11/23/1998,Nam,Gia Lai,094510177,40000,Kỹ sư
+800,Quách,Nam,07/06/1994,Nữ,Hải Phòng,096000613,10000,Lao động phổ thông
+801,Quan,Thùy,02/18/1989,Nam,Đồng Nai,093627949,8000,Thực tập sinh
+802,Nhan,Trần Anh,06/27/1994,Khác,Hải Phòng,095656444,10000,Lao động phổ thông
+803,Viên,Nguyễn Ánh,12/08/2003,Nam,Ninh Bình,091967822,60000,Cán bộ quản lý
+804,Chung,Nguyễn Anh,11/07/1993,Nam,Cao Bằng,094406746,10000,Công nhân
+805,Kiều,Trần Hùng,04/28/1993,Nữ,Hải Dương,094774891,10000,Công nhân
+806,Đồn,Nguyễn Ánh,08/13/1993,Khác,Lào Cai,094044905,10000,Công nhân
+807,Bùi,Dương Quốc,11/30/1998,Nam,Quảng Nam,090630941,9000,Người làm bán thời gian
+808,Vi,Anh,05/24/2000,Nữ,Trà Vinh,096941991,9000,Nhân sự thử việc
+809,Phan,Nguyễn Thùy,11/04/1990,Khác,Cao Bằng,097077246,60000,Cán bộ quản lý
+810,Nghiêm,Kim,04/29/2002,Khác,Thái Bình,098681044,10000,Công nhân
+811,Đồn,Thùy,07/28/2004,Nam,Bắc Kạn,093765443,9000,Người làm bán thời gian
+812,Mạc,Dương Hùng,11/15/1993,Nữ,Bình Thuận,090011930,8000,Thực tập sinh
+813,Mai,Thanh,10/08/1995,Nam,Quảng Nam,093485779,50000,Chuyên gia nước ngoài
+814,Lâm,Trần Anh,02/03/2004,Nam,Kon Tum,092015661,40000,Kỹ sư
+815,Thạch,Đức,03/28/1999,Khác,Cần Thơ,099435584,15000,Nhân viên
+816,Bạch,Nguyễn Nam,10/03/1986,Nam,Vĩnh Phúc,094406746,50000,Chuyên gia nước ngoài
+817,Nhan,Thùy,11/06/1987,Nam,Lai Châu,097102080,10000,Lao động phổ thông
+818,Ninh,Minh Tuấn,01/12/1994,Khác,Thanh Hóa,090810281,10000,Lao động phổ thông
+819,Đi,Minh,06/23/1996,Nữ,Bến Tre,090329518,60000,Cán bộ quản lý
+820,Thạch,Lê Kim,02/22/1997,Nữ,Sóc Trăng,094695464,50000,Chuyên gia nước ngoài
+821,Đồn,Minh Khánh,01/24/1991,Nam,Hậu Giang,091175187,8000,Thực tập sinh
+822,Lữ,Thanh Thảo,02/02/2003,Nữ,Đồng Tháp,097004236,10000,Lao động phổ thông
+823,Tôn,Hùng,06/18/2003,Nam,Hải Phòng,092289654,40000,Kỹ sư
+824,Đường,Nguyễn Đức,09/29/2001,Nam,Hải Dương,097808349,40000,Kỹ sư
+825,Đường,Trần Ánh,05/19/1987,Nam,Vĩnh Long,098498892,50000,Chuyên gia nước ngoài
+826,Tiêu,Dương Hùng,03/13/1995,Nam,Hà Giang,091685672,8000,Thực tập sinh
+827,Vòng,Nam,12/27/1999,Nam,Quảng Trị,090238343,40000,Kỹ sư
+828,La,Phương,01/28/1997,Nữ,Phú Thọ,099683737,10000,Lao động phổ thông
+829,Hồ,Đức,05/14/1986,Nam,Lạng Sơn,095545782,15000,Nhân viên
+830,Bành,Nam,11/24/1991,Nữ,Hà Giang,093909374,40000,Kỹ sư
+831,Phương,Trần Thị,12/13/1998,Nữ,Tuyên Quang,095973344,10000,Lao động phổ thông
+832,Đoàn,Minh,02/13/1999,Khác,Khánh Hòa,090261172,10000,Lao động phổ thông
+833,Đi,Hoàng An,01/14/2000,Nữ,Tiền Giang,098513733,60000,Cán bộ quản lý
+834,Mã,Nguyễn Phương,11/29/1988,Khác,Thái Bình,099610092,50000,Chuyên gia nước ngoài
+835,Từ,Trần Lan,02/27/1996,Khác,Kon Tum,097076336,10000,Lao động phổ thông
+836,Diệp,Thanh Thảo,03/29/1993,Khác,Hòa Bình,096840105,8000,Thực tập sinh
+837,Phương,Văn Anh,08/12/1996,Nam,Bắc Giang,097344939,9000,Người làm bán thời gian
+838,Đàm,Hoàng,07/19/1985,Nữ,Bà Rịa - Vũng Tàu,090578781,40000,Kỹ sư
+839,Mạch,Ánh,12/01/1989,Nữ,Thái Bình,096086023,10000,Công nhân
+840,Thạch,Nguyễn Hồng,11/11/2000,Nữ,Lai Châu,098346123,50000,Chuyên gia nước ngoài
+841,Thân,Minh Tuấn,03/08/2000,Khác,Đồng Nai,096063381,15000,Nhân viên
+842,Chu,Minh Tuấn,05/14/1993,Nam,Kon Tum,092593185,40000,Kỹ sư
+843,Tôn,Trần Trang,05/18/1995,Nữ,Lạng Sơn,097359915,15000,Nhân viên
+844,Mã,Trang,05/06/2002,Nữ,Hưng Yên,090023696,50000,Chuyên gia nước ngoài
+845,Đường,Trần Trang,12/22/2003,Khác,An Giang,099123374,10000,Lao động phổ thông
+846,Nhan,Nguyễn Trang,08/16/1985,Nam,Bình Định,096304514,60000,Cán bộ quản lý
+847,Viên,Lê Phương,07/12/1986,Nam,Bắc Giang,099267447,15000,Nhân viên
+848,Chu,Lê Kim,01/13/1992,Nam,Tây Ninh,091526998,9000,Nhân sự thử việc
+849,Nghiêm,Thanh Thảo,01/10/1990,Nữ,Hưng Yên,099633993,15000,Nhân viên
+850,Tôn,Đức,02/20/1988,Nữ,Cao Bằng,096840105,40000,Kỹ sư
+851,Phù,Kim,02/06/1985,Khác,Bình Phước,090433329,60000,Cán bộ quản lý
+852,Đồn,Đức,08/06/1993,Nam,Đắk Lắk,095596369,9000,Nhân sự thử việc
+853,Huỳnh,Hùng,01/21/1994,Nữ,Tây Ninh,099333042,10000,Lao động phổ thông
+854,Ôn,Thùy,09/12/1996,Khác,Lai Châu,095517199,60000,Cán bộ quản lý
+855,Đàm,Văn Anh,08/14/1996,Nam,Cần Thơ,099261032,60000,Cán bộ quản lý
+856,Tôn,Dương Hùng,08/18/1993,Nữ,Ninh Thuận,091917762,9000,Nhân sự thử việc
+857,Từ,Ánh,05/06/2000,Nữ,Quảng Nam,090063827,10000,Lao động phổ thông
+858,Tôn,Nguyễn Thùy,01/21/1993,Nữ,Vĩnh Long,095481149,40000,Kỹ sư
+859,Lưu,Hồng,05/18/1995,Nam,Bắc Giang,090326825,15000,Nhân viên
+860,Chung,Nguyễn Mai,06/20/1992,Nữ,Thái Nguyên,091854058,60000,Cán bộ quản lý
+861,Thiều,Anh,07/13/2000,Nữ,Kon Tum,097419127,9000,Nhân sự thử việc
+862,Hoàng,Nguyễn Trang,09/18/1985,Khác,Bà Rịa - Vũng Tàu,099683737,10000,Lao động phổ thông
+863,Bành,Hoàng An,04/08/1989,Nam,Hải Phòng,098129987,10000,Công nhân
+864,Mạch,Nguyễn Thùy,05/19/1991,Khác,Bình Phước,097862050,10000,Công nhân
+865,Văn,Ánh,03/02/1999,Nữ,Nghệ An,091615298,10000,Công nhân
+866,Tôn,Nguyễn Hồng,10/26/2004,Nữ,Quảng Ninh,093629207,10000,Lao động phổ thông
+867,Ninh,Nguyễn Đức,06/18/1995,Nam,Bạc Liêu,095765318,10000,Công nhân
+868,Đồn,Nguyễn Phương,10/23/1997,Nữ,Trà Vinh,092015661,10000,Công nhân
+869,Ngô,Hoàng An,11/03/1999,Khác,Nghệ An,095867500,8000,Thực tập sinh
+870,Tô,Trần Thị,07/11/1995,Nam,Khánh Hòa,093786582,60000,Cán bộ quản lý
+871,Vi,Đức,01/02/1987,Khác,Thanh Hóa,091188879,15000,Nhân viên
+872,Phạm,Dương,07/04/2000,Khác,Khánh Hòa,094822221,15000,Nhân viên
+873,Tất,Nguyễn Kim,09/20/2002,Khác,Khánh Hòa,095965488,10000,Công nhân
+874,Phan,Quang Huy,02/15/2000,Nữ,Cà Mau.,091417830,40000,Kỹ sư
+875,Thi,Văn,11/17/1999,Nam,Quảng Nam,095261903,10000,Lao động phổ thông
+876,Dương,Quang,01/29/1995,Nam,Quảng Trị,097070251,40000,Kỹ sư
+877,Sơn,Nguyễn Anh,06/24/1986,Nữ,Bình Định,092370707,9000,Người làm bán thời gian
+878,Đậu,Nguyễn Phương,06/21/1997,Nam,Hậu Giang,095567671,40000,Kỹ sư
+879,Ông,Hùng,05/28/1989,Nam,Bà Rịa - Vũng Tàu,095482602,40000,Kỹ sư
+880,Văn,Lê Phương,11/17/1997,Khác,Khánh Hòa,099498041,50000,Chuyên gia nước ngoài
+881,Nghiêm,Thùy,12/17/1997,Nữ,Phú Yên,098080240,40000,Kỹ sư
+882,Vi,Nguyễn Kim,04/15/2002,Khác,Quảng Ninh,095383420,10000,Công nhân
+883,Từ,Dương,04/18/2003,Khác,Quảng Trị,090841932,10000,Lao động phổ thông
+884,Kiều,Nguyễn Thị,01/07/1998,Khác,Hậu Giang,097702477,40000,Kỹ sư
+885,Diệp,Thanh Thảo,11/01/1985,Khác,Nghệ An,096415018,10000,Công nhân
+886,Lê,Văn Đức,02/09/1994,Nam,Tiền Giang,097682149,15000,Nhân viên
+887,Thân,Nguyễn Trang,07/08/1987,Nam,Hòa Bình,092220133,50000,Chuyên gia nước ngoài
+888,Lương,Tuấn,05/01/1985,Nam,Phú Thọ,091172507,50000,Chuyên gia nước ngoài
+889,Tạ,Lan,03/13/1986,Nam,Bắc Kạn,091572235,15000,Nhân viên
+890,Khưu,Trần Thị,06/15/2002,Nam,Bình Phước,092211558,15000,Nhân viên
+891,Dương,Nguyễn Thùy,01/06/1993,Khác,Quảng Ngãi,096562145,9000,Người làm bán thời gian
+892,Bành,Nguyễn Anh,09/16/1999,Nam,Quảng Bình,090324475,50000,Chuyên gia nước ngoài
+893,Vũ,Kim,09/17/1996,Khác,Bạc Liêu,098521150,10000,Lao động phổ thông
+894,Lai,Tuấn Anh,11/19/1999,Khác,Quảng Ninh,091572235,10000,Lao động phổ thông
+895,Thạch,Lê Phương,07/28/1995,Khác,Bình Phước,099756249,50000,Chuyên gia nước ngoài
+896,Lục,Thanh Thảo,12/14/1993,Nam,Cao Bằng,099984514,8000,Thực tập sinh
+897,Tống,Trần Đức,07/30/1991,Nữ,Ninh Bình,090834260,8000,Thực tập sinh
+898,Lưu,Dương Quốc,08/27/1993,Nam,Bắc Giang,099241804,15000,Nhân viên
+899,Võ,Thanh,10/02/1995,Nữ,Bình Dương,094970992,10000,Lao động phổ thông
+900,Tất,Quang Huy,01/15/1998,Khác,Đồng Tháp,094672521,10000,Công nhân
+901,Hứa,Trần Trang,03/16/2002,Nam,Tuyên Quang,094377387,60000,Cán bộ quản lý
+902,Biện,Nguyễn Mai,03/30/1993,Khác,Long An,093399772,9000,Nhân sự thử việc
+903,Lương,Văn,10/12/1990,Nam,Thừa Thiên Huế,090841932,60000,Cán bộ quản lý
+904,Lưu,Nguyễn Kim,09/16/2001,Nữ,Long An,095949031,8000,Thực tập sinh
+905,Vi,Nguyễn Ánh,07/17/2003,Nam,Quảng Ninh,099713960,15000,Nhân viên
+906,Hà,Dương Quốc,07/09/1986,Nam,Kiên Giang,099559174,50000,Chuyên gia nước ngoài
+907,Nhan,Lê Nam,05/06/1999,Khác,Tây Ninh,090868975,10000,Lao động phổ thông
+908,Chế,Dương Hùng,08/06/2001,Khác,Tiền Giang,099208297,15000,Nhân viên
+909,Giang,Hoàng An,09/16/1996,Nữ,Sơn La,093956323,60000,Cán bộ quản lý
+910,Lâm,Trần Hùng,01/06/2003,Nam,Trà Vinh,093554635,15000,Nhân viên
+911,Nghiêm,Hoàng Nam,05/01/1988,Nam,Hưng Yên,097102080,50000,Chuyên gia nước ngoài
+912,Thất,Trần Ánh,07/20/1985,Khác,Gia Lai,098129987,15000,Nhân viên
+913,Trà,Trần Anh,04/28/1993,Nam,Quảng Nam,091436850,9000,Nhân sự thử việc
+914,Đỗ,Trần Anh,11/05/2004,Khác,Quảng Ninh,090941314,40000,Kỹ sư
+915,Đặng,Trần Thị,07/03/1995,Khác,Nam Định,094539741,60000,Cán bộ quản lý
+916,Ông,Nguyễn Ánh,03/16/1999,Khác,Đắk Nông,091618327,15000,Nhân viên
+917,Âu,Trần Lan,12/28/2000,Nam,Bạc Liêu,090378106,60000,Cán bộ quản lý
+918,Lai,Nguyễn Đức,07/13/2004,Nữ,Nam Định,095179173,9000,Người làm bán thời gian
+919,Hồ,Lan,05/01/2004,Khác,Cao Bằng,092156810,60000,Cán bộ quản lý
+920,Nhâm,Văn,09/12/1991,Nam,Đắk Nông,097312523,8000,Thực tập sinh
+921,Đặng,Nguyễn Hồng,11/03/1989,Nữ,Quảng Bình,090032310,10000,Lao động phổ thông
+922,Huỳnh,Nguyễn Anh,08/03/1992,Nữ,Đồng Tháp,095120122,40000,Kỹ sư
+923,La,Hoàng Nam,10/23/1990,Nam,Hà Nam,092156810,8000,Thực tập sinh
+924,Hàng,Thị,12/14/1999,Nam,An Giang,091337595,9000,Người làm bán thời gian
+925,Chế,Lê Phương,10/28/1997,Khác,Ninh Thuận,094972042,50000,Chuyên gia nước ngoài
+926,Văn,Dương Hùng,12/24/1994,Khác,Tuyên Quang,093467582,60000,Cán bộ quản lý
+927,Trầm,Nguyễn Anh,11/18/1992,Khác,Bình Dương,090940873,15000,Nhân viên
+928,Đồn,Trần Đức,10/06/2004,Nam,Đà Nẵng,092674639,9000,Người làm bán thời gian
+929,Tào,Văn,04/18/2001,Nữ,Long An,091308506,10000,Công nhân
+930,Cao,Văn Anh,11/28/1991,Nam,Vĩnh Long,091847627,9000,Người làm bán thời gian
+931,Mã,Hoàng,11/27/1987,Nữ,Tiền Giang,096794486,60000,Cán bộ quản lý
+932,Hứa,Anh,06/03/1991,Khác,Lạng Sơn,095359319,50000,Chuyên gia nước ngoài
+933,Tống,Thanh Thảo,07/22/2003,Khác,Quảng Trị,094172918,60000,Cán bộ quản lý
+934,Ngô,Nguyễn Phương,11/20/1991,Nữ,Bình Định,093204674,40000,Kỹ sư
+935,Đậu,Lê Kim,08/27/2004,Khác,Vĩnh Phúc,095734907,10000,Lao động phổ thông
+936,Thất,Nguyễn Ánh,07/09/1998,Nữ,Kiên Giang,094645072,9000,Nhân sự thử việc
+937,Đặng,Mai,08/16/1988,Khác,Cần Thơ,091859948,15000,Nhân viên
+938,La,Văn,01/09/1998,Nữ,Kon Tum,090096937,10000,Lao động phổ thông
+939,Phương,Trần Hùng,08/01/2001,Khác,Thừa Thiên Huế,098097446,8000,Thực tập sinh
+940,Đoàn,Nguyễn Ánh,08/09/1997,Nam,Bắc Ninh,091233277,60000,Cán bộ quản lý
+941,Ông,Văn,11/15/1994,Khác,Vĩnh Phúc,095348194,15000,Nhân viên
+942,Khổng,Nam,02/07/1993,Nữ,Hà Giang,099126398,10000,Lao động phổ thông
+943,Ngô,Hùng,12/27/2003,Nữ,Tây Ninh,099348200,10000,Lao động phổ thông
+944,Bùi,Nguyễn Mai,03/01/1986,Nam,Hà Tĩnh,096842168,60000,Cán bộ quản lý
+945,Doãn,Dương Hùng,08/04/1987,Khác,Yên Bái,092551907,50000,Chuyên gia nước ngoài
+946,Huỳnh,Nguyễn Kim,10/24/2004,Nữ,Thái Bình,097076336,40000,Kỹ sư
+947,Hoàng,Thanh Hương,02/10/2000,Nam,Phú Yên,090324475,10000,Công nhân
+948,Chung,Lê Kim,09/19/1989,Nữ,Cần Thơ,090667489,10000,Công nhân
+949,Phù,Thanh Thảo,02/07/2002,Nam,Vĩnh Phúc,097160129,10000,Lao động phổ thông
+950,Thái,Trần Trang,07/17/1990,Nam,Hồ Chí Minh (TP. HCM),099683737,10000,Công nhân
+951,Đoàn,Hồng,04/02/1993,Nữ,Hưng Yên,099473229,15000,Nhân viên
+952,Lương,Trần Thị,01/21/2000,Nữ,Kon Tum,099121679,10000,Công nhân
+953,Ông,Trần Hùng,10/23/1993,Khác,Quảng Trị,092218290,10000,Công nhân
+954,Tô,Nguyễn Hồng,03/11/1997,Khác,Quảng Trị,098155479,10000,Lao động phổ thông
+955,Nguyễn,Nguyễn Lan,10/29/2001,Nữ,Bắc Kạn,091169909,10000,Công nhân
+956,Văn,Nguyễn Hồng,01/30/1999,Khác,Hòa Bình,091854058,8000,Thực tập sinh
+957,Thiều,Nguyễn Thị,05/08/1988,Nam,Thái Bình,097095524,9000,Người làm bán thời gian
+958,Hàng,Phương,09/23/1989,Nam,Hồ Chí Minh (TP. HCM),097476644,40000,Kỹ sư
+959,Hàng,Nguyễn Nam,12/12/1991,Khác,Đắk Nông,097748913,9000,Nhân sự thử việc
+960,Phù,Trần Thị,10/13/1991,Nữ,Đà Nẵng,098796138,9000,Người làm bán thời gian
+961,Tiêu,Trần Anh,02/22/2003,Khác,Yên Bái,095297345,10000,Lao động phổ thông
+962,Tôn,Anh,06/07/1992,Nữ,Bắc Ninh,096979308,9000,Nhân sự thử việc
+963,Chung,Hoàng Nam,11/01/1992,Nữ,Phú Thọ,093520419,9000,Nhân sự thử việc
+964,Đỗ,Nguyễn Thùy,03/29/1987,Nam,Lâm Đồng,099301680,9000,Nhân sự thử việc
+965,Lý,Lê Kim,03/08/2002,Nam,Quảng Bình,091309585,50000,Chuyên gia nước ngoài
+966,Đường,Trần Hùng,09/21/1986,Nam,Hòa Bình,093579671,50000,Chuyên gia nước ngoài
+967,Ngô,Nguyễn Kim,09/05/1997,Khác,Vĩnh Phúc,096580888,10000,Lao động phổ thông
+968,Kim,Kim,11/21/2000,Nam,Long An,091042858,8000,Thực tập sinh
+969,Diệp,Nguyễn Trang,03/11/1989,Khác,Gia Lai,094912242,40000,Kỹ sư
+970,Thái,Lê Phương,10/13/1995,Khác,Yên Bái,098036733,60000,Cán bộ quản lý
+971,Cù,Quang Minh,11/20/1993,Nữ,Lào Cai,097015218,50000,Chuyên gia nước ngoài
+972,Doãn,Nguyễn Thùy,09/06/1986,Khác,Đà Nẵng,092938599,9000,Nhân sự thử việc
+973,Đồn,Dương,11/05/1991,Nữ,Đắk Lắk,096359179,40000,Kỹ sư
+974,Mạc,Nguyễn Hùng,10/13/1997,Nữ,Hưng Yên,098474033,9000,Nhân sự thử việc
+975,Âu,Phương,10/24/1991,Khác,Hòa Bình,094328299,50000,Chuyên gia nước ngoài
+976,Thất,Nguyễn Lan,05/17/2004,Khác,Bắc Giang,091579529,40000,Kỹ sư
+977,Cao,Minh Khánh,08/23/2004,Nữ,Lai Châu,095929108,10000,Công nhân
+978,Lâm,Tuấn,05/09/1992,Nam,Lâm Đồng,097859442,8000,Thực tập sinh
+979,Đặng,Trần Lan,12/31/1987,Nam,Đồng Nai,097560575,40000,Kỹ sư
+980,Viên,Lê Thùy,01/22/1993,Nữ,Ninh Thuận,090969525,10000,Lao động phổ thông
+981,Sơn,Lê Kim,06/18/1990,Khác,Bình Dương,094097128,10000,Lao động phổ thông
+982,Triệu,Ánh,02/25/1987,Nữ,Bến Tre,091327912,60000,Cán bộ quản lý
+983,Hồ,Mai,05/01/1989,Khác,Nghệ An,092735630,40000,Kỹ sư
+984,Trịnh,Nguyễn Nam,01/16/1992,Nữ,Bình Định,098334555,60000,Cán bộ quản lý
+985,Trương,Đức,09/27/1991,Khác,Yên Bái,099448744,10000,Lao động phổ thông
+986,Đường,Minh Tuấn,09/26/1986,Khác,Sơn La,095247458,9000,Nhân sự thử việc
+987,Bùi,,10/10/1992,Nam,Quảng Ngãi,094647516,40000,Kỹ sư
+988,Thân,Đức,09/11/2002,Nam,Cao Bằng,095403707,40000,Kỹ sư
+989,Tạ,Nguyễn Kim,07/28/1995,Khác,Hà Giang,091883876,10000,Lao động phổ thông
+990,Hồn,Nguyễn Ánh,07/30/1990,Nữ,Đồng Nai,099103285,9000,Nhân sự thử việc
+991,Ngô,,04/14/2000,Nam,Bình Phước,098813717,9000,Nhân sự thử việc
+992,Võ,Nguyễn Anh,10/08/1987,Nam,Đà Nẵng,098526643,10000,Công nhân
+993,Vi,Quang Huy,07/13/1988,Khác,Quảng Nam,093561123,9000,Nhân sự thử việc
+994,Vòng,Nguyễn Nam,05/09/2000,Nam,Trà Vinh,096880860,60000,Cán bộ quản lý
+995,Tào,Lê Phương,05/22/2004,Nữ,Sóc Trăng,098712699,9000,Nhân sự thử việc
+996,Thất,Lê Nam,04/16/1986,Nữ,Hà Nội,091115231,15000,Nhân viên
+997,Huỳnh,Trần Anh,07/22/1997,Khác,Vĩnh Phúc,092536338,9000,Nhân sự thử việc
+998,Nữ,Lê Nam,12/23/2000,Nữ,Thái Nguyên,095352822,10000,Lao động phổ thông
+999,Lục,Lê Hồng,02/14/2004,Nữ,Quảng Ngãi,095118055,15000,Nhân viên
+1000,Giang,Lê Nam,01/11/1993,Khác,Thừa Thiên Huế,091642463,9000,Nhân sự thử việc
+1001,Ôn,Văn,03/07/1995,Nữ,Ninh Thuận,094447639,10000,Công nhân
+1002,Triệu,Dương Quốc,03/17/1995,Khác,Tây Ninh,096992065,50000,Chuyên gia nước ngoài
+1003,Vương,Nguyễn Phương,02/03/1990,Nữ,Hà Nam,092105911,9000,Nhân sự thử việc
+1004,Trà,,09/12/1987,Khác,Thái Nguyên,093786582,60000,Cán bộ quản lý
+1005,Lê,Minh Khánh,03/07/1999,Nam,Bạc Liêu,094415074,50000,Chuyên gia nước ngoài
+1006,Thái,Hoàng An,08/18/1999,Khác,Sóc Trăng,097419127,8000,Thực tập sinh
+1007,Sơn,Hoàng An,04/29/2002,Khác,Bình Định,095481149,10000,Công nhân
+1008,Trầm,Văn Anh,09/02/1994,Nữ,Quảng Ngãi,098716151,8000,Thực tập sinh
+1009,Ngụy,Tuấn Anh,11/15/2004,Khác,Ninh Thuận,096048556,15000,Nhân viên
+1010,Hồn,Thanh Hương,10/30/2003,Nam,Lai Châu,092371523,10000,Lao động phổ thông
+1011,Khổng,Phương,01/23/1996,Nữ,Hải Dương,095734907,10000,Công nhân
+1012,Văn,Nguyễn Trang,05/22/1993,Khác,Thái Nguyên,095383420,10000,Lao động phổ thông
+1013,Tôn,Nguyễn Hùng,10/02/1996,Nam,Bình Định,099385797,8000,Thực tập sinh
+1014,Thân,Quang Minh,07/06/1990,Khác,Bình Dương,096928659,9000,Nhân sự thử việc
+1015,Lã,Thanh Thảo,08/11/1992,Khác,Cần Thơ,094845758,10000,Công nhân
+1016,Nguyễn,,10/08/2003,Khác,Hòa Bình,096415018,15000,Nhân viên
+1017,Bùi,Quang Huy,01/18/1998,Nữ,Tiền Giang,097285257,10000,Công nhân
+1018,Nguyễn,Ánh,06/22/1996,Nữ,Bình Dương,095410369,10000,Lao động phổ thông
+1019,Giang,Nguyễn Anh,04/01/1990,Khác,Bắc Kạn,090868975,10000,Lao động phổ thông
+1020,Vũ,Thanh Hương,03/17/1992,Khác,Quảng Ngãi,095635090,10000,Công nhân
+1021,Trình,Nguyễn Mai,05/12/1991,Nữ,Thái Bình,095297345,50000,Chuyên gia nước ngoài
+1022,Lại,Nguyễn Đức,06/16/1989,Khác,Bình Phước,098491994,10000,Công nhân
+1023,Dư,Lan,01/10/1993,Khác,Bắc Giang,096076037,9000,Người làm bán thời gian
+1024,Mạch,Nguyễn Hồng,05/12/1991,Nam,Bình Dương,090868975,9000,Người làm bán thời gian
+1025,Dư,Văn Đức,07/28/1989,Nữ,Quảng Bình,090370636,9000,Người làm bán thời gian
+1026,Vi,,06/26/1990,Khác,Cần Thơ,097197493,9000,Người làm bán thời gian
+1027,Kim,Thị,12/08/1989,Nam,Hà Nam,099673618,8000,Thực tập sinh
+1028,Thi,Nguyễn Phương,03/20/2004,Khác,Đồng Tháp,090025193,10000,Công nhân
+1029,Thái,Lê Mai,02/10/2000,Nam,Lai Châu,097030065,8000,Thực tập sinh
+1030,Vòng,Lê Nam,05/06/1990,Nam,Đắk Lắk,098970368,9000,Người làm bán thời gian
+1031,Thái,Nguyễn Thị,07/18/2003,Nữ,Gia Lai,097416359,50000,Chuyên gia nước ngoài
+1032,Võ,Trang,08/04/1991,Nam,Lai Châu,099378595,50000,Chuyên gia nước ngoài
+1033,Hồ,Nguyễn Thùy,11/18/2003,Khác,Cà Mau.,095117621,10000,Lao động phổ thông
+1034,Lai,Trần Ánh,01/15/1989,Khác,Quảng Trị,099367434,15000,Nhân viên
+1035,Giang,Dương,10/15/2002,Nữ,Đồng Nai,090346917,15000,Nhân viên
+1036,Liêu,Phương,11/01/1991,Nữ,Khánh Hòa,093525902,40000,Kỹ sư
+1037,Trần,Quang Huy,08/26/1997,Khác,Nghệ An,092198045,60000,Cán bộ quản lý
+1038,Lai,Lê Nam,01/22/1990,Nam,Hà Tĩnh,090887627,8000,Thực tập sinh
+1039,Ninh,Nguyễn Thùy,06/08/1987,Nữ,Đồng Nai,093498765,15000,Nhân viên
+1040,Trà,Văn,08/16/1992,Nữ,Bắc Giang,097716941,60000,Cán bộ quản lý
+1041,Nguyễn,Thùy,08/31/2003,Nữ,Quảng Bình,090316749,40000,Kỹ sư
+1042,Mạch,Lê Phương,06/12/1985,Nữ,Hưng Yên,096958460,8000,Thực tập sinh
+1043,Lục,Tuấn Anh,01/15/1989,Khác,Đắk Lắk,096886656,50000,Chuyên gia nước ngoài
+1044,Doãn,Lê Hồng,12/06/1995,Khác,Lào Cai,095753366,9000,Người làm bán thời gian
+1045,Tạ,Minh,08/26/2004,Nữ,Phú Yên,092593185,50000,Chuyên gia nước ngoài
+1046,Hồn,Minh Khánh,06/16/1995,Khác,Thanh Hóa,090358297,50000,Chuyên gia nước ngoài
+1047,Biện,Văn,03/11/2002,Nữ,Bắc Kạn,092212248,10000,Lao động phổ thông
+1048,Từ,Thị,11/02/2001,Nữ,Khánh Hòa,095746020,9000,Người làm bán thời gian
+1049,Giang,Nguyễn Lan,01/10/2002,Khác,Bến Tre,099195954,40000,Kỹ sư
+1050,Thiều,Minh,07/31/2002,Nam,Cao Bằng,097435229,50000,Chuyên gia nước ngoài
+1051,Tôn,Minh Tuấn,11/10/1995,Nam,Quảng Nam,096829141,8000,Thực tập sinh
+1052,Dương,Trần Hùng,01/26/1995,Nữ,Quảng Ngãi,099448744,9000,Người làm bán thời gian
+1053,Trần,Minh Khánh,12/19/1999,Khác,Thái Bình,097610759,50000,Chuyên gia nước ngoài
+1054,Lai,Quang Huy,10/25/1993,Nam,Lâm Đồng,098012078,9000,Người làm bán thời gian
+1055,Trình,Phương,12/15/2002,Nam,Nghệ An,094218181,40000,Kỹ sư
+1056,Lã,Hồng,02/16/2004,Nữ,Tây Ninh,095044832,50000,Chuyên gia nước ngoài
+1057,Trình,Nguyễn Anh,01/14/1996,Khác,Quảng Bình,092138251,10000,Lao động phổ thông
+1058,Tôn,Minh Khánh,06/18/2002,Nữ,Lai Châu,094227354,60000,Cán bộ quản lý
+1059,Mai,Nguyễn Ánh,12/05/1990,Khác,Bình Phước,091202285,50000,Chuyên gia nước ngoài
+1060,Vi,Văn,07/15/2000,Nữ,Hà Nội,095545782,9000,Người làm bán thời gian
+1061,Hồn,Trần Trang,03/29/1988,Nam,Bắc Giang,099587613,10000,Lao động phổ thông
+1062,Thất,Hùng,11/20/1992,Nam,Bắc Ninh,092814288,9000,Người làm bán thời gian
+1063,Ngụy,Nguyễn Phương,11/04/1996,Nữ,Bắc Kạn,098554184,9000,Người làm bán thời gian
+1064,Đậu,Quang Minh,02/12/1999,Nam,Tuyên Quang,095437520,60000,Cán bộ quản lý
+1065,La,Đức,05/22/1993,Nữ,Đắk Lắk,093381035,8000,Thực tập sinh
+1066,Phù,Lê Kim,12/22/1994,Khác,Hậu Giang,092753230,60000,Cán bộ quản lý
+1067,Ôn,Minh Tuấn,03/27/1989,Khác,Bình Thuận,097582276,40000,Kỹ sư
+1068,Chu,Thị,07/22/1994,Nữ,Ninh Bình,098322310,15000,Nhân viên
+1069,Vũ,Nguyễn Thùy,10/12/1994,Khác,Tiền Giang,091571508,40000,Kỹ sư
+1070,Lâm,Văn,01/28/1987,Khác,Thanh Hóa,092371523,10000,Công nhân
+1071,Diệp,Nguyễn Phương,08/16/1997,Khác,Cần Thơ,090887627,40000,Kỹ sư
+1072,Ôn,Phương,05/08/2003,Khác,Tuyên Quang,091571508,15000,Nhân viên
+1073,Phùng,Trần Thị,11/02/1990,Nam,Kon Tum,090507359,50000,Chuyên gia nước ngoài
+1074,Đồn,Văn Đức,02/28/1990,Nam,Bắc Giang,091615298,10000,Lao động phổ thông
+1075,Vòng,Nguyễn Anh,08/12/2000,Nữ,Hà Nam,095886654,10000,Lao động phổ thông
+1076,Hồn,Thị,07/19/1996,Nữ,Bến Tre,096981097,50000,Chuyên gia nước ngoài
+1077,Ông,Nguyễn Đức,06/05/2004,Khác,Sóc Trăng,090047484,9000,Nhân sự thử việc
+1078,Giang,Thùy,09/09/1996,Khác,An Giang,093435564,10000,Lao động phổ thông
+1079,Nữ,Nguyễn Hùng,02/23/1995,Nam,Đồng Tháp,096886420,60000,Cán bộ quản lý
+1080,Tống,Thanh Thảo,02/03/1998,Nam,Phú Thọ,096061792,40000,Kỹ sư
+1081,Thất,Nguyễn Hồng,08/02/1985,Khác,Yên Bái,094138937,15000,Nhân viên
+1082,Bạch,Hoàng,08/22/1998,Nữ,Bà Rịa - Vũng Tàu,095352822,10000,Lao động phổ thông
+1083,Đường,Nam,11/26/1986,Khác,Đắk Lắk,099932981,15000,Nhân viên
+1084,La,Ánh,10/12/1989,Khác,Bình Phước,092237766,40000,Kỹ sư
+1085,Lâm,Nguyễn Thùy,02/08/1995,Khác,Đà Nẵng,093840228,9000,Người làm bán thời gian
+1086,Lại,Ánh,03/23/1998,Nữ,Lạng Sơn,093765443,8000,Thực tập sinh
+1087,Bạch,Văn,10/23/1992,Nữ,Quảng Ngãi,096967857,40000,Kỹ sư
+1088,Bành,Trần Trang,09/02/1991,Khác,Cao Bằng,095485236,10000,Công nhân
+1089,Vương,Kim,08/21/1989,Nam,Bến Tre,097088160,8000,Thực tập sinh
+1090,Lục,Trần Anh,09/30/2003,Nữ,Phú Yên,091136479,60000,Cán bộ quản lý
+1091,Tăng,Lê Phương,02/06/2004,Khác,Cao Bằng,093881429,9000,Nhân sự thử việc
+1092,Quách,Minh Tuấn,03/04/1988,Nữ,Lâm Đồng,095845716,50000,Chuyên gia nước ngoài
+1093,Từ,Thùy,09/28/1990,Nam,Tây Ninh,093930600,50000,Chuyên gia nước ngoài
+1094,Trần,Hùng,11/17/2001,Nam,Thừa Thiên Huế,090277561,8000,Thực tập sinh
+1095,Cao,Minh Tuấn,08/21/2003,Nữ,Bình Phước,092545497,15000,Nhân viên
+1096,Phạm,Văn,09/12/1989,Khác,Hà Nam,093551613,9000,Nhân sự thử việc
+1097,Khổng,Dương,01/16/1998,Khác,Hưng Yên,093840228,10000,Lao động phổ thông
+1098,Trương,Minh Khánh,08/19/1987,Nữ,An Giang,093504209,9000,Người làm bán thời gian
+1099,Lã,Trần Ánh,05/17/1995,Nữ,Bình Dương,097368036,60000,Cán bộ quản lý
+1100,Trà,Văn Anh,02/01/1986,Khác,Hà Tĩnh,099915612,40000,Kỹ sư
+1101,Lục,Trần Trang,02/12/1987,Nam,Thái Nguyên,099949803,9000,Nhân sự thử việc
+1102,Khổng,Minh Tuấn,12/01/1994,Nữ,Hải Dương,097693004,40000,Kỹ sư
+1103,Phương,Nguyễn Nam,08/17/1996,Nữ,Khánh Hòa,090005758,60000,Cán bộ quản lý
+1104,Đậu,Đức,10/09/1999,Nam,Sơn La,099430489,9000,Nhân sự thử việc
+1105,Quan,Nguyễn Phương,02/13/2004,Nữ,An Giang,094447639,15000,Nhân viên
+1106,Phạm,Nguyễn Lan,05/05/1990,Khác,Thanh Hóa,095391931,10000,Lao động phổ thông
+1107,Phương,,10/26/2003,Nam,Vĩnh Phúc,094903797,50000,Chuyên gia nước ngoài
+1108,Thiều,Kim,11/02/1992,Khác,Trà Vinh,097175168,8000,Thực tập sinh
+1109,Nguyễn,Lê Hồng,01/14/1995,Khác,Long An,097224373,10000,Công nhân
+1110,Từ,Ánh,09/18/2003,Khác,Sơn La,091822781,10000,Công nhân
+1111,Mã,Lê Nam,09/25/1987,Nam,Hà Nội,099071000,9000,Người làm bán thời gian
+1112,Ông,Văn,03/16/1999,Nam,Bắc Giang,094615121,9000,Nhân sự thử việc
+1113,Hà,Trần Hùng,06/19/1995,Nam,Cần Thơ,093504209,9000,Người làm bán thời gian
+1114,Lục,Trần Trang,02/21/1997,Nữ,Hà Nam,090622308,9000,Nhân sự thử việc
+1115,Nữ,Kim,07/29/1988,Nam,Trà Vinh,094854798,50000,Chuyên gia nước ngoài
+1116,Thất,Thị,07/30/2001,Nam,Hà Giang,093306369,9000,Người làm bán thời gian
+1117,Đỗ,Thanh,12/18/1992,Nam,Nghệ An,090887413,50000,Chuyên gia nước ngoài
+1118,Ôn,Mai,01/18/1999,Nam,Thái Nguyên,092371523,50000,Chuyên gia nước ngoài
+1119,Đỗ,Quang Huy,12/20/1995,Nam,Bắc Ninh,095199991,9000,Người làm bán thời gian
+1120,Lê,Lê Mai,04/28/1987,Khác,Lai Châu,097716941,50000,Chuyên gia nước ngoài
+1121,Vi,Lê Thùy,04/22/1999,Nam,Hà Giang,098456050,10000,Lao động phổ thông
+1122,Chu,Lê Nam,02/11/1994,Nam,Ninh Bình,090851202,9000,Người làm bán thời gian
+1123,Sơn,,07/20/1987,Nam,Cao Bằng,091284564,60000,Cán bộ quản lý
+1124,Phạm,Thanh Hương,05/18/1985,Nữ,Đà Nẵng,095905198,50000,Chuyên gia nước ngoài
+1125,Trà,Minh,01/18/1988,Khác,Hải Dương,092674639,9000,Nhân sự thử việc
+1126,Tiêu,Anh,02/25/1989,Khác,Đồng Tháp,094529527,10000,Lao động phổ thông
+1127,Nhan,Nguyễn Kim,07/26/1999,Nữ,Bạc Liêu,094268802,50000,Chuyên gia nước ngoài
+1128,Đặng,Trần Trang,07/01/1999,Khác,Sóc Trăng,092303229,8000,Thực tập sinh
+1129,Cao,Nguyễn Mai,10/29/1994,Nữ,Bình Định,091753147,8000,Thực tập sinh
+1130,Lai,Hồng,06/06/1985,Nữ,Ninh Thuận,094647516,60000,Cán bộ quản lý
+1131,Tất,Nguyễn Nam,06/05/2001,Nữ,Bắc Kạn,090941314,9000,Nhân sự thử việc
+1132,Dư,Quang Minh,02/25/1998,Khác,Đồng Nai,098594362,60000,Cán bộ quản lý
+1133,Tất,Lê Nam,10/05/1985,Nữ,Phú Yên,094903797,40000,Kỹ sư
+1134,Vũ,Văn,06/17/2002,Nữ,Bình Phước,095141890,50000,Chuyên gia nước ngoài
+1135,Tôn,Phương,07/29/1992,Khác,Gia Lai,092608930,9000,Người làm bán thời gian
+1136,Ngô,Minh Tuấn,05/28/1998,Nam,Sóc Trăng,096007081,40000,Kỹ sư
+1137,Sơn,Anh,06/06/2001,Khác,Yên Bái,095938993,60000,Cán bộ quản lý
+1138,Nữ,Nguyễn Thị,08/02/2002,Nam,Bình Định,099435584,10000,Công nhân
+1139,Kim,Nguyễn Đức,09/22/1992,Nam,Phú Yên,091202285,9000,Nhân sự thử việc
+1140,Vòng,Lê Hồng,07/23/1987,Nữ,Lâm Đồng,091586655,10000,Lao động phổ thông
+1141,Hồ,Quang,05/23/2003,Nam,Quảng Ngãi,093778781,9000,Nhân sự thử việc
+1142,Hàng,Trần Lan,01/24/1991,Nữ,Hà Tĩnh,099330163,50000,Chuyên gia nước ngoài
+1143,Phan,Lê Thùy,08/31/1992,Nữ,Bạc Liêu,099208297,50000,Chuyên gia nước ngoài
+1144,Văn,Dương,09/04/1999,Nam,Sơn La,092371523,8000,Thực tập sinh
+1145,Lai,,10/19/1995,Nữ,Lai Châu,090377760,60000,Cán bộ quản lý
+1146,Tôn,Nguyễn Hùng,05/01/1991,Nam,Yên Bái,096063862,10000,Công nhân
+1147,Phan,Trần Đức,08/30/1999,Khác,Yên Bái,093271788,10000,Công nhân
+1148,Quách,Lê Kim,02/04/1994,Nữ,Hồ Chí Minh (TP. HCM),098883063,9000,Nhân sự thử việc
+1149,Viên,Ánh,09/07/1993,Khác,An Giang,097344939,10000,Công nhân
+1150,Nguyễn,Trần Lan,08/06/2002,Khác,Cao Bằng,096967857,50000,Chuyên gia nước ngoài
+1151,Trà,Anh,03/29/1996,Nữ,Bắc Ninh,094361675,8000,Thực tập sinh
+1152,Viên,Trần Anh,06/14/1995,Khác,Đồng Tháp,091436850,50000,Chuyên gia nước ngoài
+1153,Lê,Nguyễn Hồng,03/15/1993,Nam,Nam Định,090316749,15000,Nhân viên
+1154,Lữ,Văn Anh,04/20/2002,Nữ,Tây Ninh,095964039,40000,Kỹ sư
+1155,Tôn,Minh,05/10/1999,Nam,Lạng Sơn,099614230,15000,Nhân viên
+1156,Chung,Minh Tuấn,10/31/2000,Khác,Bắc Ninh,099217013,15000,Nhân viên
+1157,Huỳnh,Trần Hùng,03/07/2001,Khác,Bà Rịa - Vũng Tàu,090261172,40000,Kỹ sư
+1158,Mạch,Lê Thùy,06/26/2000,Nữ,Cao Bằng,099126398,9000,Người làm bán thời gian
+1159,Ôn,Minh Tuấn,03/03/2001,Nữ,Kon Tum,094510177,9000,Người làm bán thời gian
+1160,Trình,Dương,01/05/1997,Nam,Phú Yên,099123374,60000,Cán bộ quản lý
+1161,Kim,Phương,07/06/2002,Nữ,Cần Thơ,095203088,8000,Thực tập sinh
+1162,Phùng,Nam,06/10/1985,Khác,Phú Yên,096076037,9000,Nhân sự thử việc
+1163,Hồn,Lan,07/11/1989,Nữ,Bắc Giang,098309839,9000,Nhân sự thử việc
+1164,Ôn,Tuấn Anh,09/10/1996,Nữ,Lạng Sơn,094622529,10000,Lao động phổ thông
+1165,Bạch,Anh,09/23/1997,Khác,Thanh Hóa,092156810,40000,Kỹ sư
+1166,Khưu,Nguyễn Mai,06/13/2001,Khác,Hà Tĩnh,092447196,10000,Lao động phổ thông
+1167,Lại,Trần Anh,01/04/1985,Nam,Quảng Trị,098118889,15000,Nhân viên
+1168,Nữ,Nam,08/09/1999,Nữ,Hải Phòng,095386319,15000,Nhân viên
+1169,Hồn,Văn Đức,07/27/1997,Khác,Cần Thơ,097592513,9000,Nhân sự thử việc
+1170,Âu,Dương,06/11/2000,Nữ,Quảng Ngãi,099683737,60000,Cán bộ quản lý
+1171,Huỳnh,Quang Minh,07/11/1999,Nam,Hải Phòng,094529527,60000,Cán bộ quản lý
+1172,Biện,Hồng,04/09/1994,Khác,Lào Cai,098080240,10000,Lao động phổ thông
+1173,Tô,Thanh Hương,11/18/2002,Nam,Gia Lai,098035697,9000,Nhân sự thử việc
+1174,Sơn,Trần Hùng,09/19/2001,Khác,Bắc Ninh,090238343,50000,Chuyên gia nước ngoài
+1175,Chế,Đức,08/31/1990,Nữ,Bắc Ninh,096842168,10000,Công nhân
+1176,Biện,Thanh Thảo,07/10/1991,Nữ,Bình Định,095592828,15000,Nhân viên
+1177,Dư,Nguyễn Anh,11/30/2002,Nam,Tiền Giang,092289654,15000,Nhân viên
+1178,Liêu,Nam,06/14/1985,Nữ,Yên Bái,090646002,10000,Công nhân
+1179,Mai,Thùy,12/09/2003,Nam,Cần Thơ,097676701,60000,Cán bộ quản lý
+1180,Vũ,Lê Kim,06/30/1991,Nữ,Cao Bằng,092015661,10000,Công nhân
+1181,Võ,Trần Thị,12/19/2000,Khác,Hải Dương,094647516,10000,Lao động phổ thông
+1182,Dư,Hoàng Nam,11/16/1985,Nam,Vĩnh Long,096505401,50000,Chuyên gia nước ngoài
+1183,Thiều,Quang Minh,05/15/1994,Khác,Quảng Nam,099502398,9000,Người làm bán thời gian
+1184,Giang,Lê Kim,10/18/1998,Nam,Đà Nẵng,099957852,15000,Nhân viên
+1185,Chu,Lê Hồng,11/19/2000,Nam,Hà Giang,090045732,50000,Chuyên gia nước ngoài
+1186,Phù,Trần Ánh,07/06/1990,Khác,Đà Nẵng,098129987,9000,Người làm bán thời gian
+1187,Mai,Dương Hùng,06/07/2001,Nữ,Lào Cai,097685183,9000,Người làm bán thời gian
+1188,Phạm,Đức,09/19/2004,Khác,Thanh Hóa,096111954,15000,Nhân viên
+1189,Dương,Minh Tuấn,06/28/1999,Nữ,Cà Mau.,099283121,50000,Chuyên gia nước ngoài
+1190,Lại,Hoàng An,03/11/2004,Khác,Hậu Giang,092198045,15000,Nhân viên
+1191,Phùng,Dương Quốc,09/10/1998,Khác,Kon Tum,099459988,60000,Cán bộ quản lý
+1192,Đỗ,Tuấn,12/05/1989,Nam,Bạc Liêu,094970992,9000,Người làm bán thời gian
+1193,La,Thùy,12/20/1987,Nữ,Lào Cai,094366864,8000,Thực tập sinh
+1194,Trầm,Lê Kim,02/23/2001,Nam,Quảng Bình,099241804,10000,Công nhân
+1195,Tôn,Hoàng,08/09/1990,Nữ,Thái Nguyên,094991980,60000,Cán bộ quản lý
+1196,Lại,Quang Minh,04/28/1990,Nam,Cao Bằng,095596369,9000,Người làm bán thời gian
+1197,Tất,Thùy,07/29/1985,Nam,Lào Cai,090515882,9000,Người làm bán thời gian
+1198,Phạm,Tuấn Anh,08/22/1999,Nam,Cao Bằng,090086097,50000,Chuyên gia nước ngoài
+1199,Lục,Trần Anh,04/02/2004,Khác,Lào Cai,095845716,10000,Công nhân
+1200,Đồn,Minh,06/25/2001,Khác,Đà Nẵng,099238040,50000,Chuyên gia nước ngoài
+1201,Nữ,Nguyễn Đức,10/22/1985,Khác,Cà Mau.,098564157,40000,Kỹ sư
+1202,Trà,Văn,07/24/1986,Nam,Hà Tĩnh,094104066,9000,Nhân sự thử việc
+1203,Thiều,Dương Quốc,08/08/2001,Khác,Đồng Tháp,099624594,10000,Lao động phổ thông
+1204,Ngô,Nguyễn Thùy,08/26/2003,Nam,Nghệ An,091579529,9000,Người làm bán thời gian
+1205,Hàng,Anh,11/18/2004,Nam,Sơn La,096033689,8000,Thực tập sinh
+1206,Đồn,Thanh Thảo,08/05/2001,Khác,Hòa Bình,091136479,9000,Người làm bán thời gian
+1207,Phan,Quang,09/14/1996,Nữ,Quảng Trị,097250000,10000,Lao động phổ thông
+1208,Đường,Lê Nam,05/15/1988,Nam,Phú Thọ,099142564,10000,Công nhân
+1209,Trầm,Nguyễn Hồng,08/23/1999,Nam,Phú Yên,090267321,8000,Thực tập sinh
+1210,Vũ,Minh Tuấn,03/03/1992,Nữ,Nghệ An,098310041,40000,Kỹ sư
+1211,Phương,Đức,04/29/2000,Nam,Hải Dương,096086023,40000,Kỹ sư
+1212,Ninh,Trần Đức,11/18/1992,Khác,Đồng Nai,099142564,50000,Chuyên gia nước ngoài
+1213,Vũ,Trần Trang,01/10/2000,Khác,Quảng Bình,099535604,9000,Người làm bán thời gian
+1214,Chung,Hồng,09/02/1985,Khác,Quảng Trị,092210345,8000,Thực tập sinh
+1215,Lý,Đức,02/05/1999,Nữ,Hải Dương,096296247,60000,Cán bộ quản lý
+1216,Mạc,Nguyễn Trang,04/26/2003,Nam,Bình Thuận,090005758,60000,Cán bộ quản lý
+1217,Thiều,Nguyễn Hồng,10/04/1997,Khác,Nam Định,097278203,60000,Cán bộ quản lý
+1218,Phù,Nguyễn Nam,12/09/1993,Khác,Bắc Ninh,091572239,40000,Kỹ sư
+1219,Tôn,Quang Huy,01/31/1998,Nam,Cần Thơ,093467582,50000,Chuyên gia nước ngoài
+1220,Châu,Phương,08/04/1997,Nữ,Nam Định,091618327,9000,Người làm bán thời gian
+1221,Lâm,Nguyễn Anh,06/20/1986,Nam,Hưng Yên,097306006,9000,Nhân sự thử việc
+1222,Hồ,Trần Trang,11/16/2001,Nam,Quảng Ngãi,095742491,60000,Cán bộ quản lý
+1223,Ông,Thùy,08/11/2001,Khác,Quảng Ninh,090683196,40000,Kỹ sư
+1224,Viên,Hồng,07/03/1989,Khác,Quảng Bình,090032310,50000,Chuyên gia nước ngoài
+1225,Tôn,Nguyễn Hồng,12/31/1985,Nam,Cần Thơ,094104066,8000,Thực tập sinh
+1226,Tạ,Phương,01/14/1989,Khác,Phú Thọ,095106381,9000,Nhân sự thử việc
+1227,Lý,Thanh Thảo,04/05/1999,Khác,Hậu Giang,094118757,8000,Thực tập sinh
+1228,Mạch,Anh,10/01/1994,Khác,Yên Bái,092938599,10000,Công nhân
+1229,Khổng,Văn Anh,10/04/1998,Nam,Hải Phòng,098944016,50000,Chuyên gia nước ngoài
+1230,Lai,Hoàng,11/02/1993,Khác,Vĩnh Long,090965513,10000,Công nhân
+1231,Trương,Hoàng,08/11/1998,Nam,Hà Nam,097592513,9000,Người làm bán thời gian
+1232,Chế,Đức,11/24/2004,Nam,Bắc Giang,090692557,10000,Lao động phổ thông
+1233,Ông,Trần Lan,08/24/2004,Nữ,Bình Thuận,099766791,60000,Cán bộ quản lý
+1234,Trầm,Thanh Thảo,05/02/2001,Nam,Bến Tre,098273377,9000,Người làm bán thời gian
+1235,Quách,Văn Anh,03/16/2004,Nữ,An Giang,095485236,15000,Nhân viên
+1236,Thái,Thanh Hương,09/07/1985,Nam,Hưng Yên,099587613,10000,Lao động phổ thông
+1237,Đỗ,Lê Hồng,12/03/1986,Khác,Quảng Ngãi,098246109,10000,Lao động phổ thông
+1238,Liêu,Nguyễn Trang,11/11/2000,Nữ,Hòa Bình,095965488,60000,Cán bộ quản lý
+1239,Lai,Lê Kim,05/25/2001,Nam,Vĩnh Long,093931966,15000,Nhân viên
+1240,Tống,Trần Anh,08/21/1989,Nam,An Giang,095736347,60000,Cán bộ quản lý
+1241,Hồn,Minh Khánh,07/23/1985,Khác,Khánh Hòa,095938993,9000,Nhân sự thử việc
+1242,Đậu,Trần Ánh,02/17/2004,Nam,Đà Nẵng,097862050,10000,Công nhân
+1243,Lưu,Trần Trang,08/25/1995,Khác,Vĩnh Long,097663964,10000,Lao động phổ thông
+1244,Trần,Anh,09/16/1996,Nam,Tây Ninh,092015661,15000,Nhân viên
+1245,Võ,Tuấn Anh,01/01/1992,Nữ,Đắk Nông,092848464,60000,Cán bộ quản lý
+1246,Tất,Hoàng,12/07/1997,Khác,Ninh Bình,092545497,60000,Cán bộ quản lý
+1247,Nhan,Đức,04/27/2004,Nữ,Vĩnh Phúc,090930454,8000,Thực tập sinh
+1248,Lục,Lan,09/21/1995,Khác,Phú Thọ,093019354,10000,Công nhân
+1249,Đường,Kim,02/15/1986,Nam,Thái Nguyên,099350731,8000,Thực tập sinh
+1250,Đàm,Văn,10/14/1988,Nam,An Giang,095050716,9000,Người làm bán thời gian
+1251,Thiều,Quang Minh,12/01/1997,Nữ,Gia Lai,099519380,9000,Nhân sự thử việc
+1252,Đường,Dương Quốc,09/02/2001,Nam,Cần Thơ,095481149,15000,Nhân viên
+1253,Đậu,Lê Phương,04/24/1998,Nam,Bình Thuận,091367480,9000,Người làm bán thời gian
+1254,Nhâm,Trần Thị,05/25/2002,Nữ,Trà Vinh,096842168,9000,Người làm bán thời gian
+1255,Nhan,Đức,09/23/1987,Khác,Hải Dương,090214253,40000,Kỹ sư
+1256,Lê,Tuấn,07/05/1993,Khác,Bình Phước,091188879,10000,Lao động phổ thông
+1257,Ngô,Nguyễn Kim,12/12/1995,Nữ,Tiền Giang,090378106,50000,Chuyên gia nước ngoài
+1258,Viên,Trần Trang,11/13/1994,Nữ,Ninh Bình,092268320,9000,Người làm bán thời gian
+1259,Lại,Nguyễn Hùng,02/28/1988,Nam,Quảng Bình,094897441,40000,Kỹ sư
+1260,Thái,Thanh Thảo,06/29/2001,Nam,Bến Tre,092665957,10000,Lao động phổ thông
+1261,Mai,Nguyễn Nam,12/17/1993,Nam,Cần Thơ,097699561,8000,Thực tập sinh
+1262,Nhâm,Quang Huy,07/09/1988,Nữ,Kon Tum,090868975,10000,Lao động phổ thông
+1263,La,Minh Tuấn,12/02/1996,Nam,Hậu Giang,092899720,50000,Chuyên gia nước ngoài
+1264,Tạ,Tuấn,04/12/1986,Khác,Lạng Sơn,099121679,9000,Người làm bán thời gian
+1265,Lai,Nguyễn Lan,01/24/2004,Khác,Phú Yên,095973427,40000,Kỹ sư
+1266,Lữ,Đức,05/24/1992,Nam,Khánh Hòa,093485779,10000,Lao động phổ thông
+1267,Lưu,Hoàng Nam,06/02/2002,Nữ,Cần Thơ,094723857,15000,Nhân viên
+1268,Biện,Kim,07/27/1993,Nữ,Đà Nẵng,094859828,15000,Nhân viên
+1269,Trầm,Hoàng,10/19/1999,Khác,Hà Tĩnh,092536338,60000,Cán bộ quản lý
+1270,Đoàn,Nguyễn Đức,06/27/1992,Khác,Phú Yên,091762560,15000,Nhân viên
+1271,Ngụy,Lê Hồng,10/08/1997,Khác,Tây Ninh,097661547,10000,Công nhân
+1272,Trịnh,Nguyễn Mai,05/03/2003,Nữ,Cà Mau.,093930600,10000,Công nhân
+1273,Bùi,Lê Hồng,04/30/2003,Khác,Hà Tĩnh,095781720,50000,Chuyên gia nước ngoài
+1274,Hoàng,Minh Khánh,12/26/1991,Nam,Cà Mau.,099000374,10000,Lao động phổ thông
+1275,Vi,Minh,01/31/1993,Nữ,Hồ Chí Minh (TP. HCM),091259294,60000,Cán bộ quản lý
+1276,Tống,Hoàng Nam,02/13/1990,Nữ,Tiền Giang,098208671,10000,Công nhân
+1277,Tào,Nguyễn Kim,02/17/1996,Nữ,Hưng Yên,096562145,40000,Kỹ sư
+1278,Mã,Trần Thị,12/05/1999,Khác,Ninh Thuận,094069863,9000,Nhân sự thử việc
+1279,Vương,Hoàng An,01/06/2003,Nữ,Thái Nguyên,096374099,10000,Công nhân
+1280,Lưu,Trần Lan,10/09/2001,Nam,Lâm Đồng,091327912,50000,Chuyên gia nước ngoài
+1281,Liêu,Nguyễn Ánh,05/17/2003,Nam,Lâm Đồng,099683737,9000,Người làm bán thời gian
+1282,Bạch,Nguyễn Nam,06/12/2001,Nữ,Khánh Hòa,097141871,15000,Nhân viên
+1283,Chế,Ánh,05/01/1985,Nữ,Thái Nguyên,094352750,40000,Kỹ sư
+1284,Từ,Minh,06/12/2000,Nữ,Quảng Nam,098474033,50000,Chuyên gia nước ngoài
+1285,Hồn,Quang Minh,10/02/1991,Khác,Bình Phước,090425795,10000,Lao động phổ thông
+1286,Tô,Quang,07/11/1991,Khác,Tuyên Quang,097216871,40000,Kỹ sư
+1287,Đặng,Lê Thùy,05/23/1991,Nữ,Sơn La,095759622,9000,Người làm bán thời gian
+1288,Hoàng,Nguyễn Hồng,03/27/1985,Khác,Long An,096803733,8000,Thực tập sinh
+1289,Bùi,Hùng,10/17/1986,Nam,Thái Nguyên,099044671,10000,Lao động phổ thông
+1290,Phạm,Anh,04/09/1986,Khác,Bắc Ninh,092814288,40000,Kỹ sư
+1291,Nhan,Nguyễn Trang,12/31/1988,Nữ,Quảng Bình,098681044,40000,Kỹ sư
+1292,Giang,Thanh Thảo,01/25/1986,Khác,Bắc Giang,097560575,40000,Kỹ sư
+1293,Tôn,Hoàng,02/22/1996,Khác,Thừa Thiên Huế,092814288,8000,Thực tập sinh
+1294,Lữ,Minh,09/19/1995,Nam,Vĩnh Long,097646921,40000,Kỹ sư
+1295,Lý,Anh,05/17/1992,Nam,Quảng Ninh,097064024,9000,Người làm bán thời gian
+1296,Sơn,Dương Quốc,03/07/1988,Nam,Bình Định,098554184,40000,Kỹ sư
+1297,Biện,Nguyễn Thị,07/16/1993,Nam,Ninh Thuận,092220133,10000,Lao động phổ thông
+1298,Đoàn,Hùng,02/27/1987,Nữ,Quảng Nam,099261032,50000,Chuyên gia nước ngoài
+1299,Đường,Lê Mai,12/24/1997,Khác,Bạc Liêu,097175168,15000,Nhân viên
+1300,Nhâm,Lê Phương,05/23/2004,Khác,Hậu Giang,093765443,15000,Nhân viên
+1301,Tào,Nguyễn Nam,08/01/1996,Nữ,Cần Thơ,098303101,10000,Lao động phổ thông
+1302,Châu,Lê Phương,11/21/2004,Khác,Đắk Nông,098498892,50000,Chuyên gia nước ngoài
+1303,Châu,Minh,01/29/1989,Khác,Nghệ An,090683196,50000,Chuyên gia nước ngoài
+1304,Ôn,Minh Tuấn,11/14/2001,Nam,Khánh Hòa,091284564,9000,Người làm bán thời gian
+1305,Lai,Trần Anh,03/02/1998,Nam,Đắk Nông,097175767,9000,Nhân sự thử việc
+1306,Lương,Minh Tuấn,02/27/2003,Nữ,Hà Nam,096644157,40000,Kỹ sư
+1307,Quan,Tuấn,04/12/1997,Nam,Cao Bằng,097076336,9000,Người làm bán thời gian
+1308,Hứa,Trần Thị,01/22/1995,Nữ,Tây Ninh,095348194,10000,Công nhân
+1309,Lâm,Tuấn Anh,09/28/1992,Nam,Hòa Bình,092814288,9000,Người làm bán thời gian
+1310,Trình,Trần Thị,09/23/1985,Nữ,Ninh Thuận,090818158,60000,Cán bộ quản lý
+1311,Đàm,Thùy,07/29/1986,Nữ,Bình Định,096693000,40000,Kỹ sư
+1312,Vũ,Nguyễn Thị,09/26/1999,Nam,Phú Thọ,094973360,50000,Chuyên gia nước ngoài
+1313,Phan,Trần Đức,08/03/2004,Khác,Cà Mau.,095569760,9000,Nhân sự thử việc
+1314,Đặng,Nguyễn Kim,02/01/1987,Nữ,Bình Thuận,095668668,10000,Lao động phổ thông
+1315,La,Trần Hùng,01/02/1987,Khác,Yên Bái,094672521,9000,Nhân sự thử việc
+1316,Tống,Dương Quốc,08/14/1995,Nam,Nghệ An,090622308,50000,Chuyên gia nước ngoài
+1317,Nhâm,Hồng,10/17/1985,Nam,Đồng Tháp,095949031,9000,Nhân sự thử việc
+1318,Tôn,Quang Huy,08/23/1993,Nam,Cà Mau.,096369307,8000,Thực tập sinh
+1319,Lã,Hùng,09/02/1990,Nữ,Lâm Đồng,093579671,60000,Cán bộ quản lý
+1320,Trà,Minh Tuấn,12/09/1996,Nam,Lai Châu,090819947,9000,Người làm bán thời gian
+1321,Khổng,Trang,06/21/1985,Nữ,Lào Cai,091900192,15000,Nhân viên
+1322,Nghiêm,Nguyễn Ánh,01/24/2002,Khác,Quảng Ninh,090316749,8000,Thực tập sinh
+1323,Đậu,Nguyễn Ánh,02/05/1989,Nữ,Quảng Ninh,098335368,10000,Lao động phổ thông
+1324,Hoàng,Hoàng Nam,08/01/2002,Khác,Hậu Giang,094794865,9000,Nhân sự thử việc
+1325,Đoàn,Nguyễn Ánh,01/30/1999,Nữ,Bình Dương,094020080,8000,Thực tập sinh
+1326,Lã,Thanh Thảo,07/25/2000,Nữ,Đồng Tháp,094845758,9000,Người làm bán thời gian
+1327,Nghiêm,Hoàng,12/02/2001,Nữ,Thanh Hóa,090683196,60000,Cán bộ quản lý
+1328,Vương,Văn,02/18/2002,Nam,Yên Bái,098596646,15000,Nhân viên
+1329,Tôn,Tuấn,09/07/1989,Nam,Thừa Thiên Huế,091115231,8000,Thực tập sinh
+1330,Lục,Nam,03/24/2001,Khác,Hải Dương,095122285,40000,Kỹ sư
+1331,Hà,Trần Hùng,07/15/2004,Nữ,Bạc Liêu,094025614,9000,Người làm bán thời gian
+1332,Lâm,Dương,05/07/1986,Khác,Ninh Bình,097808349,15000,Nhân viên
+1333,Lâm,Hoàng Nam,05/09/2002,Nam,Gia Lai,092218290,40000,Kỹ sư
+1334,Tôn,Phương,04/15/1999,Khác,Thanh Hóa,099857862,15000,Nhân viên
+1335,Cao,Nguyễn Thị,07/22/1992,Nữ,Hà Nội,090583719,10000,Công nhân
+1336,Bạch,Dương Quốc,07/14/2004,Nữ,Quảng Bình,096296247,9000,Người làm bán thời gian
+1337,Vương,Nguyễn Ánh,12/21/2001,Nữ,Tuyên Quang,099083493,40000,Kỹ sư
+1338,Lục,Quang,06/30/2000,Khác,Quảng Trị,094601091,10000,Công nhân
+1339,Lại,Hồng,04/15/2000,Nữ,Hải Dương,092364763,60000,Cán bộ quản lý
+1340,Tăng,Thanh Thảo,10/05/1986,Nữ,Bến Tre,095297345,10000,Lao động phổ thông
+1341,Sơn,Trần Đức,10/27/1998,Nam,Bắc Ninh,090311584,9000,Nhân sự thử việc
+1342,Nhan,Hùng,07/02/1986,Khác,Quảng Bình,098080240,9000,Người làm bán thời gian
+1343,Ngô,Thanh,10/14/2000,Nam,Ninh Bình,091572235,60000,Cán bộ quản lý
+1344,Phan,Mai,01/01/1992,Nam,Bắc Kạn,095949031,15000,Nhân viên
+1345,La,Thanh,04/13/2000,Nam,Sơn La,091327912,15000,Nhân viên
+1346,Đoàn,Nguyễn Anh,03/31/1987,Khác,Bình Phước,090358297,8000,Thực tập sinh
+1347,Trương,Hồng,07/27/2000,Khác,Lâm Đồng,090507359,10000,Công nhân
+1348,Âu,Dương Quốc,10/03/1988,Nữ,Hậu Giang,094655915,15000,Nhân viên
+1349,Đoàn,Văn Đức,03/25/1989,Nữ,Bình Phước,093070764,40000,Kỹ sư
+1350,Hồn,Dương Quốc,09/12/1993,Nam,Cao Bằng,099614230,40000,Kỹ sư
+1351,Hà,Trang,12/24/1991,Nam,Đà Nẵng,099103285,9000,Người làm bán thời gian
+1352,Phù,Trần Trang,09/05/1995,Khác,Quảng Trị,097175767,9000,Nhân sự thử việc
+1353,Tạ,Nguyễn Thùy,02/07/2001,Nam,Hòa Bình,092540797,50000,Chuyên gia nước ngoài
+1354,Biện,Quang Minh,08/03/1988,Nam,Phú Yên,095656444,40000,Kỹ sư
+1355,Phùng,Kim,10/30/1986,Khác,Khánh Hòa,091259294,9000,Người làm bán thời gian
+1356,Tôn,Minh Tuấn,06/10/1986,Nam,Hà Nội,097569561,9000,Nhân sự thử việc
+1357,Đậu,Thanh,11/10/1992,Nữ,Thanh Hóa,094700934,10000,Công nhân
+1358,Lại,Quang,06/12/2002,Khác,Lai Châu,099121679,60000,Cán bộ quản lý
+1359,Liêu,Nguyễn Lan,10/19/2004,Khác,Đắk Lắk,097569561,10000,Công nhân
+1360,Thân,Văn Đức,08/16/1998,Nữ,Kiên Giang,099330163,60000,Cán bộ quản lý
+1361,La,Hồng,03/15/1998,Nam,Đắk Lắk,092879052,10000,Công nhân
+1362,Nhan,Nam,02/23/1988,Nam,Hậu Giang,098594362,60000,Cán bộ quản lý
+1363,Hứa,Lê Hồng,02/15/1991,Khác,Bình Thuận,092488978,9000,Người làm bán thời gian
+1364,Phùng,Dương,03/22/1991,Nữ,Đà Nẵng,099633993,10000,Lao động phổ thông
+1365,Đoàn,Hoàng An,12/03/1996,Nam,Lào Cai,098594362,10000,Lao động phổ thông
+1366,Bùi,Trang,10/11/1987,Nam,Nghệ An,098716151,10000,Công nhân
+1367,Đoàn,Minh Tuấn,09/29/1993,Khác,Kiên Giang,096063862,8000,Thực tập sinh
+1368,Bành,Nguyễn Ánh,08/28/2003,Khác,Bắc Giang,097682149,9000,Nhân sự thử việc
+1369,Âu,Hồng,08/13/1990,Nữ,Khánh Hòa,099285480,15000,Nhân viên
+1370,Trình,Trần Anh,12/06/1998,Nam,Bắc Ninh,095348194,10000,Lao động phổ thông
+1371,Nguyễn,Trần Trang,12/09/1996,Nam,Hà Nam,095297345,40000,Kỹ sư
+1372,Chế,Lê Mai,03/25/1990,Khác,Quảng Trị,095383420,15000,Nhân viên
+1373,Mạc,Nam,05/09/2002,Nam,Lâm Đồng,094044905,10000,Lao động phổ thông
+1374,Tô,Nguyễn Đức,02/06/1985,Nam,Bắc Ninh,095124259,50000,Chuyên gia nước ngoài
+1375,Nữ,Nguyễn Hùng,07/07/2004,Khác,Cần Thơ,096562145,50000,Chuyên gia nước ngoài
+1376,Đặng,Quang Huy,11/12/2001,Khác,Lào Cai,090819947,50000,Chuyên gia nước ngoài
+1377,Nữ,Trần Lan,03/22/2000,Khác,Hưng Yên,098192588,50000,Chuyên gia nước ngoài
+1378,Âu,Dương Quốc,09/15/1993,Nữ,Phú Yên,095181639,15000,Nhân viên
+1379,Trầm,Trang,01/23/2000,Khác,Hà Nam,093019354,9000,Nhân sự thử việc
+1380,Bùi,Kim,11/23/2002,Nữ,Thừa Thiên Huế,094503919,50000,Chuyên gia nước ngoài
+1381,Trình,Mai,12/21/1994,Khác,Lâm Đồng,095021540,10000,Lao động phổ thông
+1382,Tất,Quang,08/21/1992,Nam,Quảng Ninh,090841932,8000,Thực tập sinh
+1383,Phùng,Mai,02/18/1988,Nữ,Hà Tĩnh,091506281,60000,Cán bộ quản lý
+1384,Triệu,Nguyễn Hồng,06/25/2000,Nam,Phú Thọ,090512645,10000,Công nhân
+1385,Lâm,,10/05/1986,Nam,Hải Phòng,097344939,40000,Kỹ sư
+1386,Đường,Trần Lan,04/21/1990,Khác,Cà Mau.,098246109,9000,Nhân sự thử việc
+1387,Văn,Thanh Hương,05/14/1991,Nam,Quảng Nam,090047484,9000,Người làm bán thời gian
+1388,Thất,Mai,08/12/1989,Khác,Nghệ An,090532925,50000,Chuyên gia nước ngoài
+1389,Lương,Nam,07/31/1985,Nam,Quảng Trị,098012078,10000,Công nhân
+1390,Chế,Minh Khánh,10/20/1990,Khác,Hải Dương,099305636,8000,Thực tập sinh
+1391,Ngô,Lê Nam,03/31/2004,Khác,Bình Thuận,092731881,15000,Nhân viên
+1392,Phù,Nguyễn Hùng,12/04/1990,Nam,Thái Bình,094942462,9000,Người làm bán thời gian
+1393,Tô,Nguyễn Trang,02/25/2003,Khác,Phú Thọ,096210501,8000,Thực tập sinh
+1394,Phùng,Nguyễn Lan,03/07/2003,Nữ,Hậu Giang,098485733,9000,Nhân sự thử việc
+1395,Đỗ,Nguyễn Trang,03/01/1998,Khác,Hòa Bình,095648809,40000,Kỹ sư
+1396,Cù,Tuấn,04/16/1985,Nữ,Bình Phước,098987369,10000,Công nhân
+1397,Tôn,Nguyễn Lan,08/23/1985,Khác,Vĩnh Long,090902023,15000,Nhân viên
+1398,Lưu,Dương,07/20/2000,Khác,Hà Nam,098234479,9000,Nhân sự thử việc
+1399,Đoàn,Kim,03/30/1997,Nữ,Bình Thuận,091759519,10000,Lao động phổ thông
+1400,Huỳnh,Lê Thùy,01/31/1999,Khác,An Giang,095734907,15000,Nhân viên
+1401,Trà,Dương,08/15/1988,Nữ,Vĩnh Phúc,095949031,8000,Thực tập sinh
+1402,Trịnh,Dương,02/01/2000,Nam,Quảng Ninh,096444826,50000,Chuyên gia nước ngoài
+1403,Nhâm,Trần Hùng,08/06/1995,Nam,Lạng Sơn,099208297,9000,Nhân sự thử việc
+1404,Mai,Lê Thùy,12/29/1992,Khác,Kiên Giang,098832123,50000,Chuyên gia nước ngoài
+1405,Ngô,Lê Mai,11/24/1985,Nam,Vĩnh Phúc,093485779,10000,Công nhân
+1406,Tôn,Nguyễn Phương,08/04/1990,Khác,Đắk Lắk,099121679,9000,Người làm bán thời gian
+1407,Ông,Lê Mai,09/26/1997,Nam,Hà Nội,096762152,9000,Nhân sự thử việc
+1408,Ngụy,Phương,05/16/1995,Khác,Thái Nguyên,091450655,60000,Cán bộ quản lý
+1409,Kim,Thanh Hương,07/31/1993,Nam,Bà Rịa - Vũng Tàu,095973344,50000,Chuyên gia nước ngoài
+1410,Phạm,Hoàng,05/13/1989,Nam,Vĩnh Long,097077246,8000,Thực tập sinh
+1411,Doãn,Trang,01/19/1999,Nam,Hà Nam,090045732,15000,Nhân viên
+1412,Mạch,Hoàng,12/17/2003,Nam,Gia Lai,097448201,40000,Kỹ sư
+1413,Bùi,Đức,07/29/1989,Nam,Phú Yên,090271638,60000,Cán bộ quản lý
+1414,Đoàn,Trần Trang,05/20/1992,Khác,Bắc Giang,092608930,8000,Thực tập sinh
+1415,Tào,Minh Tuấn,04/10/1985,Nam,Kiên Giang,095886654,40000,Kỹ sư
+1416,Tôn,Lê Kim,11/18/1988,Nam,Hồ Chí Minh (TP. HCM),092278884,10000,Công nhân
+1417,Hồ,Quang,05/21/2003,Khác,Tây Ninh,091831847,40000,Kỹ sư
+1418,Từ,Văn Đức,07/17/1986,Nữ,Hòa Bình,093453334,9000,Nhân sự thử việc
+1419,Tào,Nguyễn Phương,07/23/2002,Khác,An Giang,099373434,10000,Lao động phổ thông
+1420,Biện,Dương Quốc,01/22/1994,Nam,Phú Yên,092371523,10000,Lao động phổ thông
+1421,Ngô,Thanh,06/08/1992,Nữ,Lào Cai,091043564,8000,Thực tập sinh
+1422,Phan,Văn,10/08/1991,Nam,Hải Phòng,096928659,9000,Người làm bán thời gian
+1423,Âu,Tuấn,01/11/2004,Khác,Bạc Liêu,096941991,60000,Cán bộ quản lý
+1424,Diệp,Tuấn Anh,07/12/1987,Nam,Hòa Bình,093582793,15000,Nhân viên
+1425,Giang,Lê Nam,04/15/1985,Nam,Quảng Nam,090622308,10000,Công nhân
+1426,Tiêu,Trần Anh,01/30/1996,Nam,Sóc Trăng,094020080,10000,Lao động phổ thông
+1427,Tống,Minh,05/14/1998,Nam,Bạc Liêu,098056003,60000,Cán bộ quản lý
+1428,Đồn,Nguyễn Hồng,09/21/1997,Khác,Hòa Bình,096949254,15000,Nhân viên
+1429,Vòng,Trần Anh,05/27/2003,Khác,Thái Nguyên,090462037,8000,Thực tập sinh
+1430,Nhan,Hoàng,05/29/1986,Nữ,Bình Dương,098672575,50000,Chuyên gia nước ngoài
+1431,Lữ,Kim,08/26/2002,Nam,Ninh Bình,090248707,10000,Công nhân
+1432,Mạch,Lê Phương,03/02/1994,Nam,Bình Phước,096446734,60000,Cán bộ quản lý
+1433,Dương,Dương Hùng,11/03/2001,Nữ,Hưng Yên,099261032,40000,Kỹ sư
+1434,Ngụy,Nguyễn Phương,04/07/2002,Khác,Gia Lai,094539741,50000,Chuyên gia nước ngoài
+1435,Đồn,Lê Phương,03/02/1999,Khác,Cần Thơ,098832123,10000,Lao động phổ thông
+1436,Ngô,Hoàng Nam,05/22/1985,Nữ,Lạng Sơn,097608582,9000,Người làm bán thời gian
+1437,Viên,Trang,12/29/1993,Nữ,Tiền Giang,099350731,9000,Nhân sự thử việc
+1438,La,Văn,04/09/1987,Nữ,Lào Cai,094897441,9000,Nhân sự thử việc
+1439,Tào,Phương,01/16/1991,Nam,Bình Phước,098719498,60000,Cán bộ quản lý
+1440,Giang,Nguyễn Ánh,03/07/1986,Khác,Quảng Nam,091192243,40000,Kỹ sư
+1441,Lai,Minh Tuấn,08/26/2002,Nam,Nghệ An,099528664,9000,Nhân sự thử việc
+1442,Giang,Thanh,04/27/1994,Nữ,Bắc Ninh,099435584,50000,Chuyên gia nước ngoài
+1443,Thất,Hồng,03/07/2000,Khác,Bạc Liêu,098596646,8000,Thực tập sinh
+1444,Hứa,Nguyễn Trang,05/28/1990,Nữ,Đắk Nông,092205915,9000,Nhân sự thử việc
+1445,Dư,Nguyễn Hồng,09/15/1993,Nữ,Bình Định,093397563,50000,Chuyên gia nước ngoài
+1446,Diệp,Nguyễn Thùy,04/18/1987,Nam,Đà Nẵng,090849606,15000,Nhân viên
+1447,Bạch,Hoàng An,02/06/1995,Nữ,Bình Dương,093840228,10000,Công nhân
+1448,Mai,Lê Phương,01/27/1994,Nam,Kon Tum,098474033,9000,Nhân sự thử việc
+1449,Phùng,Trần Trang,03/30/1994,Nữ,Tây Ninh,098796395,9000,Người làm bán thời gian
+1450,Mai,Trang,03/26/1987,Nữ,Gia Lai,097260185,60000,Cán bộ quản lý
+1451,Văn,Nguyễn Thùy,07/02/2001,Nữ,Trà Vinh,095106381,60000,Cán bộ quản lý
+1452,Lại,Nguyễn Anh,07/06/1998,Nam,Bắc Ninh,099660319,60000,Cán bộ quản lý
+1453,Ngô,Lê Kim,04/23/1999,Khác,Bình Dương,099436736,50000,Chuyên gia nước ngoài
+1454,Từ,Anh,04/06/2003,Nữ,Kon Tum,092464292,40000,Kỹ sư
+1455,Ngụy,Tuấn Anh,07/10/1997,Khác,Tây Ninh,097682149,50000,Chuyên gia nước ngoài
+1456,Cao,Văn Đức,10/17/1991,Nữ,Hà Tĩnh,090063827,60000,Cán bộ quản lý
+1457,Tăng,Dương Hùng,04/10/2002,Nam,Nam Định,092079819,15000,Nhân viên
+1458,Ôn,Nguyễn Thị,04/14/1986,Nữ,Nam Định,090902188,10000,Lao động phổ thông
+1459,Lưu,Quang,07/28/1993,Khác,Phú Yên,099378595,15000,Nhân viên
+1460,Châu,Minh,04/24/1998,Nữ,Bình Định,096812947,10000,Lao động phổ thông
+1461,Đàm,Dương Quốc,12/08/1990,Nữ,Bình Phước,097862050,50000,Chuyên gia nước ngoài
+1462,Hứa,Lê Kim,06/07/1987,Khác,Cần Thơ,097416359,10000,Công nhân
+1463,Tôn,Trang,02/01/1997,Khác,Cà Mau.,095656444,10000,Công nhân
+1464,Nhâm,Nguyễn Mai,01/26/1995,Nữ,Bình Dương,091526998,10000,Lao động phổ thông
+1465,Nghiêm,Nguyễn Hùng,08/01/1995,Khác,Tiền Giang,096958460,10000,Lao động phổ thông
+1466,Ngô,Hoàng An,04/03/1992,Nữ,Lâm Đồng,092608930,50000,Chuyên gia nước ngoài
+1467,Tào,Thanh,08/16/2002,Nam,Cà Mau.,093931966,9000,Người làm bán thời gian
+1468,Thiều,Nguyễn Mai,05/28/1999,Nữ,Thừa Thiên Huế,091284564,9000,Nhân sự thử việc
+1469,Lưu,Quang,01/08/1999,Nam,Long An,091571508,10000,Lao động phổ thông
+1470,Bạch,Lê Mai,04/28/2002,Nam,Hồ Chí Minh (TP. HCM),096979308,8000,Thực tập sinh
+1471,Doãn,Nguyễn Hồng,07/06/2000,Nam,Thừa Thiên Huế,098335368,50000,Chuyên gia nước ngoài
+1472,Trần,,01/07/1999,Nam,Hà Nội,099009537,60000,Cán bộ quản lý
+1473,Lữ,Hoàng,05/24/1985,Nữ,Nghệ An,095949031,10000,Công nhân
+1474,Âu,Hoàng An,03/25/1991,Nữ,Long An,092636946,50000,Chuyên gia nước ngoài
+1475,Bành,Trần Đức,11/02/2000,Nam,Quảng Trị,094502758,9000,Nhân sự thử việc
+1476,Doãn,Dương,12/23/2002,Nữ,Bình Phước,096967857,10000,Công nhân
+1477,Trình,Anh,03/01/1995,Nữ,Thái Bình,090532925,9000,Người làm bán thời gian
+1478,Ngô,Văn Đức,02/14/1987,Nam,Tuyên Quang,093399772,60000,Cán bộ quản lý
+1479,Hồn,Trần Anh,08/26/1997,Nữ,Lai Châu,096375703,15000,Nhân viên
+1480,Phan,Trần Ánh,11/03/1990,Nam,Bình Phước,093597940,60000,Cán bộ quản lý
+1481,Lục,Lan,12/19/1995,Nam,Quảng Ninh,090954768,40000,Kỹ sư
+1482,Đàm,Trần Lan,07/08/1994,Nữ,Hòa Bình,098452539,60000,Cán bộ quản lý
+1483,Đậu,Lê Thùy,05/13/1993,Nữ,Gia Lai,091525957,60000,Cán bộ quản lý
+1484,Ngô,Lê Nam,05/10/1987,Nữ,Bình Dương,090005758,60000,Cán bộ quản lý
+1485,Tất,Nguyễn Hồng,12/06/1988,Nam,Đồng Nai,095485236,10000,Lao động phổ thông
+1486,Vũ,Nguyễn Ánh,07/01/1995,Nam,Cao Bằng,091259294,40000,Kỹ sư
+1487,Mã,Nguyễn Thị,03/08/1997,Khác,Bạc Liêu,093355797,9000,Người làm bán thời gian
+1488,Âu,Thị,12/08/2003,Nam,Cà Mau.,093757907,50000,Chuyên gia nước ngoài
+1489,Mai,Lê Thùy,05/18/1990,Nữ,Bình Định,094647516,10000,Công nhân
+1490,Thất,Lê Hồng,08/13/2004,Nữ,Lâm Đồng,091791423,50000,Chuyên gia nước ngoài
+1491,Lưu,Lê Thùy,05/19/1991,Nữ,Bắc Kạn,097362418,10000,Lao động phổ thông
+1492,Quách,Trần Trang,08/04/1992,Nam,Trà Vinh,097938283,9000,Người làm bán thời gian
+1493,Trà,Quang Minh,01/24/1994,Khác,Quảng Trị,097646921,10000,Lao động phổ thông
+1494,Vương,Trần Trang,03/12/1992,Nữ,Vĩnh Phúc,096438152,15000,Nhân viên
+1495,Thân,Lê Kim,09/10/1987,Nữ,Ninh Thuận,091169909,60000,Cán bộ quản lý
+1496,Trần,Dương,08/27/2004,Nam,Hòa Bình,099932981,8000,Thực tập sinh
+1497,Kim,Nguyễn Hồng,05/30/1997,Khác,Trà Vinh,095984691,9000,Người làm bán thời gian
+1498,Phương,Lê Mai,06/27/1986,Khác,Quảng Trị,091351856,8000,Thực tập sinh
+1499,Ngô,Hùng,09/15/1991,Khác,Hà Nam,099241804,10000,Lao động phổ thông
+1500,Phương,Dương Hùng,03/19/1998,Nam,Vĩnh Long,091660494,40000,Kỹ sư
+1501,Hồn,Nguyễn Ánh,05/14/1995,Khác,Lạng Sơn,096494703,9000,Người làm bán thời gian
+1502,Bùi,Tuấn,07/01/1986,Nữ,Đắk Lắk,092466667,50000,Chuyên gia nước ngoài
+1503,Đậu,Lê Mai,08/12/1997,Nữ,An Giang,095517199,10000,Lao động phổ thông
+1504,Lại,Dương,04/14/1987,Khác,Đắk Nông,090097184,60000,Cán bộ quản lý
+1505,Chung,Nam,12/12/1996,Nữ,Đà Nẵng,097859442,40000,Kỹ sư
+1506,Đoàn,Kim,06/29/1996,Khác,Yên Bái,098280355,10000,Lao động phổ thông
+1507,Phương,Phương,08/13/2002,Nam,Thanh Hóa,098338538,10000,Công nhân
+1508,Vòng,Quang Minh,10/19/2002,Khác,Đồng Nai,094647516,10000,Công nhân
+1509,Mạc,Văn Đức,03/05/1987,Nữ,Bà Rịa - Vũng Tàu,094409942,50000,Chuyên gia nước ngoài
+1510,Dư,Văn Anh,04/07/1986,Nam,Phú Thọ,090238343,9000,Nhân sự thử việc
+1511,Nghiêm,Quang,09/12/1985,Khác,Hải Dương,095485543,60000,Cán bộ quản lý
+1512,Đặng,Nguyễn Hùng,12/14/1989,Nam,Thái Bình,096562145,10000,Lao động phổ thông
+1513,Vòng,Văn Đức,04/03/1992,Khác,Ninh Thuận,097015218,15000,Nhân viên
+1514,Trương,Hồng,09/03/1996,Nữ,Hậu Giang,093019354,40000,Kỹ sư
+1515,Đi,Phương,12/31/1987,Nữ,Hồ Chí Minh (TP. HCM),097107614,60000,Cán bộ quản lý
+1516,Chế,Phương,04/09/2004,Nam,Bắc Ninh,099181947,50000,Chuyên gia nước ngoài
+1517,Biện,Quang Minh,06/21/1998,Khác,Đồng Tháp,090532925,40000,Kỹ sư
+1518,Thạch,Trần Lan,12/05/1986,Nữ,Ninh Thuận,095973427,60000,Cán bộ quản lý
+1519,Chế,Ánh,08/12/2001,Khác,Hà Nội,099614230,40000,Kỹ sư
+1520,Hoàng,Tuấn,11/04/1985,Nam,Hải Phòng,093499606,10000,Công nhân
+1521,Đặng,Nguyễn Hồng,04/15/1992,Nữ,Long An,092624736,50000,Chuyên gia nước ngoài
+1522,Lý,Trần Trang,01/15/1998,Khác,Tiền Giang,098456050,60000,Cán bộ quản lý
+1523,Huỳnh,Trần Ánh,03/09/1988,Khác,Hòa Bình,098927560,10000,Công nhân
+1524,Đặng,Nguyễn Hồng,10/11/1985,Nữ,Kon Tum,095746020,10000,Công nhân
+1525,Chu,Nguyễn Anh,08/01/1988,Khác,Cao Bằng,095593003,8000,Thực tập sinh
+1526,Đỗ,Lê Hồng,03/01/1991,Khác,Yên Bái,095995884,50000,Chuyên gia nước ngoài
+1527,Ngụy,Mai,11/28/2004,Khác,Lâm Đồng,099633993,10000,Lao động phổ thông
+1528,Đỗ,Kim,09/04/2002,Nữ,Bắc Giang,095565686,50000,Chuyên gia nước ngoài
+1529,Đậu,Nguyễn Anh,11/19/1998,Nam,Quảng Ngãi,094742232,15000,Nhân viên
+1530,Ôn,Phương,04/17/1990,Khác,Vĩnh Phúc,090703541,10000,Công nhân
+1531,Thân,Trần Hùng,04/18/1991,Nam,Quảng Ninh,097281496,9000,Người làm bán thời gian
+1532,Quách,Trần Đức,11/02/1988,Nam,Kiên Giang,099093935,9000,Nhân sự thử việc
+1533,Thái,Văn,05/26/1995,Nam,Ninh Thuận,096296247,15000,Nhân viên
+1534,Hoàng,Trần Anh,12/27/1985,Nữ,Cần Thơ,096928659,60000,Cán bộ quản lý
+1535,Phương,Trang,04/08/2001,Nam,Đắk Nông,094227354,9000,Nhân sự thử việc
+1536,Phùng,Nguyễn Thị,06/01/1989,Nữ,Hòa Bình,095984691,10000,Lao động phổ thông
+1537,Hồn,Minh Khánh,06/10/1987,Khác,Nghệ An,098362440,8000,Thực tập sinh
+1538,Lã,Nguyễn Trang,01/20/1997,Nữ,Cà Mau.,091309585,40000,Kỹ sư
+1539,Cao,Hoàng,03/28/1995,Nam,Quảng Nam,092212248,40000,Kỹ sư
+1540,Huỳnh,Hoàng Nam,07/12/1986,Khác,Hà Nam,096438152,10000,Công nhân
+1541,Biện,,08/21/1997,Nữ,Bình Định,091481457,60000,Cán bộ quản lý
+1542,Hoàng,Minh,10/11/1990,Nữ,Cần Thơ,093485779,50000,Chuyên gia nước ngoài
+1543,Hàng,Kim,02/24/1993,Nam,An Giang,095145968,9000,Nhân sự thử việc
+1544,Tạ,Dương Hùng,11/26/1986,Khác,Lạng Sơn,094352750,10000,Công nhân
+1545,Liêu,Nguyễn Phương,08/12/1996,Nữ,Ninh Thuận,095451741,50000,Chuyên gia nước ngoài
+1546,Quách,Mai,08/06/1995,Nam,Cao Bằng,093899212,8000,Thực tập sinh
+1547,Lương,Nguyễn Thị,03/04/1992,Nam,Cần Thơ,097903322,40000,Kỹ sư
+1548,Biện,Lê Thùy,08/07/2000,Nữ,Hậu Giang,095118055,50000,Chuyên gia nước ngoài
+1549,Hàng,Tuấn,01/21/1992,Khác,Tây Ninh,092551907,9000,Người làm bán thời gian
+1550,Khổng,Tuấn,10/31/1986,Khác,Vĩnh Long,098238914,40000,Kỹ sư
+1551,Trịnh,Phương,12/11/1985,Nữ,Nghệ An,095850402,9000,Nhân sự thử việc
+1552,Trịnh,Trần Đức,01/25/1985,Nữ,Hải Dương,093504209,10000,Công nhân
+1553,Cao,Nguyễn Phương,12/06/2000,Khác,Thái Nguyên,098513733,60000,Cán bộ quản lý
+1554,Tiêu,Thanh Hương,06/23/1989,Nam,Hưng Yên,096301123,8000,Thực tập sinh
+1555,Trầm,Minh Tuấn,05/25/1989,Khác,Quảng Ninh,090248707,9000,Người làm bán thời gian
+1556,Mai,Thanh Thảo,07/16/1988,Nam,Đà Nẵng,099197630,15000,Nhân viên
+1557,Dương,Minh,07/24/1995,Khác,Bắc Kạn,090271638,40000,Kỹ sư
+1558,Ngụy,Thanh,11/28/1987,Nam,Hải Dương,098854119,10000,Lao động phổ thông
+1559,Thân,Hùng,03/04/1990,Nam,Hà Giang,094794865,40000,Kỹ sư
+1560,Kiều,Lê Phương,02/14/1999,Nam,Sóc Trăng,098550203,9000,Nhân sự thử việc
+1561,La,Tuấn,08/07/1993,Nam,Quảng Ngãi,090483989,15000,Nhân viên
+1562,Chu,Quang,03/07/1986,Nữ,Nam Định,095451741,8000,Thực tập sinh
+1563,Lý,Nguyễn Ánh,01/29/1985,Nữ,Tây Ninh,097344939,10000,Công nhân
+1564,Đặng,Thùy,11/02/2003,Khác,Cần Thơ,099519380,9000,Nhân sự thử việc
+1565,Quan,Thùy,06/03/1996,Khác,Đắk Lắk,097757299,9000,Người làm bán thời gian
+1566,Trình,Hồng,01/11/1998,Nam,Lâm Đồng,092254515,60000,Cán bộ quản lý
+1567,Đỗ,Lê Phương,02/27/1988,Khác,Đồng Nai,092210345,10000,Công nhân
+1568,Bùi,Ánh,02/23/1991,Khác,Phú Thọ,092167721,9000,Nhân sự thử việc
+1569,Ôn,Trần Anh,11/03/2004,Khác,Lâm Đồng,090017615,10000,Lao động phổ thông
+1570,Ôn,Lê Thùy,06/02/1991,Nữ,Ninh Bình,095781417,9000,Người làm bán thời gian
+1571,Đường,Trần Trang,12/21/1998,Khác,Bình Thuận,091919235,8000,Thực tập sinh
+1572,Vương,Trần Trang,03/27/2001,Nữ,Quảng Ngãi,091534951,10000,Công nhân
+1573,Từ,Nguyễn Phương,06/18/1990,Nam,Đắk Lắk,090358672,60000,Cán bộ quản lý
+1574,Từ,Dương Quốc,09/28/1998,Khác,Trà Vinh,094097128,40000,Kỹ sư
+1575,Tạ,Lan,08/28/1998,Nữ,Bắc Kạn,099238040,8000,Thực tập sinh
+1576,Lã,Nam,03/20/1998,Khác,Bắc Giang,094787036,60000,Cán bộ quản lý
+1577,Bạch,Trần Hùng,11/16/2003,Nữ,Cần Thơ,096030027,9000,Người làm bán thời gian
+1578,Sơn,Nguyễn Lan,01/27/1989,Nam,Cần Thơ,096731324,60000,Cán bộ quản lý
+1579,Tăng,Nguyễn Trang,10/21/1995,Khác,Long An,097507338,15000,Nhân viên
+1580,Hà,Minh,11/24/2001,Nữ,Bà Rịa - Vũng Tàu,097199474,50000,Chuyên gia nước ngoài
+1581,Hứa,Trần Lan,08/05/1991,Nam,Gia Lai,096301123,9000,Người làm bán thời gian
+1582,Giang,Quang Minh,09/20/1993,Nữ,Phú Thọ,099407031,60000,Cán bộ quản lý
+1583,Vi,Nguyễn Ánh,11/03/1994,Khác,Vĩnh Phúc,098118889,10000,Công nhân
+1584,Vũ,Nguyễn Phương,06/15/1985,Khác,Lai Châu,098602748,15000,Nhân viên
+1585,Khưu,Nam,12/02/1992,Nữ,Bắc Kạn,099717749,10000,Lao động phổ thông
+1586,Văn,Minh Tuấn,10/22/1992,Nữ,Bình Phước,098733351,60000,Cán bộ quản lý
+1587,Tào,Trang,02/07/1998,Nữ,Bình Phước,093566157,10000,Lao động phổ thông
+1588,Tiêu,Nguyễn Nam,06/18/1991,Khác,Cao Bằng,091883684,9000,Người làm bán thời gian
+1589,Chung,Dương Quốc,01/13/1992,Nam,Bắc Ninh,099459988,40000,Kỹ sư
+1590,Mã,,05/17/1989,Khác,Tuyên Quang,096030066,40000,Kỹ sư
+1591,Khổng,Lan,09/05/1999,Nam,Gia Lai,099683737,9000,Nhân sự thử việc
+1592,Tôn,Lê Thùy,09/22/2003,Khác,Đà Nẵng,098813717,40000,Kỹ sư
+1593,Âu,Nguyễn Nam,06/23/1997,Nữ,Quảng Nam,096111954,40000,Kỹ sư
+1594,Thi,Nguyễn Thùy,10/24/1992,Nữ,Cần Thơ,096960646,10000,Lao động phổ thông
+1595,Mai,Nguyễn Hồng,04/22/1998,Nữ,Ninh Thuận,096563933,40000,Kỹ sư
+1596,Nữ,Tuấn,09/14/1993,Nam,Sơn La,092138251,15000,Nhân viên
+1597,Tất,Trần Lan,10/27/1998,Nữ,Bắc Ninh,096812947,10000,Công nhân
+1598,Lục,Văn,04/13/1991,Nam,Ninh Thuận,092370707,50000,Chuyên gia nước ngoài
+1599,Nữ,Hoàng Nam,03/21/2002,Nam,Hồ Chí Minh (TP. HCM),096444826,50000,Chuyên gia nước ngoài
+1600,Ôn,Dương Hùng,03/19/1996,Nam,Cà Mau.,094477882,9000,Người làm bán thời gian
+1601,Tất,Hoàng Nam,09/14/2004,Nam,Quảng Trị,095596369,8000,Thực tập sinh
+1602,Nguyễn,Nguyễn Lan,04/20/1995,Nam,Đắk Lắk,093065644,15000,Nhân viên
+1603,Chế,Thị,03/28/1997,Khác,Hà Giang,096337339,15000,Nhân viên
+1604,Mai,Lê Nam,12/06/1987,Nữ,Bạc Liêu,096582325,40000,Kỹ sư
+1605,Kiều,Tuấn Anh,07/28/1996,Khác,Trà Vinh,095905198,10000,Lao động phổ thông
+1606,Mai,Tuấn Anh,11/19/1995,Nữ,Bạc Liêu,094104066,8000,Thực tập sinh
+1607,Âu,Minh,10/03/1985,Nữ,Đồng Nai,099217013,10000,Lao động phổ thông
+1608,Phù,,06/05/1993,Nữ,Bắc Ninh,095778411,9000,Nhân sự thử việc
+1609,Liêu,Văn Đức,05/31/1985,Khác,Bắc Ninh,094349260,50000,Chuyên gia nước ngoài
+1610,Trịnh,Nguyễn Kim,01/07/1998,Nam,Đồng Nai,099857862,40000,Kỹ sư
+1611,Trình,Hồng,01/27/1989,Khác,Bến Tre,092735630,15000,Nhân viên
+1612,Vương,Dương Quốc,06/30/1989,Nữ,Khánh Hòa,090271638,40000,Kỹ sư
+1613,Tôn,Trần Thị,03/09/1999,Khác,Hải Dương,098627445,50000,Chuyên gia nước ngoài
+1614,Phùng,,04/15/1999,Khác,Long An,095545782,50000,Chuyên gia nước ngoài
+1615,Đoàn,Trần Ánh,05/11/1989,Khác,Thừa Thiên Huế,097175767,10000,Lao động phổ thông
+1616,Quách,Thị,09/06/2004,Nữ,Yên Bái,099637362,8000,Thực tập sinh
+1617,Ngụy,Mai,07/02/1999,Nam,Quảng Nam,094138937,9000,Nhân sự thử việc
+1618,Đỗ,Dương Quốc,05/29/1998,Nữ,Lạng Sơn,090902023,9000,Người làm bán thời gian
+1619,Phù,Văn Anh,04/29/2004,Nam,Cà Mau.,094215681,9000,Nhân sự thử việc
+1620,Thân,Hùng,07/04/2000,Nam,Đà Nẵng,090238343,50000,Chuyên gia nước ngoài
+1621,Ôn,Văn,08/25/1998,Nam,Hải Dương,098129987,10000,Lao động phổ thông
+1622,Doãn,Nguyễn Mai,04/18/1988,Khác,Ninh Thuận,099334468,15000,Nhân viên
+1623,Võ,Trần Trang,07/15/1991,Nữ,Sóc Trăng,090025193,8000,Thực tập sinh
+1624,Đặng,Thùy,09/26/1989,Khác,Hà Tĩnh,098485733,9000,Nhân sự thử việc
+1625,Diệp,Dương Quốc,07/07/1996,Nam,Vĩnh Long,091794455,9000,Nhân sự thử việc
+1626,Trương,Thanh Thảo,02/14/1986,Nam,Lai Châu,090433329,9000,Người làm bán thời gian
+1627,Khổng,Tuấn Anh,06/20/1994,Nam,Đồng Tháp,097210599,10000,Lao động phổ thông
+1628,Huỳnh,Nguyễn Hùng,10/21/2004,Nữ,Đồng Tháp,091684967,15000,Nhân viên
+1629,Sơn,Văn,07/12/1994,Nữ,Hậu Giang,095973427,40000,Kỹ sư
+1630,Võ,Trần Anh,12/21/1996,Nữ,Đắk Nông,095662902,15000,Nhân viên
+1631,Vòng,Mai,10/06/1987,Khác,Đà Nẵng,096746792,60000,Cán bộ quản lý
+1632,Nhâm,Tuấn,04/08/1990,Nam,Tiền Giang,092753230,9000,Nhân sự thử việc
+1633,Mạc,Lê Mai,01/08/1993,Nữ,Hồ Chí Minh (TP. HCM),099309068,50000,Chuyên gia nước ngoài
+1634,Đỗ,Nguyễn Ánh,05/09/2001,Nữ,Hải Dương,099713960,15000,Nhân viên
+1635,Thái,Nguyễn Nam,05/14/1987,Nam,Hải Dương,093778846,10000,Công nhân
+1636,Thân,Kim,09/09/1997,Nam,Khánh Hòa,098513733,10000,Công nhân
+1637,Quách,Văn Anh,11/14/2003,Nam,Hải Phòng,098927560,40000,Kỹ sư
+1638,Liêu,Nguyễn Hồng,04/17/2002,Khác,Đắk Nông,094191189,50000,Chuyên gia nước ngoài
+1639,Vòng,Lan,11/06/2000,Khác,Đồng Tháp,096977515,9000,Người làm bán thời gian
+1640,Ngô,Lê Thùy,03/21/2001,Nam,Hà Nam,094645072,60000,Cán bộ quản lý
+1641,Mã,Anh,09/09/1988,Nữ,Thừa Thiên Huế,098012078,8000,Thực tập sinh
+1642,Phan,Nguyễn Kim,06/25/1995,Khác,Đắk Lắk,091506281,60000,Cán bộ quản lý
+1643,Huỳnh,Minh Tuấn,12/01/2002,Nữ,Cao Bằng,099208297,40000,Kỹ sư
+1644,Thạch,Nguyễn Đức,04/18/2002,Nam,Thái Bình,098035697,40000,Kỹ sư
+1645,Hàng,Nguyễn Lan,07/22/1985,Khác,Lào Cai,099619131,10000,Lao động phổ thông
+1646,Sơn,Thùy,02/04/1986,Nam,Thái Nguyên,095480648,60000,Cán bộ quản lý
+1647,Hàng,Nguyễn Lan,10/02/1986,Nữ,Thanh Hóa,094292024,9000,Nhân sự thử việc
+1648,Khưu,Nguyễn Thùy,11/03/1987,Nam,Hà Nam,099932981,10000,Lao động phổ thông
+1649,Hứa,Trần Hùng,03/15/1998,Nam,Long An,098182196,50000,Chuyên gia nước ngoài
+1650,Tôn,Hoàng,04/30/1992,Nam,Cao Bằng,094172918,40000,Kỹ sư
+1651,Giang,Lê Hồng,09/06/1988,Nam,Bắc Ninh,093193755,9000,Người làm bán thời gian
+1652,Đoàn,Minh Khánh,05/29/2002,Nữ,Sơn La,097477182,10000,Công nhân
+1653,Mã,Văn Đức,01/16/1989,Nữ,Hòa Bình,092011123,9000,Người làm bán thời gian
+1654,Liêu,Lan,03/07/1997,Khác,Bà Rịa - Vũng Tàu,091263775,50000,Chuyên gia nước ngoài
+1655,Phương,Minh,02/02/1998,Nữ,Quảng Ninh,091106827,15000,Nhân viên
+1656,Tôn,Trần Đức,12/20/1988,Nam,Bắc Giang,096503574,10000,Lao động phổ thông
+1657,Bạch,Nguyễn Anh,04/15/1993,Nữ,Quảng Bình,091286489,50000,Chuyên gia nước ngoài
+1658,Tiêu,Trần Thị,04/10/1999,Nữ,Hà Giang,090511437,40000,Kỹ sư
+1659,Lê,Nguyễn Thị,06/06/1986,Khác,Hà Giang,090692557,15000,Nhân viên
+1660,Mã,Minh Khánh,07/20/1985,Nữ,Nam Định,098441415,50000,Chuyên gia nước ngoài
+1661,Hà,Nguyễn Lan,09/01/1993,Khác,Lào Cai,098338538,9000,Nhân sự thử việc
+1662,Hà,Văn Đức,07/10/1996,Nữ,Lâm Đồng,092347375,50000,Chuyên gia nước ngoài
+1663,Trà,Kim,08/08/1992,Khác,Bình Dương,091149526,50000,Chuyên gia nước ngoài
+1664,Doãn,Nguyễn Trang,12/05/1992,Nam,Đà Nẵng,096518861,8000,Thực tập sinh
+1665,Hàng,Trần Lan,10/27/1992,Khác,Lạng Sơn,096960646,10000,Công nhân
+1666,Tất,Nguyễn Thị,05/11/1985,Khác,Gia Lai,096977515,9000,Nhân sự thử việc
+1667,Mai,Nguyễn Thùy,11/07/2000,Khác,Đồng Nai,098796138,10000,Công nhân
+1668,Viên,Tuấn Anh,01/13/1995,Khác,Hải Dương,096105608,40000,Kỹ sư
+1669,Hoàng,Trang,10/10/1990,Nữ,Cao Bằng,095359319,8000,Thực tập sinh
+1670,Trà,Hùng,05/02/1994,Khác,Bình Phước,095546605,9000,Nhân sự thử việc
+1671,Âu,Nguyễn Ánh,02/20/1986,Nữ,Phú Thọ,094220503,50000,Chuyên gia nước ngoài
+1672,Quách,Lê Phương,09/27/2002,Nữ,Hậu Giang,097346196,8000,Thực tập sinh
+1673,Khưu,Dương,08/30/2003,Nam,Đồng Tháp,099203316,8000,Thực tập sinh
+1674,Đồn,Quang,10/18/1993,Nam,Lạng Sơn,098970368,9000,Người làm bán thời gian
+1675,Phù,Nguyễn Đức,10/20/1996,Nam,Tây Ninh,093504209,40000,Kỹ sư
+1676,Ngô,Quang,08/01/1991,Nữ,Hà Nội,097661547,9000,Nhân sự thử việc
+1677,Đi,Nguyễn Phương,01/04/1989,Nam,Bến Tre,099498041,10000,Công nhân
+1678,Từ,Trang,06/12/1998,Nữ,Tiền Giang,091043564,15000,Nhân viên
+1679,Bành,Minh Tuấn,10/14/1997,Nam,Bắc Giang,098791716,8000,Thực tập sinh
+1680,Nữ,Trần Trang,12/21/1992,Nam,Cà Mau.,095713924,10000,Công nhân
+1681,Hồ,Lê Nam,12/21/1994,Nữ,Khánh Hòa,097987654,8000,Thực tập sinh
+1682,Tất,Phương,08/14/1988,Nam,Vĩnh Long,097278203,15000,Nhân viên
+1683,Doãn,Hùng,08/25/1989,Khác,Lào Cai,099261032,15000,Nhân viên
+1684,Phù,Phương,03/13/1999,Nữ,Lai Châu,099448744,10000,Công nhân
+1685,Lữ,Trần Đức,12/19/1989,Khác,Cà Mau.,093121742,60000,Cán bộ quản lý
+1686,Bùi,Thanh,10/30/2000,Nam,Trà Vinh,097340248,50000,Chuyên gia nước ngoài
+1687,Hà,Tuấn Anh,02/28/1990,Khác,Hồ Chí Minh (TP. HCM),095126704,10000,Lao động phổ thông
+1688,Ông,Trần Ánh,10/07/1993,Nữ,Trà Vinh,096086023,40000,Kỹ sư
+1689,Vi,Nguyễn Hùng,08/27/1994,Nữ,Phú Thọ,090005758,10000,Công nhân
+1690,Bành,Minh Khánh,12/06/1996,Khác,Hà Giang,094822221,50000,Chuyên gia nước ngoài
+1691,Tôn,Anh,12/17/2002,Khác,Bà Rịa - Vũng Tàu,090316749,10000,Lao động phổ thông
+1692,Thi,Nguyễn Lan,07/18/1997,Nữ,Thái Bình,099932269,40000,Kỹ sư
+1693,Giang,Phương,10/18/1991,Nam,Hà Tĩnh,093592391,9000,Nhân sự thử việc
+1694,Diệp,Lê Nam,08/07/1996,Khác,Hậu Giang,090645248,40000,Kỹ sư
+1695,Kiều,Nguyễn Đức,04/29/2000,Khác,Quảng Ngãi,090329518,9000,Người làm bán thời gian
+1696,Phù,Phương,04/22/1994,Nam,Hà Nội,090215590,15000,Nhân viên
+1697,Văn,Thanh Hương,10/17/2004,Nam,Bắc Kạn,093786582,60000,Cán bộ quản lý
+1698,Ngụy,Văn Đức,06/06/1987,Nam,Lào Cai,092318774,15000,Nhân viên
+1699,Hứa,Nguyễn Hồng,11/07/1985,Khác,Long An,094576344,60000,Cán bộ quản lý
+1700,Trương,Thanh,02/15/1985,Nữ,Nghệ An,096787483,8000,Thực tập sinh
+1701,Dương,Ánh,08/11/1987,Khác,Quảng Ninh,097507338,10000,Lao động phổ thông
+1702,Kim,Trang,08/14/1985,Nam,Cà Mau.,098987369,15000,Nhân viên
+1703,Bùi,Trang,10/01/1990,Nữ,Bình Phước,095410369,9000,Nhân sự thử việc
+1704,Diệp,Nguyễn Thùy,10/26/1990,Nam,Yên Bái,096108256,9000,Người làm bán thời gian
+1705,Huỳnh,Văn Anh,02/17/1992,Khác,Lâm Đồng,097240147,9000,Nhân sự thử việc
+1706,Hồ,Trần Hùng,05/16/1986,Nam,Quảng Ninh,093397563,60000,Cán bộ quản lý
+1707,Cao,Dương Hùng,12/05/1992,Nữ,Hà Nội,099283121,9000,Nhân sự thử việc
+1708,Bùi,Dương,07/09/1993,Nữ,Đắk Lắk,099208297,9000,Nhân sự thử việc
+1709,Sơn,Dương Quốc,08/13/2003,Khác,Đồng Tháp,096114351,10000,Lao động phổ thông
+1710,Trịnh,Tuấn Anh,01/06/1995,Nữ,Khánh Hòa,090941314,9000,Người làm bán thời gian
+1711,Hàng,Trần Thị,10/01/1995,Khác,Thái Bình,090368176,50000,Chuyên gia nước ngoài
+1712,Trịnh,Kim,10/19/1991,Nữ,An Giang,094807111,10000,Công nhân
+1713,Tôn,Dương Hùng,09/09/2004,Khác,Sơn La,099174798,40000,Kỹ sư
+1714,Mai,Nguyễn Thị,09/22/1995,Nam,Đồng Nai,097364484,50000,Chuyên gia nước ngoài
+1715,Khổng,Lê Nam,05/22/1997,Nữ,Đà Nẵng,097903322,9000,Người làm bán thời gian
+1716,Hoàng,Nguyễn Phương,03/15/2002,Khác,Trà Vinh,090639082,9000,Nhân sự thử việc
+1717,Trình,Văn Anh,05/10/1986,Nam,Trà Vinh,099367434,15000,Nhân viên
+1718,Cao,Văn Anh,12/13/1990,Nam,Quảng Nam,097917210,8000,Thực tập sinh
+1719,Ngô,Tuấn Anh,05/24/1986,Khác,Nam Định,096837936,9000,Người làm bán thời gian
+1720,Kim,Trần Ánh,11/08/1999,Nữ,Nam Định,094593751,40000,Kỹ sư
+1721,Thân,Trần Lan,09/26/2002,Khác,Gia Lai,090433329,10000,Công nhân
+1722,Tống,Nguyễn Hồng,06/04/1990,Nam,Tuyên Quang,091449447,15000,Nhân viên
+1723,Phạm,Trang,12/13/1995,Nữ,Bà Rịa - Vũng Tàu,092211558,50000,Chuyên gia nước ngoài
+1724,Nguyễn,Trần Ánh,08/31/2000,Nữ,Quảng Ninh,097409564,10000,Công nhân
+1725,Trình,Kim,04/06/2003,Khác,Cần Thơ,099309068,10000,Công nhân
+1726,Thạch,Nguyễn Ánh,05/28/1989,Khác,Hà Giang,091218251,60000,Cán bộ quản lý
+1727,Phùng,Trần Thị,12/18/2002,Khác,Yên Bái,091172507,10000,Lao động phổ thông
+1728,Đậu,Lê Nam,02/06/2002,Nam,Bắc Kạn,094296270,10000,Lao động phổ thông
+1729,Tôn,Văn Anh,10/15/1990,Nữ,Lâm Đồng,099984514,50000,Chuyên gia nước ngoài
+1730,Vũ,Thùy,10/06/2001,Nam,Lào Cai,094320353,40000,Kỹ sư
+1731,Phù,Thanh Hương,10/09/1999,Nam,Hòa Bình,097216871,60000,Cán bộ quản lý
+1732,Diệp,Nguyễn Kim,11/25/1990,Nam,Thừa Thiên Huế,098097446,8000,Thực tập sinh
+1733,Ngô,Trần Thị,05/17/1996,Nam,Lai Châu,093065644,40000,Kỹ sư
+1734,Tô,Trần Ánh,01/14/1997,Nữ,Bắc Giang,092254515,15000,Nhân viên
+1735,Đặng,Lê Hồng,09/17/1988,Nữ,Vĩnh Long,091615298,10000,Lao động phổ thông
+1736,Phùng,Trần Anh,12/09/2004,Khác,Quảng Ngãi,098322310,15000,Nhân viên
+1737,Trà,Minh,07/16/1986,Khác,Hồ Chí Minh (TP. HCM),094328299,10000,Công nhân
+1738,Huỳnh,Văn Anh,08/08/1996,Nữ,Thái Bình,092410822,60000,Cán bộ quản lý
+1739,Châu,Nam,01/21/1987,Nam,Sơn La,097663964,10000,Lao động phổ thông
+1740,Mai,Minh Tuấn,07/18/1989,Nữ,Bình Định,092814288,50000,Chuyên gia nước ngoài
+1741,Ninh,Trần Hùng,08/28/1985,Khác,Bình Định,099378595,9000,Nhân sự thử việc
+1742,La,Hoàng,03/26/1988,Nữ,Hậu Giang,092210345,60000,Cán bộ quản lý
+1743,Tạ,Nguyễn Anh,04/17/1995,Nữ,Tiền Giang,097702477,50000,Chuyên gia nước ngoài
+1744,Trầm,Nguyễn Kim,08/11/1986,Nữ,Quảng Bình,092390804,8000,Thực tập sinh
+1745,Tất,Trần Anh,07/21/1992,Nam,Bắc Giang,098796138,50000,Chuyên gia nước ngoài
+1746,Huỳnh,Trần Anh,12/26/1987,Khác,Ninh Thuận,090511437,10000,Lao động phổ thông
+1747,Tô,Nguyễn Thùy,10/03/2004,Khác,Quảng Ninh,098280355,10000,Lao động phổ thông
+1748,Thạch,Thùy,08/29/2001,Nam,Thanh Hóa,097345314,10000,Công nhân
+1749,Giang,Quang Huy,02/06/1988,Nữ,Kon Tum,095949031,40000,Kỹ sư
+1750,Thất,Văn Anh,04/20/1999,Nam,Trà Vinh,094141076,15000,Nhân viên
+1751,Mai,Trần Đức,06/27/2003,Nữ,Hải Phòng,093881429,60000,Cán bộ quản lý
+1752,Quan,Kim,12/07/1991,Nữ,Lai Châu,093832485,9000,Nhân sự thử việc
+1753,Viên,Nguyễn Phương,10/08/1995,Nữ,Hà Nội,090512645,9000,Người làm bán thời gian
+1754,Lương,Quang Minh,02/06/2002,Khác,Đồng Tháp,099824293,50000,Chuyên gia nước ngoài
+1755,Đường,Nguyễn Kim,08/10/2002,Khác,Lai Châu,091850330,10000,Công nhân
+1756,Nữ,Trần Hùng,11/26/1987,Nữ,Vĩnh Phúc,096061792,50000,Chuyên gia nước ngoài
+1757,Đồn,Nguyễn Ánh,04/25/1986,Nam,Yên Bái,092390804,40000,Kỹ sư
+1758,Phan,Lê Phương,08/17/2000,Khác,Thừa Thiên Huế,095867500,40000,Kỹ sư
+1759,Ngụy,Hồng,04/17/1986,Nam,Bà Rịa - Vũng Tàu,098155479,10000,Lao động phổ thông
+1760,Khưu,Nguyễn Đức,06/13/1991,Khác,Bạc Liêu,099610092,9000,Người làm bán thời gian
+1761,Tô,Trang,01/14/2001,Khác,Vĩnh Long,099197630,15000,Nhân viên
+1762,Đường,Văn Anh,05/18/2002,Nữ,Sóc Trăng,096033689,40000,Kỹ sư
+1763,Phù,Nguyễn Ánh,12/30/1994,Khác,Hưng Yên,099318643,9000,Người làm bán thời gian
+1764,Dư,Anh,02/01/1991,Nữ,Hà Nội,091577614,60000,Cán bộ quản lý
+1765,Mã,Thanh Hương,08/24/1996,Khác,Bình Dương,090329518,50000,Chuyên gia nước ngoài
+1766,Hồn,Quang,11/23/1986,Nam,Hà Nội,093840228,40000,Kỹ sư
+1767,Lý,Nguyễn Phương,07/19/1986,Nữ,Khánh Hòa,094182642,9000,Nhân sự thử việc
+1768,Vương,Nguyễn Nam,06/26/1991,Nam,Bắc Kạn,090248707,50000,Chuyên gia nước ngoài
+1769,Lưu,Mai,11/21/1991,Khác,Phú Thọ,097582276,15000,Nhân viên
+1770,Chế,Lan,08/27/1995,Nữ,Quảng Nam,094477882,9000,Nhân sự thử việc
+1771,Nữ,Lan,05/25/1990,Nam,Thái Bình,093795507,9000,Nhân sự thử việc
+1772,Mạch,Trần Hùng,06/07/2000,Nam,Cà Mau.,095565686,15000,Nhân viên
+1773,Cù,Lê Thùy,05/14/2001,Khác,Ninh Bình,099395358,10000,Công nhân
+1774,Đàm,Trần Ánh,07/03/1999,Nữ,Bình Thuận,091136479,9000,Người làm bán thời gian
+1775,Tôn,Lê Mai,05/24/1992,Nữ,Hà Nội,099301680,50000,Chuyên gia nước ngoài
+1776,Đàm,Phương,10/24/1987,Nữ,Hà Nam,099197781,10000,Công nhân
+1777,Lục,Kim,05/21/1995,Khác,Sơn La,099197781,9000,Người làm bán thời gian
+1778,Đàm,Minh Khánh,06/28/1998,Nữ,Phú Thọ,095567671,9000,Người làm bán thời gian
+1779,Lai,Ánh,02/29/1992,Khác,Hưng Yên,090461639,50000,Chuyên gia nước ngoài
+1780,Lữ,Trần Đức,07/26/1992,Nữ,Hậu Giang,097174513,40000,Kỹ sư
+1781,Lai,Dương,06/20/1989,Khác,Bắc Ninh,095752660,50000,Chuyên gia nước ngoài
+1782,Bùi,Nguyễn Lan,11/30/1991,Nam,Đắk Nông,091169909,9000,Người làm bán thời gian
+1783,Phù,Hoàng An,12/03/1992,Nam,Kiên Giang,094366864,50000,Chuyên gia nước ngoài
+1784,Ngụy,Thùy,04/05/1992,Nữ,Nam Định,092674923,40000,Kỹ sư
+1785,La,Lan,07/26/1989,Nam,Phú Yên,096301123,40000,Kỹ sư
+1786,Tôn,Nguyễn Nam,11/04/2004,Nam,Quảng Nam,094807111,8000,Thực tập sinh
+1787,Tiêu,Mai,01/05/2002,Nam,Hậu Giang,097705072,60000,Cán bộ quản lý
+1788,Nghiêm,Trần Thị,09/11/1999,Khác,Bắc Giang,091967822,10000,Lao động phổ thông
+1789,Chế,Trần Trang,06/03/1986,Nam,Cao Bằng,090575484,15000,Nhân viên
+1790,Khưu,Quang Huy,05/14/1991,Nữ,An Giang,095746020,9000,Người làm bán thời gian
+1791,Biện,Phương,10/29/2000,Nữ,Nghệ An,096111954,40000,Kỹ sư
+1792,Đi,Nguyễn Phương,01/03/1997,Nữ,Quảng Ngãi,095855444,10000,Công nhân
+1793,Hứa,Lê Thùy,04/12/1993,Nam,Hải Dương,094261745,10000,Lao động phổ thông
+1794,Đặng,Trần Trang,08/19/1986,Nữ,Hà Nội,098663305,10000,Lao động phổ thông
+1795,Võ,Nguyễn Hồng,07/29/1999,Khác,Phú Thọ,098097446,40000,Kỹ sư
+1796,Châu,Thùy,10/17/2001,Nữ,Hải Phòng,092551907,10000,Công nhân
+1797,Cù,Trần Thị,12/22/1990,Khác,Ninh Bình,097419127,9000,Người làm bán thời gian
+1798,Vũ,Hùng,03/06/1987,Nam,Trà Vinh,095124259,9000,Người làm bán thời gian
+1799,Cù,Nguyễn Đức,02/15/1998,Nam,Hải Phòng,096239877,9000,Người làm bán thời gian
+1800,Đoàn,Nguyễn Hùng,07/20/1998,Nữ,Phú Yên,099365202,60000,Cán bộ quản lý
+1801,Đồn,Nguyễn Kim,11/15/1996,Nam,An Giang,092370707,9000,Người làm bán thời gian
+1802,Ông,Hồng,10/20/1990,Khác,Bắc Ninh,090324475,15000,Nhân viên
+1803,Tăng,Minh Tuấn,11/11/1999,Khác,Vĩnh Phúc,099915612,40000,Kỹ sư
+1804,Tiêu,Hồng,08/30/2001,Khác,Quảng Bình,092286971,60000,Cán bộ quản lý
+1805,Tiêu,Anh,07/20/1990,Khác,Hà Nội,095495005,60000,Cán bộ quản lý
+1806,Viên,Nguyễn Anh,08/20/1987,Nữ,Bình Phước,095315618,50000,Chuyên gia nước ngoài
+1807,Lại,Dương,11/13/1998,Khác,Lạng Sơn,099761647,50000,Chuyên gia nước ngoài
+1808,Lai,Nguyễn Hồng,03/27/2001,Khác,Trà Vinh,092636946,10000,Lao động phổ thông
+1809,Phan,Văn,03/10/1987,Nam,Kon Tum,091172507,10000,Công nhân
+1810,Chung,Thùy,09/04/1986,Khác,Bạc Liêu,094529527,8000,Thực tập sinh
+1811,Tôn,Văn Đức,03/16/2001,Nam,An Giang,092410822,10000,Công nhân
+1812,Bùi,Trần Ánh,07/30/1993,Khác,Thanh Hóa,091264160,10000,Lao động phổ thông
+1813,Từ,Văn Đức,05/14/1999,Nam,Nghệ An,099673618,40000,Kỹ sư
+1814,Phương,Nguyễn Lan,01/31/1999,Khác,Quảng Nam,099224627,8000,Thực tập sinh
+1815,Nguyễn,Lê Hồng,07/03/1992,Nữ,Hải Phòng,096108256,10000,Công nhân
+1816,Mạch,Trần Hùng,04/25/1986,Nam,Nghệ An,095845716,10000,Lao động phổ thông
+1817,Đậu,Dương,02/28/1999,Nam,Nam Định,098712699,60000,Cán bộ quản lý
+1818,Triệu,Lê Kim,06/30/2004,Nam,Hải Dương,092666492,15000,Nhân viên
+1819,Trầm,Thùy,04/17/2004,Nam,Vĩnh Phúc,093582793,60000,Cán bộ quản lý
+1820,Cao,Văn Anh,06/05/1986,Khác,Vĩnh Long,099028853,50000,Chuyên gia nước ngoài
+1821,Trịnh,Minh Tuấn,09/24/1999,Nam,Thừa Thiên Huế,098036733,50000,Chuyên gia nước ngoài
+1822,Kim,Nguyễn Phương,08/03/2004,Nam,Kon Tum,090163730,10000,Lao động phổ thông
+1823,Biện,,06/22/1993,Nữ,Cần Thơ,099459988,60000,Cán bộ quản lý
+1824,Lữ,Thanh Hương,04/12/1985,Khác,Cà Mau.,094320353,9000,Người làm bán thời gian
+1825,Lê,Lê Hồng,07/27/1996,Nam,Hà Nội,097004236,10000,Công nhân
+1826,Vòng,Quang Minh,10/18/1994,Nam,Hà Nội,097174513,40000,Kỹ sư
+1827,Lý,Hồng,09/11/1991,Khác,Đà Nẵng,096505401,50000,Chuyên gia nước ngoài
+1828,Lê,Hồng,06/19/1990,Nam,Sóc Trăng,096048556,10000,Lao động phổ thông
+1829,Mai,Minh Khánh,07/05/1997,Khác,Hải Dương,099764818,10000,Lao động phổ thông
+1830,Thái,Nguyễn Thùy,04/28/1995,Nam,Bà Rịa - Vũng Tàu,093407621,9000,Người làm bán thời gian
+1831,Thạch,,10/06/1990,Nữ,Đồng Nai,095625378,15000,Nhân viên
+1832,Hứa,,08/13/2000,Nam,Quảng Trị,096946756,8000,Thực tập sinh
+1833,Thiều,Lê Nam,06/21/2004,Khác,Vĩnh Phúc,093786582,50000,Chuyên gia nước ngoài
+1834,Phạm,Nguyễn Trang,06/26/1995,Nam,Quảng Nam,094593751,8000,Thực tập sinh
+1835,Tôn,Trần Anh,09/21/1985,Nữ,Gia Lai,094622057,60000,Cán bộ quản lý
+1836,Mạc,Quang Minh,09/02/1991,Nữ,Đắk Nông,094807111,10000,Công nhân
+1837,Trầm,Thanh Hương,03/30/1987,Nam,Ninh Thuận,095567671,8000,Thực tập sinh
+1838,Giang,Tuấn Anh,07/14/1985,Nam,Bình Dương,095487511,50000,Chuyên gia nước ngoài
+1839,Quan,Trần Lan,07/01/1995,Nam,Gia Lai,098513733,9000,Nhân sự thử việc
+1840,Thiều,Nguyễn Trang,01/06/1994,Khác,Thái Nguyên,096842168,9000,Người làm bán thời gian
+1841,Đỗ,Trần Thị,08/25/1989,Nữ,Ninh Bình,091115231,40000,Kỹ sư
+1842,Trần,Trần Hùng,12/22/1991,Nam,Quảng Ngãi,093668339,60000,Cán bộ quản lý
+1843,Bành,Lê Mai,08/04/1997,Nữ,Thái Bình,098268454,10000,Lao động phổ thông
+1844,Nghiêm,Thị,03/06/1988,Nam,Đắk Nông,096967857,60000,Cán bộ quản lý
+1845,Diệp,Thanh Hương,12/21/1986,Nam,Thừa Thiên Huế,098335368,10000,Lao động phổ thông
+1846,Quách,Trần Hùng,10/06/1989,Nữ,Nam Định,099142564,9000,Người làm bán thời gian
+1847,Nhan,Dương,12/01/2002,Nữ,Hải Phòng,098498892,60000,Cán bộ quản lý
+1848,Ông,Đức,09/13/2001,Khác,Quảng Ninh,090622308,50000,Chuyên gia nước ngoài
+1849,Hứa,Thanh Hương,05/25/1995,Nữ,Vĩnh Long,090079136,40000,Kỹ sư
+1850,Tạ,Nguyễn Hồng,07/07/2003,Khác,Lạng Sơn,097658118,10000,Lao động phổ thông
+1851,Cù,Quang,05/29/1988,Khác,Cần Thơ,096907794,9000,Người làm bán thời gian
+1852,Tất,Nguyễn Anh,06/30/2004,Nữ,Yên Bái,096086023,9000,Nhân sự thử việc
+1853,Lâm,Lê Phương,08/04/2003,Nam,Hưng Yên,091106864,8000,Thực tập sinh
+1854,Tất,Nguyễn Anh,01/12/1998,Nam,Yên Bái,095485543,9000,Người làm bán thời gian
+1855,Lương,Lê Mai,01/11/1997,Khác,Phú Thọ,092531140,8000,Thực tập sinh
+1856,Tống,Nguyễn Ánh,07/12/1989,Nữ,Cần Thơ,099717749,10000,Công nhân
+1857,Thiều,Nguyễn Lan,11/25/1996,Nữ,Cà Mau.,099683737,60000,Cán bộ quản lý
+1858,Thi,Hoàng,09/09/1986,Nữ,Hồ Chí Minh (TP. HCM),090368176,9000,Nhân sự thử việc
+1859,Vũ,Kim,06/08/1997,Nam,Tiền Giang,095592828,9000,Nhân sự thử việc
+1860,Đỗ,Nguyễn Mai,09/23/1986,Nam,Cần Thơ,097676701,10000,Lao động phổ thông
+1861,Vương,Quang,02/06/1985,Nữ,An Giang,097560575,10000,Lao động phổ thông
+1862,Chế,Nguyễn Trang,03/01/1996,Nữ,Lào Cai,094911208,9000,Người làm bán thời gian
+1863,Thiều,Dương,02/24/1999,Nữ,Vĩnh Phúc,097684534,10000,Lao động phổ thông
+1864,Lữ,Hoàng An,06/05/2002,Khác,Yên Bái,096109729,8000,Thực tập sinh
+1865,Ông,Minh,11/01/1995,Nam,Hà Nội,097364484,15000,Nhân viên
+1866,Huỳnh,Trần Trang,02/14/1994,Nam,Hòa Bình,090358297,60000,Cán bộ quản lý
+1867,Thạch,Văn Anh,11/21/2004,Nam,Hòa Bình,098883063,40000,Kỹ sư
+1868,Kim,Nguyễn Hồng,08/19/2002,Nữ,Tuyên Quang,097446072,10000,Lao động phổ thông
+1869,Hà,Lan,10/30/1999,Nam,Sóc Trăng,090311584,15000,Nhân viên
+1870,Lục,Tuấn Anh,04/08/2001,Nam,Hà Nam,092577089,15000,Nhân viên
+1871,Lê,Thanh Hương,05/16/1998,Nam,Quảng Ninh,099044220,50000,Chuyên gia nước ngoài
+1872,Đường,Quang,05/03/1988,Nữ,Bạc Liêu,097676701,9000,Người làm bán thời gian
+1873,Kiều,Lê Thùy,01/08/1996,Nam,Kon Tum,090341970,50000,Chuyên gia nước ngoài
+1874,Chế,Lê Thùy,03/13/1987,Khác,Bắc Kạn,092784261,40000,Kỹ sư
+1875,Nguyễn,Lê Hồng,01/14/2004,Nữ,Hà Tĩnh,090893632,50000,Chuyên gia nước ngoài
+1876,Lê,Minh Tuấn,11/07/1998,Nam,Thái Bình,091233277,60000,Cán bộ quản lý
+1877,Giang,Lê Hồng,07/30/1996,Khác,Ninh Thuận,097705072,8000,Thực tập sinh
+1878,Tạ,Thanh Thảo,01/24/2004,Khác,Phú Thọ,090673465,40000,Kỹ sư
+1879,La,Nguyễn Phương,09/22/1999,Nữ,Đắk Nông,095596369,50000,Chuyên gia nước ngoài
+1880,Khổng,Thanh Hương,07/21/1990,Khác,Phú Thọ,091149526,10000,Lao động phổ thông
+1881,Trương,Nguyễn Hùng,07/24/1993,Nam,Quảng Trị,094622057,9000,Người làm bán thời gian
+1882,Đỗ,Nguyễn Mai,04/30/1985,Khác,An Giang,091631354,8000,Thực tập sinh
+1883,Khưu,Văn Anh,07/28/1997,Nữ,Ninh Thuận,094529527,15000,Nhân viên
+1884,Trình,Trần Trang,10/21/1991,Khác,Đắk Lắk,091309525,50000,Chuyên gia nước ngoài
+1885,Diệp,Thanh,04/12/1988,Nữ,Bắc Ninh,099142564,10000,Lao động phổ thông
+1886,Mạch,Nguyễn Hùng,06/12/1998,Nữ,Long An,095517199,60000,Cán bộ quản lý
+1887,Nghiêm,Ánh,03/17/2003,Nữ,Bạc Liêu,096563933,10000,Lao động phổ thông
+1888,Nghiêm,Trần Trang,11/06/2002,Nữ,Tiền Giang,096794486,60000,Cán bộ quản lý
+1889,Thạch,Minh Khánh,03/31/1992,Khác,Bắc Giang,099683737,10000,Lao động phổ thông
+1890,Biện,Trần Ánh,02/28/2004,Nữ,Bình Dương,098035697,9000,Người làm bán thời gian
+1891,Ngụy,Phương,05/29/2004,Nữ,Vĩnh Phúc,098056003,50000,Chuyên gia nước ngoài
+1892,Thi,Lê Kim,11/02/2000,Nam,Bắc Ninh,094191189,10000,Công nhân
+1893,Nữ,Thanh Hương,04/01/2001,Nam,Bắc Giang,097116066,40000,Kỹ sư
+1894,Ngụy,Lê Phương,10/09/2002,Nam,Hòa Bình,091292851,10000,Lao động phổ thông
+1895,Từ,Dương Hùng,04/20/2002,Nữ,Ninh Bình,090056862,60000,Cán bộ quản lý
+1896,Ôn,Dương Hùng,09/26/1990,Nam,Bình Phước,094939331,60000,Cán bộ quản lý
+1897,Hoàng,Nguyễn Kim,05/25/1998,Nam,Cần Thơ,095118055,9000,Người làm bán thời gian
+1898,Bành,Trần Hùng,07/09/1991,Nam,Lai Châu,094006051,10000,Công nhân
+1899,Kiều,Hoàng,08/24/1997,Nữ,Quảng Ninh,098310041,9000,Nhân sự thử việc
+1900,Lâm,Hùng,09/29/1988,Khác,Hà Giang,097160129,9000,Nhân sự thử việc
+1901,Bạch,Lê Thùy,07/02/1985,Nữ,Kiên Giang,093752825,60000,Cán bộ quản lý
+1902,Lâm,Nguyễn Nam,09/17/2000,Nữ,Đồng Nai,095118055,9000,Người làm bán thời gian
+1903,Biện,Hồng,10/08/2003,Nam,Bắc Giang,096000613,8000,Thực tập sinh
+1904,Hứa,Trần Ánh,08/12/1996,Nam,Cao Bằng,091043564,9000,Nhân sự thử việc
+1905,Quan,Thanh Thảo,12/05/2001,Nam,Vĩnh Phúc,099382822,9000,Người làm bán thời gian
+1906,Quách,Văn Anh,01/17/1989,Khác,Hà Tĩnh,098157784,15000,Nhân viên
+1907,Huỳnh,Nguyễn Đức,04/12/1997,Khác,Nghệ An,091259294,50000,Chuyên gia nước ngoài
+1908,Hứa,Nguyễn Phương,05/24/2000,Nam,Ninh Thuận,098927560,9000,Nhân sự thử việc
+1909,Viên,Nguyễn Anh,04/28/1997,Khác,Sóc Trăng,099422676,10000,Lao động phổ thông
+1910,Đàm,Nguyễn Nam,11/18/1994,Khác,Bình Phước,097141871,8000,Thực tập sinh
+1911,Nguyễn,Văn Anh,12/04/1996,Nam,Lào Cai,098832123,10000,Lao động phổ thông
+1912,Lương,Thanh Thảo,09/28/1988,Nam,Vĩnh Long,090163730,60000,Cán bộ quản lý
+1913,Bùi,Minh Khánh,05/10/1986,Nữ,Hải Phòng,095648809,50000,Chuyên gia nước ngoài
+1914,Ôn,Hoàng An,01/02/2000,Khác,Ninh Bình,097419127,10000,Lao động phổ thông
+1915,Văn,Quang,10/15/2001,Nam,Hưng Yên,095500090,9000,Người làm bán thời gian
+1916,Đàm,Nguyễn Thùy,07/31/1999,Nữ,Hòa Bình,098733351,9000,Nhân sự thử việc
+1917,Vương,Nguyễn Mai,12/13/2000,Khác,Bình Phước,098832123,15000,Nhân viên
+1918,Đồn,Ánh,11/01/1986,Nam,Bắc Ninh,097684534,40000,Kỹ sư
+1919,Vũ,Hùng,09/14/2001,Nữ,Hồ Chí Minh (TP. HCM),095403707,50000,Chuyên gia nước ngoài
+1920,Từ,Nam,04/11/1990,Nam,Phú Yên,092286616,10000,Công nhân
+1921,Đỗ,Thanh,08/25/1999,Nữ,Cần Thơ,098719498,8000,Thực tập sinh
+1922,Đi,Quang Huy,01/05/1997,Khác,Cần Thơ,092536338,8000,Thực tập sinh
+1923,Tô,Minh Khánh,09/17/1990,Nam,Hà Giang,093504209,9000,Nhân sự thử việc
+1924,Nhâm,Thị,09/15/1999,Nam,Tây Ninh,098273377,15000,Nhân viên
+1925,Trầm,Tuấn Anh,12/21/2003,Nam,Thái Bình,092364763,10000,Lao động phổ thông
+1926,Lý,Thùy,08/16/1992,Nam,Cần Thơ,092636946,10000,Công nhân
+1927,Thiều,Minh,03/18/1987,Khác,Tây Ninh,096387920,60000,Cán bộ quản lý
+1928,Triệu,Hồng,03/08/1997,Nữ,Bình Thuận,096369307,9000,Nhân sự thử việc
+1929,Trần,Đức,05/30/1990,Nữ,Hà Giang,099842641,50000,Chuyên gia nước ngoài
+1930,Tô,Văn Đức,03/20/1988,Nam,Cà Mau.,097224373,9000,Nhân sự thử việc
+1931,Phan,Ánh,08/22/1990,Khác,Hà Nam,093499606,9000,Người làm bán thời gian
+1932,Phạm,Hồng,01/18/1988,Khác,Bắc Giang,091430476,60000,Cán bộ quản lý
+1933,Văn,Nguyễn Hồng,02/17/1997,Khác,Quảng Trị,099350731,9000,Người làm bán thời gian
+1934,Thi,Tuấn Anh,08/08/1994,Khác,Cà Mau.,090940873,10000,Công nhân
+1935,Bành,Nam,04/23/2000,Khác,Ninh Thuận,099385797,60000,Cán bộ quản lý
+1936,Lữ,Lê Nam,07/27/2002,Nam,Trà Vinh,094539741,40000,Kỹ sư
+1937,Trình,Nguyễn Kim,12/02/1989,Khác,Hòa Bình,090639082,60000,Cán bộ quản lý
+1938,Tôn,Nguyễn Hồng,07/26/2001,Nữ,Bình Thuận,090683196,50000,Chuyên gia nước ngoài
+1939,Nguyễn,Lê Phương,11/16/2002,Nam,Bình Phước,097192979,50000,Chuyên gia nước ngoài
+1940,Hoàng,Minh Khánh,01/22/2003,Nữ,Bạc Liêu,094267483,10000,Công nhân
+1941,Lưu,Quang Minh,11/06/1996,Khác,Phú Yên,095625378,9000,Người làm bán thời gian
+1942,Vũ,Nguyễn Thùy,09/16/2001,Nam,Quảng Ngãi,093881429,9000,Người làm bán thời gian
+1943,Vi,Trần Đức,01/11/1985,Khác,Đắk Nông,090849606,10000,Lao động phổ thông
+1944,Lâm,Lan,11/21/1992,Khác,Bình Dương,090902188,9000,Người làm bán thời gian
+1945,Hồn,Thanh Thảo,03/29/1987,Khác,Bạc Liêu,090507359,9000,Người làm bán thời gian
+1946,Huỳnh,Thị,03/18/2004,Nữ,Tây Ninh,098602748,15000,Nhân viên
+1947,Bùi,Lê Kim,09/16/1993,Nữ,Lào Cai,090902023,8000,Thực tập sinh
+1948,Tào,Văn Anh,06/27/1985,Khác,Đồng Tháp,098295523,60000,Cán bộ quản lý
+1949,Lục,Lê Thùy,02/28/1989,Nam,Quảng Bình,094802647,40000,Kỹ sư
+1950,Thất,Lê Mai,12/11/1987,Nữ,Hòa Bình,091179308,50000,Chuyên gia nước ngoài
+1951,Đỗ,Lan,06/09/1992,Nam,Sóc Trăng,092636946,40000,Kỹ sư
+1952,Tống,Văn Anh,06/20/1989,Nữ,Hưng Yên,090358297,60000,Cán bộ quản lý
+1953,Phạm,Minh,01/21/1986,Khác,Gia Lai,092674639,50000,Chuyên gia nước ngoài
+1954,Ông,Quang Minh,10/15/1991,Nam,Bình Định,099203316,10000,Công nhân
+1955,Thái,Đức,11/09/1988,Khác,Thanh Hóa,097459106,9000,Người làm bán thời gian
+1956,Đỗ,Quang Huy,09/03/1990,Khác,Ninh Thuận,093355797,60000,Cán bộ quản lý
+1957,Nguyễn,Tuấn Anh,03/23/1992,Khác,Hà Giang,091631354,40000,Kỹ sư
+1958,Phùng,Anh,11/17/2000,Nữ,Bình Dương,097803525,9000,Nhân sự thử việc
+1959,Tăng,Tuấn Anh,02/14/1992,Nữ,Hòa Bình,097803525,60000,Cán bộ quản lý
+1960,Lữ,Trần Lan,10/12/1999,Khác,Hưng Yên,095649862,9000,Nhân sự thử việc
+1961,Lại,Quang,12/09/1987,Nam,Hậu Giang,098035697,8000,Thực tập sinh
+1962,Lê,Thanh,12/21/1993,Nam,Hà Tĩnh,091900192,15000,Nhân viên
+1963,Phù,Lê Nam,09/12/2000,Khác,Lào Cai,095596369,8000,Thực tập sinh
+1964,Đoàn,Minh,03/17/1994,Nữ,Long An,099103285,10000,Công nhân
+1965,Tôn,Văn,08/20/1998,Nữ,Đắk Lắk,094097128,50000,Chuyên gia nước ngoài
+1966,Viên,Hùng,03/06/1993,Nam,Sơn La,094069863,60000,Cán bộ quản lý
+1967,Doãn,Đức,01/16/1988,Khác,Cần Thơ,094170603,50000,Chuyên gia nước ngoài
+1968,La,Văn,03/20/1998,Khác,Trà Vinh,099382822,9000,Người làm bán thời gian
+1969,Trình,Ánh,06/26/1995,Nam,Tuyên Quang,095141890,9000,Nhân sự thử việc
+1970,Lý,Lê Mai,01/17/1995,Khác,Tiền Giang,095765318,9000,Người làm bán thời gian
+1971,Tống,Dương Quốc,05/04/1989,Nam,Kon Tum,094635892,15000,Nhân viên
+1972,Lại,Lê Kim,04/15/2004,Nam,Lạng Sơn,093563227,9000,Nhân sự thử việc
+1973,Tăng,Trần Đức,04/20/1989,Khác,Bắc Kạn,097989161,8000,Thực tập sinh
+1974,Vi,Quang Huy,05/28/1991,Khác,Quảng Bình,091847627,9000,Nhân sự thử việc
+1975,Ngô,Đức,07/07/2000,Nam,Kiên Giang,091188879,9000,Nhân sự thử việc
+1976,Mạch,Lê Mai,01/13/1997,Nữ,Bình Dương,092390804,10000,Lao động phổ thông
+1977,Thạch,Minh Tuấn,02/15/1999,Khác,Hải Phòng,099247155,8000,Thực tập sinh
+1978,Vòng,Trần Hùng,05/25/1994,Khác,Cần Thơ,096033689,60000,Cán bộ quản lý
+1979,Trình,Thanh,03/02/1985,Khác,Hải Dương,092464292,60000,Cán bộ quản lý
+1980,Lục,Quang,04/22/1996,Nam,Vĩnh Phúc,097581114,60000,Cán bộ quản lý
+1981,Triệu,Hồng,04/30/2003,Nam,Cao Bằng,099021238,40000,Kỹ sư
+1982,Nhâm,,06/02/1985,Nữ,Hà Nam,097748913,50000,Chuyên gia nước ngoài
+1983,Mạch,Nguyễn Kim,11/22/1987,Nữ,An Giang,094104066,9000,Nhân sự thử việc
+1984,Kiều,Quang Huy,05/20/1998,Khác,Đắk Nông,098796138,60000,Cán bộ quản lý
+1985,Đàm,Nguyễn Thùy,08/15/1990,Khác,Cần Thơ,092577089,50000,Chuyên gia nước ngoài
+1986,Vi,Quang Huy,01/24/1986,Khác,Bắc Ninh,095439843,8000,Thực tập sinh
+1987,Huỳnh,Nguyễn Thùy,11/27/1987,Khác,Ninh Bình,099395358,9000,Người làm bán thời gian
+1988,Đỗ,Quang,04/18/2000,Khác,Long An,097882979,40000,Kỹ sư
+1989,Tạ,Dương Quốc,09/24/1993,Khác,Khánh Hòa,093763572,50000,Chuyên gia nước ngoài
+1990,Phạm,Lê Kim,08/28/1998,Khác,Thái Nguyên,097663964,9000,Người làm bán thời gian
+1991,Trà,,11/20/1987,Khác,Hà Nam,091618327,8000,Thực tập sinh
+1992,Triệu,Hùng,01/23/2004,Nữ,Kiên Giang,097507338,8000,Thực tập sinh
+1993,Trương,,11/11/1995,Nữ,Bắc Giang,092814288,40000,Kỹ sư
+1994,Tôn,Nguyễn Đức,04/17/1994,Khác,Cao Bằng,093104647,50000,Chuyên gia nước ngoài
+1995,Phù,Trần Đức,12/07/1988,Khác,Ninh Thuận,097192979,60000,Cán bộ quản lý
+1996,Khưu,Minh Tuấn,06/29/1988,Khác,Bạc Liêu,093653071,15000,Nhân viên
+1997,Đoàn,Dương Hùng,12/24/1997,Nam,Thừa Thiên Huế,099203316,10000,Lao động phổ thông
+1998,Doãn,Trần Đức,10/14/2003,Nam,Đà Nẵng,092138251,9000,Nhân sự thử việc
+1999,Thi,Thanh Thảo,11/22/1993,Nam,Quảng Bình,097174513,40000,Kỹ sư
+2000,Hồn,Văn Anh,02/19/1995,Nam,Hà Nam,099195954,9000,Nhân sự thử việc

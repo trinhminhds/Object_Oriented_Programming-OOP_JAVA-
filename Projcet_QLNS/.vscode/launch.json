@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "conec",
+      "request": "launch",
+      "mainClass": "conec",
+      "projectName": "Projcet_QLNS_a372942d"
+    },
+    {
+      "type": "java",
       "name": "test",
       "request": "launch",
       "mainClass": "entity.test",
@@ -30,7 +37,7 @@
       "request": "launch",
       "mainClass": "Main",
       "projectName": "Projcet_QLNS_a372942d",
-      "vmArgs": "--module-path \"D:/Java_OOP/javafx-sdk-21.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+      "vmArgs": "--module-path \"D:/Java_OOP/Projcet_QLNS/javafx-sdk-21.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
     }
   ]
 }
