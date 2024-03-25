@@ -50,13 +50,13 @@ public class FormXuLyNhanVien implements Initializable {
     private Button home_Btn;
 
     @FXML
-    private BarChart<?, ?> home_chart;
+    private BarChart<?, ?> home_bieuDo;
 
     @FXML
     private AnchorPane home_form;
 
     @FXML
-    private Label home_totalEmployee;
+    private Label home_tongNhanVien;
 
     @FXML
     private Label home_luongTBDoiTuong;
@@ -77,130 +77,136 @@ public class FormXuLyNhanVien implements Initializable {
     private Label home_tuoiTBCTy;
 
     @FXML
-    private Label home_totalPresents;
+    private Label home_tongNVCV;
 
     @FXML
-    private Button addEmployee_addBtn;
+    private ComboBox<?> home_tongnvDoiTuongCBox;
 
     @FXML
-    private Button addEmployee_btn;
+    private Button themNhanVien_themBtn;
 
     @FXML
-    private Button addEmployee_clearBtn;
+    private Button themNhanVien_btn;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_dateMember;
+    private Button themNhanVien_datLaiBtn;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_empoyeeID;
+    private TableColumn<themNhanVien, String> themNhanVien_col_ngaySinh;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_firstName;
+    private TableColumn<themNhanVien, String> themNhanVien_col_maNhanVien;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_gender;
+    private TableColumn<themNhanVien, String> themNhanVien_col_ho;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_lastName;
+    private TableColumn<themNhanVien, String> themNhanVien_col_gioiTinh;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_phone;
+    private TableColumn<themNhanVien, String> themNhanVien_col_ten;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_position;
+    private TableColumn<themNhanVien, String> themNhanVien_col_SDT;
 
     @FXML
-    private TableColumn<themNhanVien, String> addEmployee_col_address;
+    private TableColumn<themNhanVien, String> themNhanVien_col_chucVu;
 
     @FXML
-    private Button addEmployee_deleteBtn;
+    private TableColumn<themNhanVien, String> themNhanVien_col_diaChi;
 
     @FXML
-    private TextField addEmployee_employee;
+    private Button themNhanVien_xoaBtn;
 
     @FXML
-    private TextField addEmployee_firstName;
+    private TextField themNhanVien_maNhanVien;
 
     @FXML
-    private AnchorPane addEmployee_form;
+    private TextField themNhanVien_ho;
 
     @FXML
-    private ComboBox<?> addEmployee_gender;
+    private AnchorPane themNhanVien_form;
 
     @FXML
-    private TextField addEmployee_lastName;
+    private ComboBox<?> themNhanVien_gioiTinh;
 
     @FXML
-    private TextField addEmployee_phone;
+    private TextField themNhanVien_ten;
 
     @FXML
-    private TextField addEmployee_address;
+    private TextField themNhanVien_SDT;
 
     @FXML
-    private DatePicker addEmployee_birthday;
+    private TextField themNhanVien_diaChi;
 
     @FXML
-    private ComboBox<?> addEmployee_position;
+    private DatePicker themNhanVien_ngaySinh;
 
     @FXML
-    private TextField addEmployee_seach;
+    private ComboBox<?> themNhanVien_chucVu;
 
     @FXML
-    private TableView<themNhanVien> addEmployee_tableView;
+    private TextField themNhanVien_timKiem;
 
     @FXML
-    private Button addEmployee_updateBtn;
+    private TableView<themNhanVien> themNhanVien_bangData;
 
     @FXML
-    private Button salary_Btn;
+    private Button themNhanVien_suaBtn;
 
     @FXML
-    private Button salary_updateBtn;
+    private TextField luong_timkiem;
 
     @FXML
-    private Button salary_clearBtn;
+    private Button luong_Btn;
 
     @FXML
-    private TextField salary_employeeId;
+    private Button luong_suaBtn;
 
     @FXML
-    private Label salary_firstName;
+    private Button luong_datLaiBtn;
 
     @FXML
-    private AnchorPane salary_form;
+    private TextField luong_maNhanVien;
 
     @FXML
-    private Label salary_lastName;
+    private Label luong_ho;
 
     @FXML
-    private Label salary_position;
+    private AnchorPane luong_form;
 
     @FXML
-    private TextField salary_salary;
+    private Label luong_ten;
 
     @FXML
-    private TableView<luongNhanVien> salary_tableView;
+    private Label luong_chucVu;
 
     @FXML
-    private TableColumn<luongNhanVien, String> salary_col_employeeID;
+    private TextField luong_luong;
 
     @FXML
-    private TableColumn<luongNhanVien, String> salary_col_firstName;
+    private TableView<luongNhanVien> luong_bangData;
 
     @FXML
-    private TableColumn<luongNhanVien, String> salary_col_lastName;
+    private TableColumn<luongNhanVien, String> luong_col_maNhanVien;
 
     @FXML
-    private TableColumn<luongNhanVien, String> salary_col_position;
+    private TableColumn<luongNhanVien, String> luong_col_ho;
 
     @FXML
-    private TableColumn<luongNhanVien, String> salary_col_salary;
+    private TableColumn<luongNhanVien, String> luong_col_ten;
 
     @FXML
-    private Label username;
+    private TableColumn<luongNhanVien, String> luong_col_chucVu;
 
     @FXML
-    private Button logout;
+    private TableColumn<luongNhanVien, String> luong_col_luong;
+
+    @FXML
+    private Label tenTaiKhoan;
+
+    @FXML
+    private Button dangXuat;
 
     @FXML
     private Button minimize;
@@ -213,6 +219,8 @@ public class FormXuLyNhanVien implements Initializable {
     private PreparedStatement prepare;
     private ResultSet resultSet;
 
+    // Đếm tổng số lượng nhân viên
+    // Hiện lên các lable trong bảng home
     public void home_totalEmployee() {
 
         String sql = "SELECT COUNT(manhanvien) AS manhanvien FROM nhanvien";
@@ -230,7 +238,7 @@ public class FormXuLyNhanVien implements Initializable {
 
             }
 
-            home_totalEmployee.setText(String.valueOf(countData));
+            home_tongNhanVien.setText(String.valueOf(countData));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -238,9 +246,13 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
-    public void home_totalPresents() {
+    // Đếm tổng số lượng nhân viên
+    // Hiện lên các lable trong bảng home
+    public void home_tongNVCV() {
 
-        String sql = "SELECT COUNT(manhanvien) AS manhanvien FROM nhanvien";
+        String sql = "SELECT COUNT(manhanvien) AS manhanvien FROM nhanvien WHERE chucvu = N'"
+                + home_tongnvDoiTuongCBox.getSelectionModel().getSelectedItem() + " '";
+
         connect = connectionData.connectQLNV();
         int countData = 0;
 
@@ -252,7 +264,7 @@ public class FormXuLyNhanVien implements Initializable {
                 countData = resultSet.getInt("manhanvien");
             }
 
-            home_totalPresents.setText(String.valueOf(countData));
+            home_tongNVCV.setText(String.valueOf(countData));
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -260,6 +272,8 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
+    // Tính độ tuổi trung bình của công ty
+    // Hiện lên các lable trong bảng home
     public void home_tuoiTBCTy() {
         String sql = "SELECT AVG((YEAR(GETDATE()) - YEAR(ngaysinh))) AS dotuoi FROM nhanvien";
 
@@ -283,6 +297,8 @@ public class FormXuLyNhanVien implements Initializable {
         }
     }
 
+    // Tính tổng trung bình lương trong công ty
+    // Hiện lên các lable trong bảng home
     public void home_luongTBcongty() {
         String sql = "SELECT AVG(luong) AS luong FROM nhanvien";
 
@@ -306,6 +322,8 @@ public class FormXuLyNhanVien implements Initializable {
         }
     }
 
+    // Tính tổng trung bình luong của từng chức vụ
+    // Hiện lên các lable trong bảng home
     public void home_luongTBDoiTuong() {
 
         String sql = "SELECT AVG(luong) AS luong FROM nhanvien WHERE chucvu = N'"
@@ -346,6 +364,8 @@ public class FormXuLyNhanVien implements Initializable {
         }
     }
 
+    // Tính Tổng lương của từng chức vụ
+    // Hiện lên các lable trong bảng home
     public void home_luongTDoiTuong() {
 
         String sql = "SELECT SUM(luong) AS luong FROM nhanvien WHERE chucvu = N'"
@@ -386,11 +406,13 @@ public class FormXuLyNhanVien implements Initializable {
         }
     }
 
+    // Tính 10 người có độ tuổi lớn nhất ở công ty
+    // Hiện lên trong biểu đồ ở Form home
     @SuppressWarnings({ "rawtypes", "unchecked" })
-    public void home_chart() {
-        home_chart.getData().clear();
+    public void home_bieuDo() {
+        home_bieuDo.getData().clear();
 
-        String sql = "SELECT TOP 7 ten,YEAR(ngaysinh) FROM nhanvien GROUP BY ten,ngaysinh ORDER BY ngaysinh ASC";
+        String sql = "SELECT TOP 10 ho + ' ' + ten AS hoten,(YEAR(GETDATE()) - YEAR(ngaysinh)) AS tuoi FROM nhanvien ORDER BY tuoi DESC";
 
         connect = connectionData.connectQLNV();
 
@@ -405,7 +427,7 @@ public class FormXuLyNhanVien implements Initializable {
                 chart.getData().add(new XYChart.Data(resultSet.getString(1), resultSet.getInt(2)));
             }
 
-            home_chart.getData().add(chart);
+            home_bieuDo.getData().add(chart);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -413,25 +435,33 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
-    public void addEmployeeAdd() {
+    /*
+     * Thêm nhân viên
+     * Nếu ta bấm vào nút thêm nhân viên trong Form thêm nhân viên thì sẽ thêm nhân
+     * viên 1 trong data
+     */
+    public void themNhanVien_themBtn() {
 
+        // câu lệnh sql thêm dữ liệu
         String sql = "INSERT INTO nhanvien "
                 + "(manhanvien,ho,ten,gioitinh,sodienthoai,chucvu,diachi,ngaysinh)"
                 + "VALUES(?,?,?,?,?,?,?,?)";
 
+        // kết nối sql server
         connect = connectionData.connectQLNV();
 
         try {
             Alert alert;
 
-            if (addEmployee_employee.getText().isEmpty()
-                    || addEmployee_firstName.getText().isEmpty()
-                    || addEmployee_lastName.getText().isEmpty()
-                    || addEmployee_gender.getSelectionModel().getSelectedItem() == null
-                    || addEmployee_col_phone.getText().isEmpty()
-                    || addEmployee_position.getSelectionModel().getSelectedItem() == null
-                    || addEmployee_birthday.getValue().toString().isEmpty()
-                    || addEmployee_address.getText().isEmpty()) {
+            // Kiểm tra điều kiện nếu người dùng để trong sẽ in ra dòng thông báo
+            if (themNhanVien_maNhanVien.getText().isEmpty()
+                    || themNhanVien_ho.getText().isEmpty()
+                    || themNhanVien_ten.getText().isEmpty()
+                    || themNhanVien_gioiTinh.getSelectionModel().getSelectedItem() == null
+                    || themNhanVien_col_SDT.getText().isEmpty()
+                    || themNhanVien_chucVu.getSelectionModel().getSelectedItem() == null
+                    || themNhanVien_ngaySinh.getValue().toString().isEmpty()
+                    || themNhanVien_diaChi.getText().isEmpty()) {
 
                 alert = new Alert(AlertType.ERROR);
                 alert.setTitle("Error Message");
@@ -442,55 +472,38 @@ public class FormXuLyNhanVien implements Initializable {
             } else {
 
                 String check = "SELECT manhanvien FROM nhanvien WHERE manhanvien = '"
-                        + addEmployee_employee.getText() + "'";
-
+                        + themNhanVien_maNhanVien.getText() + "'";
+                // Thực hiện câu lệnh sql
                 statement = connect.createStatement();
                 resultSet = statement.executeQuery(check);
 
+                // Nếu Mã nhân viên đã có trong dữ liệu thì in ra dòng thông báo
                 if (resultSet.next()) {
                     alert = new Alert(AlertType.ERROR);
                     alert.setTitle("Error Message");
                     alert.setHeaderText(null);
-                    alert.setContentText("Mã nhân viên: " + addEmployee_employee.getText()
+                    alert.setContentText("Mã nhân viên: " + themNhanVien_maNhanVien.getText()
                             + " này đã được sử dụng vui lòng nhập mã khác!");
                     alert.showAndWait();
 
                 } else {
 
                     prepare = connect.prepareStatement(sql);
-                    prepare.setString(1, addEmployee_employee.getText());
-                    prepare.setString(2, addEmployee_firstName.getText());
-                    prepare.setString(3, addEmployee_lastName.getText());
-                    prepare.setString(4, (String) addEmployee_gender.getSelectionModel().getSelectedItem());
-                    prepare.setString(5, addEmployee_phone.getText());
-                    prepare.setString(6, (String) addEmployee_position.getSelectionModel().getSelectedItem());
-                    prepare.setString(7, addEmployee_address.getText());
-                    prepare.setString(8, addEmployee_birthday.getValue().toString());
+                    // gắn các giá trị vào các cột
+                    prepare.setString(1, themNhanVien_maNhanVien.getText());
+                    prepare.setString(2, themNhanVien_ho.getText());
+                    prepare.setString(3, themNhanVien_ten.getText());
+                    prepare.setString(4, (String) themNhanVien_gioiTinh.getSelectionModel().getSelectedItem());
+                    prepare.setString(5, themNhanVien_SDT.getText());
+                    prepare.setString(6, (String) themNhanVien_chucVu.getSelectionModel().getSelectedItem());
+                    prepare.setString(7, themNhanVien_diaChi.getText());
+                    prepare.setString(8, themNhanVien_ngaySinh.getValue().toString());
 
+                    // thực hiện câu lệnh
                     prepare.executeUpdate();
 
-                    // String insertInfo = "INSERT INTO nhanvien "
-                    // + "(manhanvien,ho,ten,chucvu,luong)"
-                    // + "VALUES(?,?,?,?,?)";
-
-                    // prepare = connect.prepareStatement(insertInfo);
-                    // prepare.setString(1, addEmployee_employee.getText());
-                    // prepare.setString(2, addEmployee_firstName.getText());
-                    // prepare.setString(3, addEmployee_lastName.getText());
-                    // prepare.setString(4, (String)
-                    // addEmployee_position.getSelectionModel().getSelectedItem());
-                    // prepare.setString(5, "0");
-
-                    // prepare.executeUpdate();
-
-                    // alert = new Alert(AlertType.INFORMATION);
-                    // alert.setTitle("Infomation Message");
-                    // alert.setHeaderText(null);
-                    // alert.setContentText("Thêm thành công!");
-                    // alert.showAndWait();
-
-                    addEmployeeShowListData();
-                    addEmployeeReset();
+                    themNhanVien_hienThiListData();// hiển thị
+                    themNhanVien_datLaiBtn();
 
                 }
             }
@@ -501,23 +514,30 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
-    public void addEmployeeUpdate() {
+    /*
+     * Sửa thông tin nhân viên
+     * Nếu ta bấm vào nút sửa trong Form thêm nhân viên thì ta sẽ cập nhật thông tin
+     * của 1 nhân viên nào đó
+     */
+    public void themNhanVien_suaBtn() {
 
-        String sql = "UPDATE nhanvien SET ho = N'" + addEmployee_firstName.getText() + "', " +
-                "ten = N'" + addEmployee_lastName.getText() + "', " +
-                "gioitinh = N'" + addEmployee_gender.getSelectionModel().getSelectedItem() + "', " +
-                "sodienthoai = N'" + addEmployee_phone.getText() + "', " +
-                "chucvu = N'" + addEmployee_position.getSelectionModel().getSelectedItem() + "', " +
-                "diachi = N'" + addEmployee_address.getText() + "', " +
-                "ngaysinh = N'" + addEmployee_birthday.getValue() + "' " +
-                "WHERE manhanvien = N'" + addEmployee_employee.getText() + "'";
+        // gắn các giá trị vào điều kiện của sql
+        String sql = "UPDATE nhanvien SET ho = N'" + themNhanVien_ho.getText() + "', " +
+                "ten = N'" + themNhanVien_ten.getText() + "', " +
+                "gioitinh = N'" + themNhanVien_gioiTinh.getSelectionModel().getSelectedItem() + "', " +
+                "sodienthoai = N'" + themNhanVien_SDT.getText() + "', " +
+                "chucvu = N'" + themNhanVien_chucVu.getSelectionModel().getSelectedItem() + "', " +
+                "diachi = N'" + themNhanVien_diaChi.getText() + "', " +
+                "ngaysinh = N'" + themNhanVien_ngaySinh.getValue() + "' " +
+                "WHERE manhanvien = N'" + themNhanVien_maNhanVien.getText() + "'";
 
         connect = connectionData.connectQLNV();
 
         try {
             Alert alert;
 
-            if (addEmployee_employee.getText().isEmpty()) {
+            // kiểm tra mã nhân viên người dùng có để trống hay không
+            if (themNhanVien_maNhanVien.getText().isEmpty()) {
 
                 alert = new Alert(AlertType.ERROR);
                 alert.setTitle("Error Message");
@@ -526,39 +546,20 @@ public class FormXuLyNhanVien implements Initializable {
                 alert.showAndWait();
 
             } else {
-
+                // hỏi lại 1 lần nữa người dùng có muốn sửa không
                 alert = new Alert(AlertType.CONFIRMATION);
                 alert.setTitle("Confirmation Message");
                 alert.setHeaderText(null);
                 alert.setContentText(
-                        "Bạn có muốn sửa thông tin của nhân viên : " + addEmployee_employee.getText() + " không ?");
+                        "Bạn có muốn sửa thông tin của nhân viên : " + themNhanVien_maNhanVien.getText() + " không ?");
                 Optional<ButtonType> option = alert.showAndWait();
 
+                // Nếu người dùng bấm ok thì thực hiện câu lệnh
                 if (option.get().equals(ButtonType.OK)) {
+
+                    // thực hiện câu lệnh sql
                     statement = connect.createStatement();
                     statement.executeUpdate(sql);
-
-                    // int salary = 0;
-
-                    // String checkData = "SELECT * FROM nhanvien WHERE masinhvien = ? '"
-                    // + addEmployee_employee.getText() + "'";
-
-                    // prepare = connect.prepareStatement(checkData);
-                    // resultSet = prepare.executeQuery();
-
-                    // while (resultSet.next()) {
-                    // salary = resultSet.getInt(salary);
-                    // }
-
-                    // String updateInfo = "UPDATE nhanvien SET ho = '" +
-                    // addEmployee_firstName.getText() + "', " +
-                    // "ten = '" + addEmployee_lastName.getText() + "', " +
-                    // "chucvu = '" + addEmployee_position.getSelectionModel().getSelectedItem() +
-                    // "', " +
-                    // "WHERE manhanvien = '" + addEmployee_employee.getText() + "'";
-
-                    // prepare = connect.prepareStatement(updateInfo);
-                    // prepare.executeUpdate();
 
                     alert = new Alert(AlertType.INFORMATION);
                     alert.setTitle("Infomation Message");
@@ -566,8 +567,8 @@ public class FormXuLyNhanVien implements Initializable {
                     alert.setContentText("Sửa thành công!");
                     alert.showAndWait();
 
-                    addEmployeeShowListData();
-                    addEmployeeReset();
+                    themNhanVien_hienThiListData();// hiển thị bảng dữ liệu
+                    themNhanVien_datLaiBtn();// nếu đã thêm thành công thì các giá trị điền trước đó sẽ bị xóa
                 }
 
             }
@@ -578,17 +579,23 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
-    public void addEmployeeDelete() {
+    /*
+     * Xóa Nhân Viên
+     * Nếu bấm vào nút xóa trong Form thêm nhân viên thì 1 dữ liệu của nhân viên sẽ
+     * bị xóa khỏi data
+     */
+    public void themNhanVien_xoaBtn() {
 
-        String sql = "DELETE FROM nhanvien WHERE manhanvien = '" + addEmployee_employee.getText() + "'";
+        String sql = "DELETE FROM nhanvien WHERE manhanvien = '" + themNhanVien_maNhanVien.getText() + "'";
 
         connect = connectionData.connectQLNV();
 
         try {
 
             Alert alert;
-
-            if (addEmployee_employee.getText().isEmpty()) {
+            // Kiểm tra điều kiện người dùng đã nhập mã nhân viên hay chưa nếu chưa in ra
+            // dòng thông báo
+            if (themNhanVien_maNhanVien.getText().isEmpty()) {
 
                 alert = new Alert(AlertType.ERROR);
                 alert.setTitle("Error Message");
@@ -597,24 +604,19 @@ public class FormXuLyNhanVien implements Initializable {
                 alert.showAndWait();
 
             } else {
-
+                // Hỏi lại người dùng 1 lần nữa có muốn xóa hay không
                 alert = new Alert(AlertType.CONFIRMATION);
                 alert.setTitle("Error Message");
                 alert.setHeaderText(null);
                 alert.setContentText("Bạn thật sự muốn xóa nhân viên này: "
-                        + addEmployee_employee.getText() + "không ?");
+                        + themNhanVien_maNhanVien.getText() + "không ?");
 
                 Optional<ButtonType> option = alert.showAndWait();
 
+                // Nếu người dùng bấm OK thì dữ liệu của mã nhân viên sẽ bị xóa
                 if (option.get().equals(ButtonType.OK)) {
                     statement = connect.createStatement();
                     statement.executeUpdate(sql);
-
-                    // String deleteInfo = "DELETE FROM nhanvien WHERE manhanvien = '"
-                    // + addEmployee_employee.getText() + "'";
-
-                    // prepare = connect.prepareStatement(deleteInfo);
-                    // prepare.executeUpdate();
 
                     alert = new Alert(AlertType.INFORMATION);
                     alert.setTitle("Infomation Message");
@@ -622,8 +624,8 @@ public class FormXuLyNhanVien implements Initializable {
                     alert.setContentText("Xóa thành công!");
                     alert.showAndWait();
 
-                    addEmployeeShowListData();
-                    addEmployeeReset();
+                    themNhanVien_hienThiListData(); // hiển thị danh sách nhân viên trong bảng
+                    themNhanVien_datLaiBtn();// nếu xóa thành công thì dữ liệu nhập trước đó sẽ bị xóa
                 }
 
             }
@@ -633,46 +635,66 @@ public class FormXuLyNhanVien implements Initializable {
         }
     }
 
-    public void addEmployeeReset() {
-        addEmployee_employee.setText("");
-        addEmployee_firstName.setText("");
-        addEmployee_lastName.setText("");
-        addEmployee_gender.getSelectionModel().clearSelection();
-        addEmployee_position.getSelectionModel().clearSelection();
-        addEmployee_phone.setText("");
-        addEmployee_birthday.setValue(null);
-        addEmployee_address.setText("");
+    /*
+     * Đặt lại Nhân viên viên
+     * Nếu ta bấm vào nút đặt lại thì toàn bộ thông tin ta nhập trước đó sẽ bị xóa
+     */
+    public void themNhanVien_datLaiBtn() {
+        themNhanVien_maNhanVien.setText("");
+        themNhanVien_ho.setText("");
+        themNhanVien_ten.setText("");
+        themNhanVien_gioiTinh.getSelectionModel().clearSelection();// đây là lựa chọn nên ta sẽ xóa lựa chọn đó
+        themNhanVien_chucVu.getSelectionModel().clearSelection();
+        themNhanVien_SDT.setText("");
+        themNhanVien_ngaySinh.setValue(null);
+        themNhanVien_diaChi.setText("");
     }
 
-    public void timKiemThemNhanVien() {
+    /*
+     * Tìm Kiếm Nhân Viên
+     * Nếu điền vào ô tìm kiếm ở form thêm nhân viên thì bảng danh sách nhân viên sẽ
+     * tự động lọc
+     * cho ta những nhân viên có kí tự mà ta đã điền ở trên
+     */
+    public void themNhanVien_timKiem() {
 
-        FilteredList<themNhanVien> locTimKiem = new FilteredList<>(themNhanVienList, e -> true);
+        // Tạo một FilteredList mới, nó chứa danh sách nhân viên ban đầu
+        // themNhanVien_List.
+        FilteredList<themNhanVien> locTimKiem = new FilteredList<>(themNhanVien_List, e -> true);
 
-        addEmployee_seach.textProperty().addListener((ObservableList, oldValue, newValue) -> {
+        // Mỗi khi nội dung của trường này thay đổi, sự kiện này sẽ được kích hoạt.
+        themNhanVien_timKiem.textProperty().addListener((ObservableList, giaTriCu, giaTriMoi) -> {
 
-            locTimKiem.setPredicate(predicateEmployeeData -> {
+            // Đặt một bộ lọc cho locTimKiem. Mỗi mục trong danh sách locTimKiem sẽ được
+            // kiểm tra bởi bộ lọc này.
+            locTimKiem.setPredicate(locNhanSu -> {
 
-                if (newValue == null || newValue.isEmpty()) {
+                // Nếu từ khoá tìm kiếm (giaTriMoi) là rỗng hoặc null, tất cả các mục sẽ được
+                // hiển thị.
+                if (giaTriMoi == null || giaTriMoi.isEmpty()) {
                     return true;
                 }
 
-                String tuKhoaTimKiem = newValue.toLowerCase();
+                // Nếu một trong các trường của mục chứa từ khoá tìm kiếm (chuyển thành chữ
+                // thường để so sánh), mục đó sẽ được hiển thị.
 
-                if (predicateEmployeeData.getMaNhanVien().toString().contains(tuKhoaTimKiem)) {
+                String tuKhoaTimKiem = giaTriMoi.toLowerCase();
+
+                if (locNhanSu.getMaNhanVien().toString().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getHo().toLowerCase().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getHo().toLowerCase().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getTen().toLowerCase().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getTen().toLowerCase().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getGioiTinh().toLowerCase().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getGioiTinh().toLowerCase().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getChucVu().toLowerCase().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getChucVu().toLowerCase().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getSoDienThoai().toLowerCase().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getSoDienThoai().toLowerCase().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getNgaySinh().toString().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getNgaySinh().toString().contains(tuKhoaTimKiem)) {
                     return true;
-                } else if (predicateEmployeeData.getDiaChi().toString().contains(tuKhoaTimKiem)) {
+                } else if (locNhanSu.getDiaChi().toString().contains(tuKhoaTimKiem)) {
                     return true;
                 } else {
                     return false;
@@ -680,18 +702,28 @@ public class FormXuLyNhanVien implements Initializable {
             });
         });
 
+        // Tạo một SortedList từ locTimKiem, để sắp xếp các mục dựa trên một bộ so sánh
+        // đã được chỉ định.
         SortedList<themNhanVien> sortedList = new SortedList<>(locTimKiem);
 
-        sortedList.comparatorProperty().bind(addEmployee_tableView.comparatorProperty());
-        addEmployee_tableView.setItems(sortedList);
+        // Liên kết bộ so sánh của sortedList với bộ so sánh của themNhanVien_bangData
+        // (chắc chắn rằng cả hai sẽ được sắp xếp theo cùng một cách)
+        sortedList.comparatorProperty().bind(themNhanVien_bangData.comparatorProperty());
+
+        // Đặt danh sách hiển thị của bảng (hoặc danh sách) hiển thị nhân viên thành
+        // sortedList,
+        // do đó chỉ các mục đã được lọc và sắp xếp sẽ được hiển thị
+        themNhanVien_bangData.setItems(sortedList);
 
     }
 
+    // danh sách các chức vụ
     private String[] listChucVu = { "Công nhân", "Chuyên gia nước ngoài", "Kỹ sư", "Nhân viên", "Thực tập sinh",
             "Lao động phổ thông", "Người làm bán thời gian", "Cán bộ quản lý", "Nhân sự thử việc" };
 
+    // Gắn danh sách chức vụ vào combobox
     @SuppressWarnings("unchecked")
-    public void home_luongTDoiTuongList() {
+    public void home_luongTDoiTuongComB() {
 
         List<String> listP = new ArrayList<>();
 
@@ -705,8 +737,9 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
+    // Gắn danh sách chức vụ vào combobox
     @SuppressWarnings("unchecked")
-    public void home_luongTBDoiTuongList() {
+    public void home_luongTBDoiTuongComB() {
 
         List<String> listP = new ArrayList<>();
 
@@ -720,8 +753,9 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
+    // Gắn danh sách chức vụ vào combobox
     @SuppressWarnings("unchecked")
-    public void addEmployeePositionList() {
+    public void home_tongNVCVComB() {
 
         List<String> listP = new ArrayList<>();
 
@@ -731,14 +765,32 @@ public class FormXuLyNhanVien implements Initializable {
 
         @SuppressWarnings("rawtypes")
         ObservableList listData = FXCollections.observableArrayList(listP);
-        addEmployee_position.setItems(listData);
+        home_tongnvDoiTuongCBox.setItems(listData);
 
     }
 
+    // Gắn danh sách chức vụ vào combobox
+    @SuppressWarnings("unchecked")
+    public void themNhanVien_chucVuCombox() {
+
+        List<String> listP = new ArrayList<>();
+
+        for (String data : listChucVu) {
+            listP.add(data);
+        }
+
+        @SuppressWarnings("rawtypes")
+        ObservableList listData = FXCollections.observableArrayList(listP);
+        themNhanVien_chucVu.setItems(listData);
+
+    }
+
+    // danh sách các giới tính
     private String[] listGioiTinh = { "Nam", "Nữ", "Khác" };
 
+    // gắn danh sách giới tính vào combobox
     @SuppressWarnings("unchecked")
-    public void addEmployeeGenderList() {
+    public void themNhanVien_gioiTinhcombox() {
         List<String> listG = new ArrayList<>();
 
         for (String data : listGioiTinh) {
@@ -747,11 +799,15 @@ public class FormXuLyNhanVien implements Initializable {
 
         @SuppressWarnings("rawtypes")
         ObservableList listGenderData = FXCollections.observableArrayList(listG);
-        addEmployee_gender.setItems(listGenderData);
+        themNhanVien_gioiTinh.setItems(listGenderData);
 
     }
 
-    public ObservableList<themNhanVien> addEmployeeListData() {
+    /*
+     * Lấy dữ liệu danh sách nhân viên mà ta thực hiện câu lệnh sql trong bảng nhân
+     * viên
+     */
+    public ObservableList<themNhanVien> themNhanVien_listData() {
 
         ObservableList<themNhanVien> listData = FXCollections.observableArrayList();
 
@@ -764,11 +820,11 @@ public class FormXuLyNhanVien implements Initializable {
             prepare = connect.prepareStatement(sql);
             resultSet = prepare.executeQuery();
 
-            themNhanVien employeeD;
+            themNhanVien nhanVien_data;
 
             while (resultSet.next()) {
 
-                employeeD = new themNhanVien(resultSet.getString("manhanvien"),
+                nhanVien_data = new themNhanVien(resultSet.getString("manhanvien"),
                         resultSet.getString("ho"),
                         resultSet.getString("ten"),
                         resultSet.getString("gioitinh"),
@@ -777,7 +833,7 @@ public class FormXuLyNhanVien implements Initializable {
                         resultSet.getString("diachi"),
                         resultSet.getDate("ngaysinh"));
 
-                listData.add(employeeD);
+                listData.add(nhanVien_data);
             }
 
         } catch (Exception e) {
@@ -787,54 +843,109 @@ public class FormXuLyNhanVien implements Initializable {
         return listData;
     }
 
-    private ObservableList<themNhanVien> themNhanVienList;
+    private ObservableList<themNhanVien> themNhanVien_List;
 
-    public void addEmployeeShowListData() {
+    /*
+     * Hiển thị danh sách nhân viên trong table view
+     * Lấy tất cả dữ liệu mà ta thực hiện câu lệnh sql trong bảng nhân viên gán vào
+     * table view
+     */
+    public void themNhanVien_hienThiListData() {
 
-        themNhanVienList = addEmployeeListData();
+        themNhanVien_List = themNhanVien_listData();
 
-        addEmployee_col_empoyeeID.setCellValueFactory(new PropertyValueFactory<>("maNhanVien"));
-        addEmployee_col_firstName.setCellValueFactory(new PropertyValueFactory<>("ho"));
-        addEmployee_col_lastName.setCellValueFactory(new PropertyValueFactory<>("ten"));
-        addEmployee_col_gender.setCellValueFactory(new PropertyValueFactory<>("gioiTinh"));
-        addEmployee_col_phone.setCellValueFactory(new PropertyValueFactory<>("soDienThoai"));
-        addEmployee_col_position.setCellValueFactory(new PropertyValueFactory<>("chucVu"));
-        addEmployee_col_address.setCellValueFactory(new PropertyValueFactory<>("diaChi"));
-        addEmployee_col_dateMember.setCellValueFactory(new PropertyValueFactory<>("ngaySinh"));
+        // gắn dữ liệu vào từng cột trong table view trong form thêm nhân viên
+        themNhanVien_col_maNhanVien.setCellValueFactory(new PropertyValueFactory<>("maNhanVien"));
+        themNhanVien_col_ho.setCellValueFactory(new PropertyValueFactory<>("ho"));
+        themNhanVien_col_ten.setCellValueFactory(new PropertyValueFactory<>("ten"));
+        themNhanVien_col_gioiTinh.setCellValueFactory(new PropertyValueFactory<>("gioiTinh"));
+        themNhanVien_col_SDT.setCellValueFactory(new PropertyValueFactory<>("soDienThoai"));
+        themNhanVien_col_chucVu.setCellValueFactory(new PropertyValueFactory<>("chucVu"));
+        themNhanVien_col_diaChi.setCellValueFactory(new PropertyValueFactory<>("diaChi"));
+        themNhanVien_col_ngaySinh.setCellValueFactory(new PropertyValueFactory<>("ngaySinh"));
 
-        addEmployee_tableView.setItems(themNhanVienList);
-
-    }
-
-    public void addEmployeeSelect() {
-
-        themNhanVien employeeD = addEmployee_tableView.getSelectionModel().getSelectedItem();
-
-        int num = addEmployee_tableView.getSelectionModel().getSelectedIndex();
-
-        if ((num - 1) < -1) {
-            return;
-        }
-
-        addEmployee_employee.setText(employeeD.getMaNhanVien());
-        addEmployee_firstName.setText(employeeD.getHo());
-        addEmployee_lastName.setText(employeeD.getTen());
-        addEmployee_phone.setText(employeeD.getSoDienThoai());
-        addEmployee_address.setText(employeeD.getDiaChi());
+        themNhanVien_bangData.setItems(themNhanVien_List);
 
     }
 
-    public void salaryUpdate() {
+    /*
+     * Tìm Kiếm Nhân Viên
+     * Nếu điền vào ô tìm kiếm ở form thêm nhân viên thì bảng danh sách nhân viên sẽ
+     * tự động lọc
+     * cho ta những nhân viên có kí tự mà ta đã điền ở trên
+     */
+    public void luong_timKiem() {
 
-        String sql = "UPDATE nhanvien SET luong = N'" + salary_salary.getText()
-                + "' WHERE manhanvien = N'" + salary_employeeId.getText() + "'";
+        // Tạo một FilteredList mới, nó chứa danh sách nhân viên ban đầu
+        // themNhanVien_List.
+        FilteredList<luongNhanVien> locTimKiem = new FilteredList<>(luong_List, e -> true);
+
+        // Mỗi khi nội dung của trường này thay đổi, sự kiện này sẽ được kích hoạt.
+        luong_timkiem.textProperty().addListener((ObservableList, giaTriCu, giaTriMoi) -> {
+
+            // Đặt một bộ lọc cho locTimKiem. Mỗi mục trong danh sách locTimKiem sẽ được
+            // kiểm tra bởi bộ lọc này.
+            locTimKiem.setPredicate(predicateEmployeeData -> {
+
+                // Nếu từ khoá tìm kiếm (giaTriMoi) là rỗng hoặc null, tất cả các mục sẽ được
+                // hiển thị.
+                if (giaTriMoi == null || giaTriMoi.isEmpty()) {
+                    return true;
+                }
+
+                // Nếu một trong các trường của mục chứa từ khoá tìm kiếm (chuyển thành chữ
+                // thường để so sánh), mục đó sẽ được hiển thị.
+                String tuKhoaTimKiem = giaTriMoi.toLowerCase();
+
+                if (predicateEmployeeData.getMaNhanVien().toString().contains(tuKhoaTimKiem)) {
+                    return true;
+                } else if (predicateEmployeeData.getHo().toLowerCase().contains(tuKhoaTimKiem)) {
+                    return true;
+                } else if (predicateEmployeeData.getTen().toLowerCase().contains(tuKhoaTimKiem)) {
+                    return true;
+                } else if (predicateEmployeeData.getChucVu().toLowerCase().contains(tuKhoaTimKiem)) {
+                    return true;
+                } else if (String.valueOf(predicateEmployeeData.getLuong()).contains(tuKhoaTimKiem)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            });
+        });
+
+        // Tạo một SortedList từ locTimKiem, để sắp xếp các mục dựa trên một bộ so sánh
+        // đã được chỉ định.
+        SortedList<luongNhanVien> sortedList = new SortedList<>(locTimKiem);
+
+        // Liên kết bộ so sánh của sortedList với bộ so sánh của themNhanVien_bangData
+        // (chắc chắn rằng cả hai sẽ được sắp xếp theo cùng một cách)
+        sortedList.comparatorProperty().bind(luong_bangData.comparatorProperty());
+
+        // Đặt danh sách hiển thị của bảng (hoặc danh sách) hiển thị nhân viên thành
+        // sortedList,
+        // do đó chỉ các mục đã được lọc và sắp xếp sẽ được hiển thị
+        luong_bangData.setItems(sortedList);
+
+    }
+
+    /*
+     * Sửa thông tin nhân viên
+     * Nếu ta bấm vào nút sửa trong Form lương nhân viên thì ta sẽ cập nhật thông
+     * tin
+     * của 1 nhân viên nào đó
+     */
+    public void luong_sua() {
+
+        String sql = "UPDATE nhanvien SET luong = N'" + luong_luong.getText()
+                + "' WHERE manhanvien = N'" + luong_maNhanVien.getText() + "'";
 
         connect = connectionData.connectQLNV();
 
         try {
             Alert alert;
 
-            if (salary_employeeId.getText().isEmpty()) {
+            // kiểm tra điều kiện giá trị rỗng hoặc null
+            if (luong_maNhanVien.getText().isEmpty()) {
 
                 alert = new Alert(AlertType.ERROR);
                 alert.setTitle("Error Message");
@@ -844,6 +955,7 @@ public class FormXuLyNhanVien implements Initializable {
 
             } else {
 
+                // thực hiện câu lệnh sql
                 statement = connect.createStatement();
                 statement.executeUpdate(sql);
 
@@ -853,7 +965,8 @@ public class FormXuLyNhanVien implements Initializable {
                 alert.setContentText("Sửa thành công!");
                 alert.showAndWait();
 
-                salaryShowListData();
+                luong_datLai();// đặt lại khi ta sửa thành công
+                luong_hienThiListData(); // hiển thị danh sách nhân viên
             }
 
         } catch (Exception e) {
@@ -861,15 +974,23 @@ public class FormXuLyNhanVien implements Initializable {
         }
     }
 
-    public void salaryReset() {
-        salary_employeeId.setText("");
-        salary_firstName.setText("");
-        salary_lastName.setText("");
-        salary_position.setText("");
-        salary_salary.setText("");
+    /*
+     * Đặt lại Nhân viên viên
+     * Nếu ta bấm vào nút đặt lại thì toàn bộ thông tin ta nhập trước đó sẽ bị xóa
+     */
+    public void luong_datLai() {
+        luong_maNhanVien.setText("");
+        luong_ho.setText("");
+        luong_ten.setText("");
+        luong_chucVu.setText("");
+        luong_luong.setText("");
     }
 
-    public ObservableList<luongNhanVien> salaryListData() {
+    /*
+     * Lấy dữ liệu danh sách nhân viên mà ta thực hiện câu lệnh sql trong bảng nhân
+     * viên
+     */
+    public ObservableList<luongNhanVien> luong_ListData() {
 
         ObservableList<luongNhanVien> listData = FXCollections.observableArrayList();
 
@@ -881,15 +1002,15 @@ public class FormXuLyNhanVien implements Initializable {
             prepare = connect.prepareStatement(sql);
             resultSet = prepare.executeQuery();
 
-            luongNhanVien employeeData;
+            luongNhanVien nhanVien_data;
             while (resultSet.next()) {
-                employeeData = new luongNhanVien(resultSet.getString("manhanvien"),
+                nhanVien_data = new luongNhanVien(resultSet.getString("manhanvien"),
                         resultSet.getString("ho"),
                         resultSet.getString("ten"),
                         resultSet.getString("chucvu"),
                         resultSet.getInt("luong"));
 
-                listData.add(employeeData);
+                listData.add(nhanVien_data);
 
             }
 
@@ -899,134 +1020,174 @@ public class FormXuLyNhanVien implements Initializable {
         return listData;
     }
 
-    private ObservableList<luongNhanVien> salaryList;
+    private ObservableList<luongNhanVien> luong_List;
 
-    public void salaryShowListData() {
+    /*
+     * Hiển thị danh sách nhân viên trong table view
+     * Lấy tất cả dữ liệu mà ta thực hiện câu lệnh sql trong bảng nhân viên gán vào
+     * table view
+     */
+    public void luong_hienThiListData() {
 
-        salaryList = salaryListData();
+        luong_List = luong_ListData();
 
-        salary_col_employeeID.setCellValueFactory(new PropertyValueFactory<>("maNhanVien"));
-        salary_col_firstName.setCellValueFactory(new PropertyValueFactory<>("ho"));
-        salary_col_lastName.setCellValueFactory(new PropertyValueFactory<>("ten"));
-        salary_col_position.setCellValueFactory(new PropertyValueFactory<>("chucVu"));
-        salary_col_salary.setCellValueFactory(new PropertyValueFactory<>("luong"));
+        luong_col_maNhanVien.setCellValueFactory(new PropertyValueFactory<>("maNhanVien"));
+        luong_col_ho.setCellValueFactory(new PropertyValueFactory<>("ho"));
+        luong_col_ten.setCellValueFactory(new PropertyValueFactory<>("ten"));
+        luong_col_chucVu.setCellValueFactory(new PropertyValueFactory<>("chucVu"));
+        luong_col_luong.setCellValueFactory(new PropertyValueFactory<>("luong"));
 
-        salary_tableView.setItems(salaryList);
+        luong_bangData.setItems(luong_List);
     }
 
-    public void salarySelect() {
-        luongNhanVien employeeData = salary_tableView.getSelectionModel().getSelectedItem();
-        int num = salary_tableView.getSelectionModel().getSelectedIndex();
+    /*
+     * Màu mặc định ta vào form chính thì hiện ra các màu này
+     */
+    public void mauMacDinh() {
 
-        if ((num - 1) < -1) {
-            return;
-        }
+        // các dòng lệnh ngôn ngữ css thêm màu cho nút Home
+        home_Btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);" +
+                "-fx-background-radius: 15px;");
 
-        salary_employeeId.setText(employeeData.getMaNhanVien());
-        salary_firstName.setText(employeeData.getHo());
-        salary_lastName.setText(employeeData.getTen());
-        salary_position.setText(employeeData.getChucVu());
-        salary_salary.setText(String.valueOf(employeeData.getLuong()));
+        themNhanVien_btn.setStyle("-fx-background-color:transparent;"
+                + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                "  -fx-border-radius: 15px;");
+
+        luong_Btn.setStyle("-fx-background-color:transparent;"
+                + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                "  -fx-border-radius: 15px;");
     }
 
-    public void defautNav() {
-        home_Btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);");
-    }
+    /*
+     * Sự kiện Chuyển Form
+     */
+    public void chuyen_Form(ActionEvent event) {
 
-    public void displayUsername() {
-        username.setText(getData.username);
-    }
-
-    public void switchForm(ActionEvent event) {
-
+        // nếu ta bấm vào nút home thì sẽ hiện ra Form Home
         if (event.getSource() == home_Btn) {
 
             home_form.setVisible(true);
-            addEmployee_form.setVisible(false);
-            salary_form.setVisible(false);
+            themNhanVien_form.setVisible(false);
+            luong_form.setVisible(false);
 
-            home_Btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);");
-            addEmployee_btn.setStyle("-fx-background-color:transparent");
-            salary_Btn.setStyle("-fx-background-color:transparent");
+            // Màu của nút home sẽ được hiện ra
+            // Các nút còn lại sẽ bị ẩn màu đi
+            home_Btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);" +
+                    "-fx-background-radius: 15px;");
+            themNhanVien_btn.setStyle("-fx-background-color:transparent;"
+                    + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                    "  -fx-border-radius: 15px;");
+            luong_Btn.setStyle("-fx-background-color:transparent;"
+                    + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                    "  -fx-border-radius: 15px;");
 
+            // các giá trị này sẽ thực hiện ở bảng này
             home_totalEmployee();
-            home_totalPresents();
+            home_tongNVCV();
             home_tuoiTBCTy();
-            home_chart();
+            home_bieuDo();
             home_luongTBDoiTuong();
             home_luongTBcongty();
             home_luongTDoiTuong();
-            home_luongTDoiTuongList();
-            home_luongTBDoiTuongList();
+            home_tongNVCVComB();
+            home_luongTDoiTuongComB();
+            home_luongTBDoiTuongComB();
             home_luongTBOnMouseClick();
             home_luongTongDTOnMouseClick();
+            home_tongNVCVOnMouseClick();
 
-        } else if (event.getSource() == addEmployee_btn) {
-
-            home_form.setVisible(false);
-            addEmployee_form.setVisible(true);
-            salary_form.setVisible(false);
-
-            addEmployee_btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);");
-            home_Btn.setStyle("-fx-background-color:transparent");
-            salary_Btn.setStyle("-fx-background-color:transparent");
-
-            addEmployeeGenderList();
-            addEmployeePositionList();
-            timKiemThemNhanVien();
-            addEmployeeOnMouseClickTable();
-
-        } else if (event.getSource() == salary_Btn) {
+            // nếu ta bấm vào nút thêm nhân viên viên thì hiện ra Form thêm nhân viên
+        } else if (event.getSource() == themNhanVien_btn) {
 
             home_form.setVisible(false);
-            addEmployee_form.setVisible(false);
-            salary_form.setVisible(true);
+            themNhanVien_form.setVisible(true);
+            luong_form.setVisible(false);
 
-            salary_Btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);");
-            addEmployee_btn.setStyle("-fx-background-color:transparent");
-            home_Btn.setStyle("-fx-background-color:transparent");
+            // Màu của nút Thêm nhân viên sẽ hiện màu
+            // còn cá nút còn lại sẽ bị ẩn màu đi
+            themNhanVien_btn.setStyle("-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);" +
+                    "-fx-background-radius: 15px;");
+            home_Btn.setStyle("-fx-background-color:transparent;"
+                    + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                    "  -fx-border-radius: 15px;");
+            luong_Btn.setStyle("-fx-background-color:transparent;"
+                    + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                    "  -fx-border-radius: 15px;");
 
-            salaryShowListData();
-            salaryOnMouseClickTable();
+            // các giá trị này sẽ thực hiện ở bảng này
+            themNhanVien_gioiTinhcombox();
+            themNhanVien_chucVuCombox();
+            themNhanVien_timKiem();
+            themNhanVien_OnMouseClickTable();
+
+            // Nếu ta bấm vào nút lương thì hiện ra Form Lương nhân viên
+        } else if (event.getSource() == luong_Btn) {
+
+            home_form.setVisible(false);
+            themNhanVien_form.setVisible(false);
+            luong_form.setVisible(true);
+
+            // Màu của nút Lương nhân viên sẽ hiện màu
+            // còn cá nút còn lại sẽ bị ẩn màu đi
+            luong_Btn.setStyle(
+                    "-fx-background-color:linear-gradient(to bottom right, #3a4368, #28966c);" +
+                            "-fx-background-radius: 15px;");
+
+            themNhanVien_btn.setStyle("-fx-background-color:transparent;"
+                    + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                    "  -fx-border-radius: 15px;");
+
+            home_Btn.setStyle("-fx-background-color:transparent;"
+                    + "-fx-border-color: linear-gradient(to bottom right, #272b3f, #256b51);" +
+                    "  -fx-border-radius: 15px;");
+
+            // các giá trị này sẽ thực hiện ở bảng này
+            luong_hienThiListData();
+            luong_OnMouseClickTable();
+            luong_timKiem();
         }
 
     }
 
-    public void addEmployeeOnMouseClickTable() {
+    // Nếu cick vào hàng nào trong table view trong bảng thêm nhân viên thì sẽ các
+    // giá trị sẽ hiện lên các TextFiel
+    public void themNhanVien_OnMouseClickTable() {
 
-        addEmployee_tableView.setOnMouseClicked(event -> {
+        themNhanVien_bangData.setOnMouseClicked(event -> {
             if (event.getClickCount() == 1) {
-                themNhanVien employeeData = addEmployee_tableView.getSelectionModel().getSelectedItem();
-                if (employeeData != null) {
+                themNhanVien nhanVien_data = themNhanVien_bangData.getSelectionModel().getSelectedItem();
+                if (nhanVien_data != null) {
 
-                    addEmployee_employee.setText(employeeData.getMaNhanVien());
-                    addEmployee_firstName.setText(employeeData.getHo());
-                    addEmployee_lastName.setText(employeeData.getTen());
-                    addEmployee_gender.getSelectionModel().getSelectedItem();
-                    addEmployee_phone.setText(employeeData.getSoDienThoai());
-                    addEmployee_position.getSelectionModel().getSelectedItem();
-                    addEmployee_address.setText(employeeData.getDiaChi());
-                    Date brithday = employeeData.getNgaySinh();
-                    LocalDate localDate = sqlDateToLocalDate(brithday);
-                    addEmployee_birthday.setValue(localDate);
+                    themNhanVien_maNhanVien.setText(nhanVien_data.getMaNhanVien());
+                    themNhanVien_ho.setText(nhanVien_data.getHo());
+                    themNhanVien_ten.setText(nhanVien_data.getTen());
+                    themNhanVien_gioiTinh.getSelectionModel().getSelectedItem();
+                    themNhanVien_SDT.setText(nhanVien_data.getSoDienThoai());
+                    themNhanVien_chucVu.getSelectionModel().getSelectedItem();
+                    themNhanVien_diaChi.setText(nhanVien_data.getDiaChi());
+                    Date ngaySinh = nhanVien_data.getNgaySinh();
+                    LocalDate localDate = sqlDateToLocalDate(ngaySinh);
+                    themNhanVien_ngaySinh.setValue(localDate);
                 }
             }
         });
 
     }
 
-    public void salaryOnMouseClickTable() {
+    // Nếu cick vào hàng nào trong bảng dữ liệu trong Lương nhân viên thì sẽ các giá
+    // trị sẽ hiện lên các TextFiel
+    public void luong_OnMouseClickTable() {
 
-        salary_tableView.setOnMouseClicked(event -> {
+        luong_bangData.setOnMouseClicked(event -> {
             if (event.getClickCount() == 1) {
-                luongNhanVien employeeData = salary_tableView.getSelectionModel().getSelectedItem();
-                if (employeeData != null) {
+                luongNhanVien nhanVien_data = luong_bangData.getSelectionModel().getSelectedItem();
+                if (nhanVien_data != null) {
 
-                    salary_employeeId.setText(employeeData.getMaNhanVien());
-                    salary_firstName.setText(employeeData.getHo());
-                    salary_lastName.setText(employeeData.getTen());
-                    salary_position.setText(employeeData.getChucVu());
-                    salary_salary.setText(String.valueOf(employeeData.getLuong()));
+                    luong_maNhanVien.setText(nhanVien_data.getMaNhanVien());
+                    luong_ho.setText(nhanVien_data.getHo());
+                    luong_ten.setText(nhanVien_data.getTen());
+                    luong_chucVu.setText(nhanVien_data.getChucVu());
+                    luong_luong.setText(String.valueOf(nhanVien_data.getLuong()));
 
                 }
             }
@@ -1034,18 +1195,28 @@ public class FormXuLyNhanVien implements Initializable {
 
     }
 
+    // chọn đối tượng cho home_luongTBDoiTuong
     public void home_luongTBOnMouseClick() {
         home_luongTBDoiTuongCBox.setOnAction(event -> {
             home_luongTBDoiTuong();
         });
     }
 
+    // Chọn đối tượng cho biến home_luongTDoiTuong
     public void home_luongTongDTOnMouseClick() {
         home_luongTDoiTuongCBox.setOnAction(event -> {
             home_luongTDoiTuong();
         });
     }
 
+    // Chọn đối tượng cho biến home_luongTDoiTuong
+    public void home_tongNVCVOnMouseClick() {
+        home_tongnvDoiTuongCBox.setOnAction(event -> {
+            home_tongNVCV();
+        });
+    }
+
+    // Chuyển đổi kiểu dữ liệu
     public LocalDate sqlDateToLocalDate(Date sqlDate) {
         return sqlDate.toLocalDate();
     }
@@ -1053,8 +1224,13 @@ public class FormXuLyNhanVien implements Initializable {
     private double x = 0;
     private double y = 0;
 
-    public void logout() {
+    /*
+     * Nếu bấm vào nút đăng xuất thì sẽ chuyển từ Form này sang Form
+     * FormDangNhap.fxml
+     */
+    public void dangXuat() {
 
+        // Dòng thông báo cho người dùng nếu thoát bấm ok không thì vẫn ở lại form này
         Alert alert = new Alert(AlertType.CONFIRMATION);
         alert.setTitle("Confirmation Message");
         alert.setHeaderText(null);
@@ -1062,9 +1238,10 @@ public class FormXuLyNhanVien implements Initializable {
         Optional<ButtonType> option = alert.showAndWait();
         try {
 
+            // Nếu người dùng bấm ok thì thoát, còn không thì vẫn ở lại form này
             if (option.get().equals(ButtonType.OK)) {
 
-                logout.getScene().getWindow().hide();
+                dangXuat.getScene().getWindow().hide();
                 Parent root = FXMLLoader.load(getClass().getResource("FormDangNhap.fxml"));
                 Stage stage = new Stage();
                 Scene scene = new Scene(root);
@@ -1096,7 +1273,6 @@ public class FormXuLyNhanVien implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     // đóng màn hình trên màn hình chính
@@ -1114,27 +1290,28 @@ public class FormXuLyNhanVien implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-        displayUsername();
-        defautNav();
+        mauMacDinh();
 
         home_totalEmployee();
-        home_totalPresents();
+        home_tongNVCV();
         home_tuoiTBCTy();
-        home_chart();
+        home_bieuDo();
         home_luongTBDoiTuong();
         home_luongTBcongty();
         home_luongTDoiTuong();
-        home_luongTBDoiTuongList();
-        home_luongTDoiTuongList();
+        home_luongTBDoiTuongComB();
+        home_luongTDoiTuongComB();
+        home_tongNVCVComB();
         home_luongTBOnMouseClick();
         home_luongTongDTOnMouseClick();
+        home_luongTBOnMouseClick();
 
-        addEmployeeGenderList();
-        addEmployeePositionList();
-        addEmployeeShowListData();
-        addEmployeeOnMouseClickTable();
+        themNhanVien_gioiTinhcombox();
+        themNhanVien_chucVuCombox();
+        themNhanVien_hienThiListData();
+        themNhanVien_OnMouseClickTable();
 
-        salaryShowListData();
-        salaryOnMouseClickTable();
+        luong_hienThiListData();
+        luong_OnMouseClickTable();
     }
 }

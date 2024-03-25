@@ -40,7 +40,7 @@
 }
 
 .logout {
-  -fx-background-color: #219a6a;
+  -fx-background-color: inear-gradient(to bottom right, #272b3f, #256b51);
   -fx-background-radius: 10px;
   -fx-cursor: hand;
 }
@@ -118,7 +118,7 @@
 }
 
 .add-btn {
-  -fx-background-color: #304575;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
   -fx-background-radius: 8px;
   -fx-text-fill: #fff;
   -fx-font-size: 14px;
@@ -126,11 +126,11 @@
   -fx-cursor: hand;
 }
 .add-btn:hover {
-  -fx-background-color: #3357a4;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
 }
 
 .update-btn {
-  -fx-background-color: #327252;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
   -fx-background-radius: 8px;
   -fx-text-fill: #fff;
   -fx-font-size: 14px;
@@ -138,11 +138,11 @@
   -fx-cursor: hand;
 }
 .update-btn:hover {
-  -fx-background-color: #309a65;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
 }
 
 .delete-btn {
-  -fx-background-color: #86253f;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
   -fx-background-radius: 8px;
   -fx-text-fill: #fff;
   -fx-font-size: 14px;
@@ -150,11 +150,11 @@
   -fx-cursor: hand;
 }
 .delete-btn:hover {
-  -fx-background-color: #ae1d46;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
 }
 
 .clear-btn {
-  -fx-background-color: #753566;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
   -fx-background-radius: 8px;
   -fx-text-fill: #fff;
   -fx-font-size: 14px;
@@ -162,7 +162,7 @@
   -fx-cursor: hand;
 }
 .clear-btn:hover {
-  -fx-background-color: #9d3485;
+  -fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);
 }
 
 .label-info {

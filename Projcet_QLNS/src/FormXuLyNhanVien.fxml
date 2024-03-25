@@ -13,11 +13,12 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
@@ -29,9 +30,9 @@
                <top>
                   <AnchorPane prefHeight="45.0" prefWidth="200.0" styleClass="semi-top-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" BorderPane.alignment="CENTER">
                      <children>
-                        <AnchorPane layoutX="122.0" prefHeight="41.0" prefWidth="1148.0" styleClass="top-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" AnchorPane.bottomAnchor="4.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AnchorPane layoutX="122.0" prefHeight="46.0" prefWidth="1148.0" styleClass="top-form" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <Label layoutX="46.0" layoutY="10.0" text="Quản Lý Nhân Sự">
+                              <Label layoutX="46.0" layoutY="10.0" text="Quản Lý Nhân Sự" textFill="WHITE">
                                  <font>
                                     <Font name="Arial Bold" size="18.0" />
                                  </font>
@@ -46,7 +47,23 @@
                                     <FontAwesomeIcon glyphName="MINUS" />
                                  </graphic>
                               </Button>
-                              <FontAwesomeIcon fill="#15b288" glyphName="USERS" layoutX="7.0" layoutY="29.0" size="2em" />
+                              <FontAwesomeIcon glyphName="USERS" layoutX="7.0" layoutY="29.0" size="2em">
+                                 <fill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="1.0" green="1.0" blue="1.0" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="1.0" green="1.0" blue="1.0" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </LinearGradient>
+                                 </fill></FontAwesomeIcon>
                            </children>
                         </AnchorPane>
                      </children>
@@ -57,51 +74,79 @@
                      <children>
                         <AnchorPane prefHeight="555.0" prefWidth="200.0" style="-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0);" styleClass="lo" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <children>
-                              <ImageView fitHeight="80.0" fitWidth="76.0" layoutX="62.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../C_Shap/Project_QLNV/QuanLyNhanVien/chinh.jpg" />
-                                 </image>
-                              </ImageView>
-                              <Label layoutX="63.0" layoutY="112.0" style="-fx-background-color: #18a383;" text="Xin Chào!" textFill="#f2efef">
-                                 <font>
-                                    <Font name="Arial" size="18.0" />
-                                 </font>
-                              </Label>
-                              <Label fx:id="username" layoutX="70.0" layoutY="140.0" text="Admin" textFill="#15b288">
-                                 <font>
-                                    <Font name="Arial Bold" size="19.0" />
-                                 </font>
-                              </Label>
                               <Line endX="78.0" layoutX="100.0" layoutY="179.0" startX="-78.0" />
-                              <Button fx:id="home_Btn" layoutX="25.0" layoutY="199.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="35.0" prefWidth="150.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Home">
+                              <Button fx:id="home_Btn" layoutX="25.0" layoutY="199.0" mnemonicParsing="false" onAction="#chuyen_Form" prefHeight="35.0" prefWidth="150.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Home">
                                  <graphic>
                                     <FontAwesomeIcon glyphName="HOME" />
                                  </graphic>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
                               </Button>
-                              <Button fx:id="addEmployee_btn" layoutX="26.0" layoutY="243.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="35.0" prefWidth="150.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Thêm Nhân Viên">
+                              <Button fx:id="themNhanVien_btn" layoutX="26.0" layoutY="250.0" mnemonicParsing="false" onAction="#chuyen_Form" prefHeight="35.0" prefWidth="150.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Thêm Nhân Viên">
                                  <graphic>
                                     <FontAwesomeIcon glyphName="PLUS" />
                                  </graphic>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
                               </Button>
-                              <Button fx:id="salary_Btn" layoutX="25.0" layoutY="288.0" mnemonicParsing="false" onAction="#switchForm" prefHeight="35.0" prefWidth="150.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Lương Nhân Viên">
+                              <Button fx:id="luong_Btn" layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#chuyen_Form" prefHeight="35.0" prefWidth="150.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Lương Nhân Viên">
                                  <graphic>
                                     <FontAwesomeIcon glyphName="MONEY" />
                                  </graphic>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
                               </Button>
-                              <Button fx:id="logout" layoutX="14.0" layoutY="589.0" mnemonicParsing="false" onAction="#logout" prefHeight="32.0" prefWidth="10.0" style="-fx-background-color: #15b288; -fx-background-radius: 10px; -fx-cursor: hand;">
+                              <Button fx:id="dangXuat" layoutX="14.0" layoutY="589.0" mnemonicParsing="false" onAction="#dangXuat" prefHeight="32.0" prefWidth="10.0" styleClass="logout">
                                  <graphic>
-                                    <FontAwesomeIcon glyphName="SIGN_OUT" size="2em">
+                                    <FontAwesomeIcon fill="WHITE" glyphName="SIGN_OUT" size="2em">
                                        <cursor>
                                           <Cursor fx:constant="DEFAULT" />
                                        </cursor>
                                     </FontAwesomeIcon>
                                  </graphic>
+                                 <textFill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="0.15294118225574493" green="0.16862745583057404" blue="0.24705882370471954" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.14509804546833038" green="0.41960784792900085" blue="0.3176470696926117" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </LinearGradient>
+                                 </textFill>
                               </Button>
                               <Label layoutX="63.0" layoutY="595.0" text="Đăng Xuất">
                                  <font>
                                     <Font size="15.0" />
                                  </font>
                               </Label>
+                              <FontAwesomeIcon glyphName="USER" layoutX="64.0" layoutY="132.0" size="8em" wrappingWidth="68.4285717010498">
+                                 <fill>
+                                    <LinearGradient endX="1.0" endY="1.0">
+                                       <stops>
+                                          <Stop>
+                                             <color>
+                                                <Color red="0.15294118225574493" green="0.16862745583057404" blue="0.24705882370471954" />
+                                             </color>
+                                          </Stop>
+                                          <Stop offset="1.0">
+                                             <color>
+                                                <Color red="0.14509804546833038" green="0.41960784792900085" blue="0.3176470696926117" />
+                                             </color>
+                                          </Stop>
+                                       </stops>
+                                    </LinearGradient>
+                                 </fill>
+                              </FontAwesomeIcon>
                            </children>
                         </AnchorPane>
                      </children>
@@ -114,39 +159,43 @@
                            <children>
                               <AnchorPane layoutX="3.0" prefHeight="364.0" prefWidth="922.0" style="-fx-background-radius: 8px; -fx-background-color: #fff; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 6,0,0,0);">
                                  <children>
-                                    <AnchorPane layoutX="14.0" layoutY="9.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to right, #2b303c, #525968); -fx-background-radius: 5px;">
+                                    <AnchorPane layoutX="14.0" layoutY="22.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51); -fx-background-radius: 15px;">
                                        <children>
-                                          <FontAwesomeIcon fill="WHITE" glyphName="USERS" layoutX="14.0" layoutY="87.0" size="4em" wrappingWidth="52.85714340209961" />
+                                          <FontAwesomeIcon fill="WHITE" glyphName="USERS" layoutX="23.0" layoutY="87.0" size="4em" wrappingWidth="52.85714340209961" />
                                           <Label layoutX="82.0" layoutY="105.0" text="Tổng Nhân Viên" textFill="WHITE">
                                              <font>
                                                 <Font name="Tahoma" size="17.0" />
                                              </font>
                                           </Label>
-                                          <Label fx:id="home_totalEmployee" alignment="CENTER_RIGHT" layoutX="115.0" layoutY="14.0" prefHeight="30.0" prefWidth="114.0" text="0" textFill="WHITE">
+                                          <Label fx:id="home_tongNhanVien" alignment="CENTER_RIGHT" layoutX="115.0" layoutY="14.0" prefHeight="30.0" prefWidth="114.0" text="0" textFill="WHITE">
                                              <font>
                                                 <Font name="Arial" size="25.0" />
                                              </font>
                                           </Label>
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="336.0" layoutY="9.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to right, #2b303c, #525968); -fx-background-radius: 5px;">
+                                    <AnchorPane layoutX="336.0" layoutY="22.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51); -fx-background-radius: 15px;">
                                        <children>
                                           <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="14.0" layoutY="87.0" size="4em" wrappingWidth="52.85714340209961" />
-                                          <Label layoutX="30.0" layoutY="105.0" prefHeight="21.0" prefWidth="213.0" text="Tổng Nhân Viên Đang Làm" textFill="WHITE">
+                                          <Label layoutX="2.0" layoutY="105.0" prefHeight="21.0" prefWidth="246.0" text="Tổng Nhân Viên Từng Chức Vụ " textFill="WHITE">
                                              <font>
                                                 <Font name="Tahoma" size="17.0" />
                                              </font>
                                           </Label>
-                                          <Label fx:id="home_totalPresents" alignment="CENTER_RIGHT" layoutX="98.0" layoutY="14.0" prefHeight="30.0" prefWidth="130.0" text="0" textFill="WHITE">
+                                          <Label fx:id="home_tongNVCV" alignment="CENTER_RIGHT" layoutX="98.0" layoutY="14.0" prefHeight="30.0" prefWidth="130.0" text="0" textFill="WHITE">
                                              <font>
                                                 <Font name="Arial" size="25.0" />
                                              </font>
                                           </Label>
+                                          <ComboBox fx:id="home_tongnvDoiTuongCBox" layoutX="88.0" layoutY="70.0" onAction="#home_tongNVCVComB" onMouseClicked="#home_tongNVCVOnMouseClick" prefWidth="150.0" promptText="Lựa chọn" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css">
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor>
+                                          </ComboBox>
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="658.0" layoutY="9.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to right, #2b303c, #525968); -fx-background-radius: 5px;">
+                                    <AnchorPane layoutX="658.0" layoutY="22.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51); -fx-background-radius: 15px;">
                                        <children>
-                                          <FontAwesomeIcon fill="WHITE" glyphName="MINUS" layoutX="14.0" layoutY="87.0" size="4em" wrappingWidth="52.85714340209961" />
                                           <Label layoutX="9.0" layoutY="105.0" text="Độ tuổi trung bình của Công ty" textFill="WHITE">
                                              <font>
                                                 <Font name="Tahoma" size="17.0" />
@@ -157,11 +206,11 @@
                                                 <Font name="Arial" size="25.0" />
                                              </font>
                                           </Label>
+                                          <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="14.0" layoutY="87.0" size="4em" wrappingWidth="52.85714340209961" />
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="14.0" layoutY="182.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to right, #2b303c, #525968); -fx-background-radius: 5px;">
+                                    <AnchorPane layoutX="14.0" layoutY="198.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51); -fx-background-radius: 15px;">
                                        <children>
-                                          <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="14.0" layoutY="61.0" size="4em" wrappingWidth="52.85714340209961" />
                                           <Label layoutX="7.0" layoutY="105.0" prefHeight="21.0" prefWidth="237.0" text="Tổng lương của từng đối tượng" textFill="WHITE">
                                              <font>
                                                 <Font name="Tahoma" size="17.0" />
@@ -172,10 +221,14 @@
                                                 <Font name="Arial" size="25.0" />
                                              </font>
                                           </Label>
-                                          <ComboBox fx:id="home_luongTDoiTuongCBox" layoutX="86.0" layoutY="70.0" onAction="#addEmployeePositionList" onMouseClicked="#home_luongTongDTOnMouseClick" prefWidth="150.0" promptText="Lựa chọn" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                          <ComboBox fx:id="home_luongTDoiTuongCBox" layoutX="86.0" layoutY="70.0" onAction="#home_luongTDoiTuongComB" onMouseClicked="#home_luongTongDTOnMouseClick" prefWidth="150.0" promptText="Lựa chọn" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css">
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor></ComboBox>
+                                          <FontAwesomeIcon fill="WHITE" glyphName="USERS" layoutX="14.0" layoutY="61.0" size="4em" wrappingWidth="52.85714340209961" />
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="336.0" layoutY="182.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to right, #2b303c, #525968); -fx-background-radius: 5px;">
+                                    <AnchorPane layoutX="336.0" layoutY="198.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51); -fx-background-radius: 15px;">
                                        <children>
                                           <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="14.0" layoutY="61.0" size="4em" wrappingWidth="52.85714340209961" />
                                           <Label layoutX="7.0" layoutY="103.0" prefHeight="31.0" prefWidth="237.0" text="Lương trung bình của từng đối tượng" textFill="WHITE">
@@ -188,10 +241,13 @@
                                                 <Font name="Arial" size="25.0" />
                                              </font>
                                           </Label>
-                                          <ComboBox fx:id="home_luongTBDoiTuongCBox" layoutX="86.0" layoutY="70.0" onAction="#addEmployeePositionList" onMouseClicked="#home_luongTBOnMouseClick" prefWidth="150.0" promptText="Lựa chọn" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                          <ComboBox fx:id="home_luongTBDoiTuongCBox" layoutX="86.0" layoutY="70.0" onAction="#home_luongTBDoiTuongComB" onMouseClicked="#home_luongTBOnMouseClick" prefWidth="150.0" promptText="Lựa chọn" styleClass="combobox" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css">
+                                             <cursor>
+                                                <Cursor fx:constant="HAND" />
+                                             </cursor></ComboBox>
                                        </children>
                                     </AnchorPane>
-                                    <AnchorPane layoutX="658.0" layoutY="182.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to right, #2b303c, #525968); -fx-background-radius: 5px;">
+                                    <AnchorPane layoutX="658.0" layoutY="198.0" prefHeight="140.0" prefWidth="250.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51); -fx-background-radius: 15px;">
                                        <children>
                                           <FontAwesomeIcon fill="WHITE" glyphName="CHECK" layoutX="14.0" layoutY="61.0" size="4em" wrappingWidth="52.85714340209961" />
                                           <Label layoutX="5.0" layoutY="102.0" prefHeight="31.0" prefWidth="240.0" text="Lương trung bình của cả công ty" textFill="WHITE">
@@ -208,7 +264,7 @@
                                     </AnchorPane>
                                  </children>
                               </AnchorPane>
-                              <BarChart fx:id="home_chart" layoutX="41.0" layoutY="366.0" prefHeight="255.0" prefWidth="826.0" title="Bảng những người lớn tuổi nhất">
+                              <BarChart fx:id="home_bieuDo" layoutX="41.0" layoutY="369.0" prefHeight="252.0" prefWidth="826.0" title="Bảng những người lớn tuổi nhất">
                                 <xAxis>
                                   <CategoryAxis side="BOTTOM" />
                                 </xAxis>
@@ -218,7 +274,7 @@
                               </BarChart>
                            </children>
                         </AnchorPane>
-                        <AnchorPane fx:id="addEmployee_form" layoutX="10.0" layoutY="13.0" prefHeight="614.0" prefWidth="926.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" visible="false">
+                        <AnchorPane fx:id="themNhanVien_form" layoutX="10.0" layoutY="13.0" prefHeight="614.0" prefWidth="926.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" visible="false">
                            <children>
                               <AnchorPane prefHeight="258.0" prefWidth="926.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css">
                                  <styleClass>
@@ -226,49 +282,73 @@
                                     <String fx:value="shadow" />
                                  </styleClass>
                                  <children>
-                                    <TableView fx:id="addEmployee_tableView" layoutX="2.0" layoutY="48.0" onMouseClicked="#addEmployeeOnMouseClickTable" prefHeight="206.0" prefWidth="927.0">
+                                    <TableView fx:id="themNhanVien_bangData" layoutX="2.0" layoutY="48.0" onMouseClicked="#themNhanVien_OnMouseClickTable" prefHeight="255.0" prefWidth="927.0">
                                       <columns>
-                                        <TableColumn fx:id="addEmployee_col_empoyeeID" prefWidth="97.0" text="Mã nhân viên" />
-                                        <TableColumn fx:id="addEmployee_col_firstName" prefWidth="93.0" text="Họ" />
-                                          <TableColumn fx:id="addEmployee_col_lastName" prefWidth="116.0" text="Tên" />
-                                          <TableColumn fx:id="addEmployee_col_gender" prefWidth="94.0" text="Giới tính" />
-                                          <TableColumn fx:id="addEmployee_col_phone" prefWidth="112.0" text="Số điện thoại" />
-                                          <TableColumn fx:id="addEmployee_col_position" minWidth="0.0" prefWidth="191.0" text="Chức Vụ" />
-                                          <TableColumn fx:id="addEmployee_col_address" prefWidth="109.0" text="Địa chỉ" />
-                                          <TableColumn fx:id="addEmployee_col_dateMember" minWidth="0.0" prefWidth="114.0" text="Ngày Sinh" />
+                                        <TableColumn fx:id="themNhanVien_col_maNhanVien" prefWidth="97.0" text="Mã nhân viên" />
+                                        <TableColumn fx:id="themNhanVien_col_ho" prefWidth="93.0" text="Họ" />
+                                          <TableColumn fx:id="themNhanVien_col_ten" prefWidth="116.0" text="Tên" />
+                                          <TableColumn fx:id="themNhanVien_col_gioiTinh" prefWidth="94.0" text="Giới tính" />
+                                          <TableColumn fx:id="themNhanVien_col_SDT" prefWidth="112.0" text="Số điện thoại" />
+                                          <TableColumn fx:id="themNhanVien_col_chucVu" minWidth="0.0" prefWidth="191.0" text="Chức Vụ" />
+                                          <TableColumn fx:id="themNhanVien_col_diaChi" prefWidth="109.0" text="Địa chỉ" />
+                                          <TableColumn fx:id="themNhanVien_col_ngaySinh" minWidth="0.0" prefWidth="114.0" text="Ngày Sinh" />
                                       </columns>
                                     </TableView>
-                                    <TextField fx:id="addEmployee_seach" layoutX="22.0" layoutY="9.0" onAction="#timKiemThemNhanVien" prefHeight="30.0" prefWidth="228.0" promptText="Tìm kiếm" styleClass="search" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                                    <FontAwesomeIcon glyphName="SEARCH" layoutX="30.0" layoutY="30.0" size="1.5em" text="" />
+                                    <TextField fx:id="themNhanVien_timKiem" layoutX="14.0" layoutY="9.0" onAction="#themNhanVien_timKiem" prefHeight="30.0" prefWidth="228.0" promptText="Tìm kiếm" styleClass="search" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <FontAwesomeIcon glyphName="SEARCH" layoutX="23.0" layoutY="30.0" size="1.5em" text="" />
                                  </children>
                               </AnchorPane>
-                              <Label layoutX="26.0" layoutY="296.0" text="Mã sinh viên:" />
-                              <TextField fx:id="addEmployee_employee" layoutX="109.0" layoutY="292.0" prefHeight="25.0" prefWidth="170.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="43.0" layoutY="346.0" text="Họ: " />
-                              <TextField fx:id="addEmployee_firstName" layoutX="109.0" layoutY="342.0" prefHeight="25.0" prefWidth="168.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="44.0" layoutY="391.0" text="Tên:" />
-                              <TextField fx:id="addEmployee_lastName" layoutX="109.0" layoutY="387.0" prefHeight="25.0" prefWidth="167.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="43.0" layoutY="436.0" text="Giới tính: " />
-                              <ComboBox fx:id="addEmployee_gender" layoutX="109.0" layoutY="432.0" onAction="#addEmployeeGenderList" prefHeight="25.0" prefWidth="166.0" promptText="Chọn" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="404.0" layoutY="296.0" text="Số điện thoại:" />
-                              <TextField fx:id="addEmployee_phone" layoutX="488.0" layoutY="292.0" prefHeight="27.0" prefWidth="191.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="405.0" layoutY="348.0" text="Chức vụ:" />
-                              <ComboBox fx:id="addEmployee_position" layoutX="488.0" layoutY="342.0" onAction="#addEmployeePositionList" prefHeight="28.0" prefWidth="191.0" promptText="Chọn" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="409.0" layoutY="391.0" text="Địa chỉ:" />
-                              <TextField fx:id="addEmployee_address" layoutX="487.0" layoutY="387.0" prefHeight="25.0" prefWidth="194.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Label layoutX="405.0" layoutY="436.0" text="Ngày Sinh:" />
-                              <DatePicker fx:id="addEmployee_birthday" layoutX="487.0" layoutY="430.0" prefHeight="30.0" prefWidth="193.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                              <Button fx:id="addEmployee_addBtn" layoutX="360.0" layoutY="539.0" mnemonicParsing="false" onAction="#addEmployeeAdd" prefHeight="41.0" prefWidth="90.0" styleClass="add-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Thêm" />
-                              <Button fx:id="addEmployee_updateBtn" layoutX="509.0" layoutY="539.0" mnemonicParsing="false" onAction="#addEmployeeUpdate" prefHeight="41.0" prefWidth="90.0" styleClass="update-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Sửa" />
-                              <Button fx:id="addEmployee_deleteBtn" layoutX="656.0" layoutY="539.0" mnemonicParsing="false" onAction="#addEmployeeDelete" prefHeight="41.0" prefWidth="90.0" styleClass="delete-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Xóa" />
-                              <Button fx:id="addEmployee_clearBtn" layoutX="801.0" layoutY="539.0" mnemonicParsing="false" onAction="#addEmployeeReset" prefHeight="41.0" prefWidth="90.0" styleClass="clear-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Đặt lại" />
+                              <Label layoutX="56.0" layoutY="329.0" text="Mã sinh viên :">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="themNhanVien_maNhanVien" layoutX="166.0" layoutY="325.0" prefHeight="30.0" prefWidth="194.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="73.0" layoutY="379.0" text="Họ : ">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="themNhanVien_ho" layoutX="167.0" layoutY="375.0" prefHeight="30.0" prefWidth="194.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="74.0" layoutY="424.0" text="Tên:">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="themNhanVien_ten" layoutX="168.0" layoutY="420.0" prefHeight="30.0" prefWidth="194.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="55.0" layoutY="468.0" text="Giới tính : ">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <ComboBox fx:id="themNhanVien_gioiTinh" layoutX="169.0" layoutY="464.0" onAction="#themNhanVien_gioiTinhcombox" prefHeight="30.0" prefWidth="194.0" promptText="Chọn" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="471.0" layoutY="332.0" text="Số điện thoại :">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="themNhanVien_SDT" layoutX="590.0" layoutY="329.0" prefHeight="30.0" prefWidth="191.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="471.0" layoutY="383.0" text="Chức vụ :">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <ComboBox fx:id="themNhanVien_chucVu" layoutX="590.0" layoutY="379.0" onAction="#themNhanVien_chucVuCombox" prefHeight="30.0" prefWidth="191.0" promptText="Chọn" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="471.0" layoutY="424.0" text="Địa chỉ :">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <TextField fx:id="themNhanVien_diaChi" layoutX="589.0" layoutY="424.0" prefHeight="30.0" prefWidth="194.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Label layoutX="471.0" layoutY="468.0" text="Ngày Sinh :">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font></Label>
+                              <DatePicker fx:id="themNhanVien_ngaySinh" layoutX="589.0" layoutY="467.0" prefHeight="30.0" prefWidth="194.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                              <Button fx:id="themNhanVien_themBtn" layoutX="206.0" layoutY="540.0" mnemonicParsing="false" onAction="#themNhanVien_themBtn" prefHeight="41.0" prefWidth="90.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);" styleClass="add-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Thêm" />
+                              <Button fx:id="themNhanVien_suaBtn" layoutX="355.0" layoutY="540.0" mnemonicParsing="false" onAction="#themNhanVien_suaBtn" prefHeight="41.0" prefWidth="90.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);" styleClass="update-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Sửa" />
+                              <Button fx:id="themNhanVien_xoaBtn" layoutX="502.0" layoutY="540.0" mnemonicParsing="false" onAction="#themNhanVien_xoaBtn" prefHeight="41.0" prefWidth="90.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);" styleClass="delete-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Xóa" />
+                              <Button fx:id="themNhanVien_datLaiBtn" layoutX="647.0" layoutY="540.0" mnemonicParsing="false" onAction="#themNhanVien_datLaiBtn" prefHeight="41.0" prefWidth="90.0" style="-fx-background-color: linear-gradient(to bottom right, #272b3f, #256b51);" styleClass="clear-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Đặt lại" />
                            </children>
                            <styleClass>
                               <String fx:value="white-bg" />
                               <String fx:value="shadow" />
                            </styleClass>
                         </AnchorPane>
-                        <AnchorPane fx:id="salary_form" prefHeight="227.0" prefWidth="158.0" visible="false">
+                        <AnchorPane fx:id="luong_form" prefHeight="227.0" prefWidth="158.0" visible="false">
                            <children>
                               <AnchorPane layoutX="8.0" layoutY="7.0" prefHeight="612.0" prefWidth="264.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css">
                                  <styleClass>
@@ -276,18 +356,33 @@
                                     <String fx:value="shadow" />
                                  </styleClass>
                                  <children>
-                                    <Label layoutX="14.0" layoutY="46.0" text="Employess ID:" />
-                                    <TextField fx:id="salary_employeeId" layoutX="95.0" layoutY="42.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                                    <Label layoutX="17.0" layoutY="94.0" text="Firist Name:" />
-                                    <Label fx:id="salary_firstName" layoutX="95.0" layoutY="90.0" prefHeight="25.0" prefWidth="149.0" styleClass="label-info" text="Label" />
-                                    <Label layoutX="18.0" layoutY="145.0" text="Last Name:" />
-                                    <Label fx:id="salary_lastName" layoutX="95.0" layoutY="138.0" prefHeight="25.0" prefWidth="148.0" styleClass="label-info" text="Label" />
-                                    <Label layoutX="23.0" layoutY="193.0" text="Position: " />
-                                    <Label fx:id="salary_position" layoutX="95.0" layoutY="188.0" prefHeight="25.0" prefWidth="148.0" styleClass="label-info" text="Label" />
-                                    <Label layoutX="22.0" layoutY="234.0" text="Salary ($):" />
-                                    <TextField fx:id="salary_salary" layoutX="95.0" layoutY="230.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
-                                    <Button fx:id="salary_updateBtn" layoutX="141.0" layoutY="306.0" mnemonicParsing="false" onAction="#salaryUpdate" prefHeight="41.0" prefWidth="89.0" styleClass="update-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Update" />
-                                    <Button fx:id="salary_clearBtn" layoutX="30.0" layoutY="306.0" mnemonicParsing="false" onAction="#salaryReset" prefHeight="41.0" prefWidth="89.0" styleClass="clear-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Clear" />
+                                    <Label layoutX="8.0" layoutY="45.0" text="Mã nhân viên :">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font></Label>
+                                    <TextField fx:id="luong_maNhanVien" layoutX="97.0" layoutY="42.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <Label layoutX="38.0" layoutY="94.0" text="Họ :">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font></Label>
+                                    <Label fx:id="luong_ho" layoutX="95.0" layoutY="90.0" prefHeight="25.0" prefWidth="149.0" styleClass="lablefield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <Label layoutX="36.0" layoutY="142.0" text="Tên :">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font></Label>
+                                    <Label fx:id="luong_ten" layoutX="95.0" layoutY="138.0" prefHeight="25.0" prefWidth="148.0" styleClass="lablefield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <Label layoutX="23.0" layoutY="193.0" text="Chức vụ : ">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font></Label>
+                                    <Label fx:id="luong_chucVu" layoutX="95.0" layoutY="188.0" prefHeight="25.0" prefWidth="148.0" styleClass="lablefield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <Label layoutX="22.0" layoutY="234.0" text="Lương ($) :">
+                                       <font>
+                                          <Font size="13.0" />
+                                       </font></Label>
+                                    <TextField fx:id="luong_luong" layoutX="95.0" layoutY="230.0" styleClass="textfield" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <Button fx:id="luong_suaBtn" layoutX="141.0" layoutY="306.0" mnemonicParsing="false" onAction="#luong_sua" prefHeight="41.0" prefWidth="89.0" styleClass="update-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Sửa" />
+                                    <Button fx:id="luong_datLaiBtn" layoutX="30.0" layoutY="306.0" mnemonicParsing="false" onAction="#luong_datLai" prefHeight="41.0" prefWidth="89.0" styleClass="clear-btn" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" text="Đặt lại" />
                                  </children>
                               </AnchorPane>
                               <AnchorPane layoutX="283.0" layoutY="8.0" prefHeight="611.0" prefWidth="656.0" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css">
@@ -296,15 +391,17 @@
                                     <String fx:value="shadow" />
                                  </styleClass>
                                  <children>
-                                    <TableView fx:id="salary_tableView" layoutX="14.0" layoutY="13.0" onMouseClicked="#salaryOnMouseClickTable" prefHeight="587.0" prefWidth="632.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="13.0">
+                                    <TableView fx:id="luong_bangData" layoutX="14.0" layoutY="57.0" onMouseClicked="#luong_OnMouseClickTable" prefHeight="543.0" prefWidth="632.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="57.0">
                                       <columns>
-                                        <TableColumn fx:id="salary_col_employeeID" prefWidth="91.0" text="Employees ID" />
-                                        <TableColumn fx:id="salary_col_firstName" prefWidth="117.0" text="FristName" />
-                                          <TableColumn fx:id="salary_col_lastName" minWidth="9.0" prefWidth="133.0" text="LastName" />
-                                          <TableColumn fx:id="salary_col_position" minWidth="7.0" prefWidth="139.0" text="Position" />
-                                          <TableColumn fx:id="salary_col_salary" prefWidth="151.0" text="Salary($)" />
+                                        <TableColumn fx:id="luong_col_maNhanVien" prefWidth="91.0" text="Mã nhân viên" />
+                                        <TableColumn fx:id="luong_col_ho" prefWidth="117.0" text="Họ" />
+                                          <TableColumn fx:id="luong_col_ten" minWidth="9.0" prefWidth="133.0" text="Tên" />
+                                          <TableColumn fx:id="luong_col_chucVu" minWidth="7.0" prefWidth="139.0" text="Chức vụ" />
+                                          <TableColumn fx:id="luong_col_luong" prefWidth="151.0" text="Lương ($)" />
                                       </columns>
                                     </TableView>
+                                    <TextField fx:id="luong_timkiem" layoutX="14.0" layoutY="14.0" onAction="#luong_timKiem" prefHeight="30.0" prefWidth="228.0" promptText="Tìm kiếm" styleClass="search" stylesheets="@../../../OFFICE/DaiHocHK4Nam2/Java_OOP/Java_Setup/dashboardDesign.css" />
+                                    <FontAwesomeIcon glyphName="SEARCH" layoutX="21.0" layoutY="35.0" size="1.5em" />
                                  </children>
                               </AnchorPane>
                            </children>
