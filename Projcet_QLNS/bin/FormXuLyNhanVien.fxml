@@ -298,7 +298,7 @@
                                     <FontAwesomeIcon glyphName="SEARCH" layoutX="23.0" layoutY="30.0" size="1.5em" text="" />
                                  </children>
                               </AnchorPane>
-                              <Label layoutX="56.0" layoutY="329.0" text="Mã sinh viên :">
+                              <Label layoutX="56.0" layoutY="329.0" text="Mã nhân viên :">
                                  <font>
                                     <Font size="15.0" />
                                  </font></Label>
